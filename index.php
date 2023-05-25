@@ -1,5 +1,25 @@
 
   <?php include_once("master/header.php"); ?>
+  <section class="header-bottom">
+      <div class="owl-carousel">
+         <div class="item">
+            <div class="ban-image">
+             <img src="img/hyundai_csr.jpg" alt="banner" class="img-fluid">
+            </div>
+         </div>
+        <div class="item">
+          <div class="ban-image">
+            <img src="img/Autostand.jpg" alt="banner" class="img-fluid">
+          </div>
+       </div>
+        <div class="item">
+            <div class="ban-image">
+             <img src="img/Eye-Camp.jpg" alt="banner" class="img-fluid">
+            </div>
+         </div>
+        
+      </div>
+  </section>
   <section>
     <div class="container">
     <div class="running_text">

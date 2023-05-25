@@ -143,6 +143,16 @@
                   <li><a href="tel:+91-8939300227"><i class="fa fa-mobile" aria-hidden="true"></i>+91-8939300227</a></li>
                   <li><a href="tel:+91-44-2374 3883"><i class="fa fa-phone" aria-hidden="true"></i>+91-44-2374 3883, 2374 2699</a></li>
                    <li><a href="mailto:mtct1997[at]gmail[dot]com"><i class="fa fa-envelope-o" aria-hidden="true"></i>mtct1997[at]gmail[dot]com</a></li>
+                   <li>
+                  <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                  <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                   <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span><span><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                  <span><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></span>
+                   <span><a href="#"><i class="fa fa-btc" aria-hidden="true"></i></a></span>
+                   <span><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></span>
+                  <span><a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a></span>
+                   <span><a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a></span>
+</li>
                 </ul>
               </div>
             </div>
@@ -310,23 +320,4 @@
     </div>
 </div>
   </section>
-  <section class="header-bottom">
-      <div class="owl-carousel">
-         <div class="item">
-            <div class="ban-image">
-             <img src="img/hyundai_csr.jpg" alt="banner" class="img-fluid">
-            </div>
-         </div>
-        <div class="item">
-          <div class="ban-image">
-            <img src="img/Autostand.jpg" alt="banner" class="img-fluid">
-          </div>
-       </div>
-        <div class="item">
-            <div class="ban-image">
-             <img src="img/Eye-Camp.jpg" alt="banner" class="img-fluid">
-            </div>
-         </div>
-        
-      </div>
-  </section>
+  
