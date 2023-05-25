@@ -1,0 +1,7 @@
+
+
+
+INSERT INTO mtct_online_fed(tx_id, donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status,resAmount, originalAmount, exponent, pg_error_code, pg_error_detail,pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES (NULL,'Jenish','jenishbs@gmail.com','8760014478','NNio 12','Marthandam','','2022-09-07','6','INR','100','','','','','','','','','','','','','2022-09-18 15:54:26','0001-01-01 00:00:00')
+
+
+INSERT INTO mtct_online_fed(tx_id, donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status,resAmount, originalAmount, exponent, pg_error_code, pg_error_detail,pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES (NULL,'Febija','febijanelson@gmail.com','8760014478','NO12','Marthandam','','2022-09-09','11','INR','100','','','','','','','','','','','','','2022-09-18 15:57:55','0001-01-01 00:00:00')
