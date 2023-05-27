@@ -14,6 +14,7 @@
   <link href="<?=$base_url?>css/owl.carousel.min.css" rel="stylesheet">
   <link href="<?=$base_url?>css/owl.theme.default.css" rel="stylesheet">
   <link href="<?=$base_url?>css/style.css" rel="stylesheet">
+    <link href="<?=$base_url?>css/mtct.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="<?=$base_url?>img/favicon.ico">
 
   
