@@ -145,14 +145,14 @@
                   <li><a href="tel:+91-44-2374 3883"><i class="fa fa-phone" aria-hidden="true"></i>+91-44-2374 3883, 2374 2699</a></li>
                    <li><a href="mailto:mtct1997[at]gmail[dot]com"><i class="fa fa-envelope-o" aria-hidden="true"></i>mtct1997[at]gmail[dot]com</a></li>
                    <li>
-                  <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
-                  <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
-                   <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span><span><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
-                  <span><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></span>
-                   <span><a href="#"><i class="fa fa-btc" aria-hidden="true"></i></a></span>
-                   <span><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></span>
-                  <span><a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a></span>
-                   <span><a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a></span>
+                  <span><a href="<?=$base_url?>"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                  <span><a href="<?=$base_url?>"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                   <span><a href="<?=$base_url?>"><i class="fa fa-instagram" aria-hidden="true"></i></a></span><span><a href="<?=$base_url?>"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                  <span><a href="<?=$base_url?>"><i class="fa fa-youtube" aria-hidden="true"></i></a></span>
+                   <span><a href="<?=$base_url?>"><i class="fa fa-btc" aria-hidden="true"></i></a></span>
+                   <span><a href="<?=$base_url?>"><i class="fa fa-vimeo" aria-hidden="true"></i></a></span>
+                  <span><a href="<?=$base_url?>"><i class="fa fa-share-alt" aria-hidden="true"></i></a></span>
+                   <span><a href="<?=$base_url?>"><i class="fa fa-tumblr" aria-hidden="true"></i></a></span>
 </li>
                 </ul>
               </div>
@@ -175,7 +175,7 @@
       <div class="row">
         <div class="col-md-8">
           <div class="logo">
-            <a href="#"><img src="img/logo.png" alt="logo" class="img-fluid"></a>
+            <a href="<?=$base_url?>"><img src="img/logo.png" alt="logo" class="img-fluid"></a>
           </div>
         </div>
         <div class="col-md-4">
@@ -199,63 +199,63 @@
                     <ul class="navbar-nav mr-auto">
                         
                         <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">home</a>
+                            <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">home</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a href="#">Genesis</a></li>
-                              <li><a href="#">Accreditation</a></li>
-                              <li><a href="#">Archives</a></li>
-                              <li><a href="#">Government Registration</a></li>
-                              <li><a href="#">Credentials</a></li>
-                              <li><a href="#">PHILONTROPIC SUPPORT</a></li>
+                              <li><a href="<?=$base_url?>genesis.php">Genesis</a></li>
+                              <li><a href="<?=$base_url?>accreditation.php">Accreditation</a></li>
+                              <li><a href="<?=$base_url?>archives.php">Archives</a></li>
+                              <li><a href="<?=$base_url?>govtregister.php">Government Registration</a></li>
+                              <li><a href="<?=$base_url?>credential.php">Credentials</a></li>
+                              <li><a href="<?=$base_url?>philontropic_support.php">PHILONTROPIC SUPPORT</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+                            <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="#">trust board</a></li>
-                            <li><a href="#">advisory board</a></li>
-                            <li><a href="#">governing board</a></li>
-                            <li><a href="#">awards</a></li>
-                            <li><a href="#">Organisation Chart</a></li>
+                            <li><a href="<?=$base_url?>">trust board</a></li>
+                            <li><a href="<?=$base_url?>">advisory board</a></li>
+                            <li><a href="<?=$base_url?>">governing board</a></li>
+                            <li><a href="<?=$base_url?>">awards</a></li>
+                            <li><a href="<?=$base_url?>">Organisation Chart</a></li>
                             <li class="dropdown">
-                                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
+                                <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="#">Photos</a></li>
-                                <li><a href="#">videos</a></li>
+                                <li><a href="<?=$base_url?>">Photos</a></li>
+                                <li><a href="<?=$base_url?>">videos</a></li>
                                 
                                 </ul>
                             </li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Execution Wings</a>
+                            <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Execution Wings</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li class="dropdown">
-                                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mother Teresa Forum</a>
+                                <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mother Teresa Forum</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="#"> BECOME A MEMBER </a></li>
-                                <li><a href="#"> ONLINE MEMBERSHIP </a></li>
-                                <li><a href="#"> OFFLINE MEMBERSHIP </a></li>
-                                <li><a href="#"> NATIONAL COMMITEE </a></li>
-                                <li><a href="#"> STATE COMMITEES </a></li>
-                                <li><a href="#"> DISTRICT COMMITEES </a></li>
-                                <li><a href="#"> OTHER COUNTRY REP </a></li>
-                                <li><a href="#"> Office Bearer Form </a></li>
-                                <li><a href="#">  BY LAW - ENGISH </a></li>
-                                <li><a href="#">  BY LAW - TAMIL </a></li>
+                                <li><a href="<?=$base_url?>"> BECOME A MEMBER </a></li>
+                                <li><a href="<?=$base_url?>"> ONLINE MEMBERSHIP </a></li>
+                                <li><a href="<?=$base_url?>"> OFFLINE MEMBERSHIP </a></li>
+                                <li><a href="<?=$base_url?>"> NATIONAL COMMITEE </a></li>
+                                <li><a href="<?=$base_url?>"> STATE COMMITEES </a></li>
+                                <li><a href="<?=$base_url?>"> DISTRICT COMMITEES </a></li>
+                                <li><a href="<?=$base_url?>"> OTHER COUNTRY REP </a></li>
+                                <li><a href="<?=$base_url?>"> Office Bearer Form </a></li>
+                                <li><a href="<?=$base_url?>">  BY LAW - ENGISH </a></li>
+                                <li><a href="<?=$base_url?>">  BY LAW - TAMIL </a></li>
                                 
                                 
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mother Teresa Labour Assn.</a>
+                                <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mother Teresa Labour Assn.</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                
-                                <li><a href="#"> STATE COMMITEES </a></li>
-                                <li><a href="#"> DISTRICT COMMITEES </a></li>
-                                <li><a href="#"> Branches </a></li>
-                                <li><a href="#"> Office Bearer Form </a></li>
-                                <li><a href="#"> ByLaws </a></li>
+                                <li><a href="<?=$base_url?>"> STATE COMMITEES </a></li>
+                                <li><a href="<?=$base_url?>"> DISTRICT COMMITEES </a></li>
+                                <li><a href="<?=$base_url?>"> Branches </a></li>
+                                <li><a href="<?=$base_url?>"> Office Bearer Form </a></li>
+                                <li><a href="<?=$base_url?>"> ByLaws </a></li>
                                 
                                 
                                 
@@ -264,56 +264,56 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project</a>
+                            <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li class="dropdown">
-                                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Goal</a>
+                                <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Goal</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="#"> Save a Child   </a></li>
-                                <li><a href="#"> Health and Hygiene </a></li>
-                                <li><a href="#"> OFFLINE MEMBERSHIP </a></li>
-                                <li><a href="#"> Women Empowerment </a></li>
-                                <li><a href="#"> Chronically Ill</a></li>
-                                <li><a href="#"> Handicapped </a></li>
-                                <li><a href="#"> Education </a></li>
-                                <li><a href="#"> Youth Empowerment </a></li>
-                                <li><a href="#">  Human Rights </a></li>
-                                <li><a href="#">  Natural Calamities </a></li> 
-                                <li><a href="#">  Housing the Poor </a></li>
-                                <li><a href="#">  Poor Feeding </a></li>
-                                <li><a href="#">  Old Age Persons</a></li>
+                                <li><a href="<?=$base_url?>"> Save a Child   </a></li>
+                                <li><a href="<?=$base_url?>"> Health and Hygiene </a></li>
+                                <li><a href="<?=$base_url?>"> OFFLINE MEMBERSHIP </a></li>
+                                <li><a href="<?=$base_url?>"> Women Empowerment </a></li>
+                                <li><a href="<?=$base_url?>"> Chronically Ill</a></li>
+                                <li><a href="<?=$base_url?>"> Handicapped </a></li>
+                                <li><a href="<?=$base_url?>"> Education </a></li>
+                                <li><a href="<?=$base_url?>"> Youth Empowerment </a></li>
+                                <li><a href="<?=$base_url?>">  Human Rights </a></li>
+                                <li><a href="<?=$base_url?>">  Natural Calamities </a></li> 
+                                <li><a href="<?=$base_url?>">  Housing the Poor </a></li>
+                                <li><a href="<?=$base_url?>">  Poor Feeding </a></li>
+                                <li><a href="<?=$base_url?>">  Old Age Persons</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Current Project</a>
+                                <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Current Project</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                
-                                <li><a href="#"> Free Tailoring Center </a></li>
-                                <li><a href="#">  Free Computer Center</a></li>
-                                <li><a href="#">  Free Tution Center </a></li>
-                                <li><a href="#">  Free Ambualance Service </a></li>
+                                <li><a href="<?=$base_url?>"> Free Tailoring Center </a></li>
+                                <li><a href="<?=$base_url?>">  Free Computer Center</a></li>
+                                <li><a href="<?=$base_url?>">  Free Tution Center </a></li>
+                                <li><a href="<?=$base_url?>">  Free Ambualance Service </a></li>
                                         
                                 
                                 </ul>
                             </li>
-                            <li><a href="#"> Monthly Activities </a></li>
-                            <li><a href="#"> Brochure </a></li>
+                            <li><a href="<?=$base_url?>"> Monthly Activities </a></li>
+                            <li><a href="<?=$base_url?>"> Brochure </a></li>
                             </ul>
                         </li>
-                        <li><a href="#"> "COVID-19 / OMICRON Relief" </a></li>
-                        <li><a href="#"> Medical help </a></li>
-                        <li><a href="#"> Educational Help </a></li>
-                        <li><a href="#"> Medical help </a></li>
+                        <li><a href="<?=$base_url?>"> "COVID-19 / OMICRON Relief" </a></li>
+                        <li><a href="<?=$base_url?>"> Medical help </a></li>
+                        <li><a href="<?=$base_url?>"> Educational Help </a></li>
+                        <li><a href="<?=$base_url?>"> Medical help </a></li>
                          <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Donate</a>
+                            <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Donate</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a href="#">Online Donation</a></li>
-                              <li><a href="#">Through Bank</a></li>
+                              <li><a href="<?=$base_url?>">Online Donation</a></li>
+                              <li><a href="<?=$base_url?>">Through Bank</a></li>
                       
                             </ul>
                         </li>
-                        <li><a href="#"> Contact Us   </a></li>
-                        <li><a href="#">General Help </a></li>
+                        <li><a href="<?=$base_url?>"> Contact Us   </a></li>
+                        <li><a href="<?=$base_url?>">General Help </a></li>
                     </ul>
                 </div>
             </nav>
