@@ -40,7 +40,14 @@
  
   <script>
     $(document).ready(function(){
-
+        $('section#recent-works .tab .nav-tabs li').click(function(){
+            if($('section#recent-works .tab .nav-tabs li').hasClass("active")){
+              $(this).siblings().removeClass('active');
+            }else{
+              $(this).addClass('active');
+            }
+        });
+      
         $('#ham-icon').click(function(){
             $('.main-menu-tab').slideToggle(1000);
         });

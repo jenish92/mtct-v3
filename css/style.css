@@ -83,6 +83,9 @@ li.dropdown.submenu1.submenu.goal .child_menu p {
     justify-content: space-between;
     margin: 0;
 }
+.top-bar .top-bar-right {
+    margin-top: 0px;
+}
 .top-bar ul li {
     padding: 0px 15px;
 }
@@ -575,10 +578,11 @@ section#recent-works .tab .nav-tabs li a:before {
     z-index: -1;
     transition: all 0.5s ease 0s;
 }
-section#recent-works .tab .nav-tabs li.active a:before, section#recent-works .tab .nav-tabs li a:hover:before {
+section#recent-works .tab .nav-tabs li.active a:before, section#recent-works .tab .nav-tabs li a:hover:before, section#recent-works .tab .nav-tabs li a.active {
     background-color: #29007e;
     border-radius: 20px 20px 0 0;
     transform: perspective(500px) rotateX(0);
+    color: #fff;
 }
 .fade:not(.show) {
     opacity: 1;
@@ -687,6 +691,9 @@ section#our-goals {
 .in-tab-but img {
     width: 60px;
     margin-right: 8px;
+}
+section#our-goals button.tablinks.active h3 {
+    color: #fff;
 }
 .accordion-item .click-anchor.active h3 {
     color: #fff;
@@ -1201,13 +1208,47 @@ span#close {
     position: absolute;
     right: 15px;
 }
+.voicing h2{
+    animation: vioglowing 5s linear infinite;
+}
+.bottotop {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.bottotop h2 {
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #29007e;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.about-con.cs-head p {
+    text-shadow: 2px 2px 0px #fff;
 
+}
+.donate-right .btn.donate {
+    background-image: linear-gradient( 208deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #29007e, #29007e 90%, transparent 90%);
+    animation: btnglowing 2s linear infinite;
+}
+@keyframes vioglowing {
+    0% { background-image: linear-gradient( 90deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #29007e 90%, transparent 90%); }
+    25% { background-image: linear-gradient( 180deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #29007e 90%, transparent 90%); }
+    50% { background-image: linear-gradient( 240deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #29007e 90%, transparent 90%); }
+    100% { background-image: linear-gradient( 360deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #29007e 90%, transparent 90%); }
+}
+@keyframes btnglowing {
+    0% { background-image: linear-gradient( 120deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #29007e, #29007e 90%, transparent 90%); }
+    50% { background-image: linear-gradient( 240deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #29007e, #29007e 90%, transparent 90%); }
+    100% { background-image: linear-gradient( 360deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #29007e, #29007e 90%, transparent 90%); }
+}
 .menu-area {
-    background: #29007e;
+    background: #2e25a1;
 }
 .dropdown-menu{padding:0;margin:0;border:0 solid transition!important;border:0 solid rgba(0,0,0,.15);border-radius:0;-webkit-box-shadow:none!important;box-shadow:none!important}
 .mainmenu a, .navbar-default .navbar-nav > li > a, .mainmenu ul li a, .navbar-expand-lg .navbar-nav .nav-link {
-    background: #29007e;
+    background: #2e25a1;
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
@@ -1244,7 +1285,7 @@ span#close {
 
 /******************************Drop-down menu work on hover**********************************/
 .mainmenu {
-    background: #29007e;
+    background: #2e25a1;
     border: 0 solid;
     margin: 0;
     padding: 0;

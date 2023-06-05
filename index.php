@@ -102,7 +102,26 @@
               <div class="col-md-6">
                 <div class="about-right cs-head">
                   <h2>ABOUT<span class="cus-color1"> MTCT</span></h2>
-                  <p style="text-align: justify;">Mother Teresa Charitable Trust (MTCT)'s history  starts with the  story of compassion. The mammoth crowd that followed the adieu procession of the legend Mother Teresa, Dr.G.K.Dhas, a kind hearted social activist took up the challenge of being and working  for the poor. From this simple, yet heart breaking incident, brought  the determination that,  to take the mantle of Mother Teresa, that "Service to Mankind is Service to God". The  inspiration which helped to create "Mother Teresa Charitable Trust" is being carried out all these years. We took the  initiative with the vision that "No one shall be deprived of the basic needs". The overwhelming response from the general public is the impetus for the growth of Mother Teresa Charitable Trust. Now Mother Teresa Charitable Trust functions as a social relief NGO striving for the upliftment of poor, sick, downtrodden and the under privileged. The vision of the Mother Teresa Charitable Trust is to spread the ideals of Mother Teresa and motivate the younger generation to render service to the less fortunate. Its sub unit "Mother Teresa Forum" enrolls members and forms committees at national state, district, taluk and village levels. Mother Teresa Charitable Trust serves with the motto of "Service to Humanity". With the partnership of  Government  &amp; various State governments, as well as the generosity of thousands of our supporters, we have grown from a small endeavor to a mammoth force that stretches across the wide chemesphere . All these years MTCT serve the under privileged  and the needy to transform a vision into a reality. Our fight will continue till the last breath of a suffering mass.</p>
+                  <p style="text-align: justify;">Mother Teresa Charitable Trust (MTCT)'s history  starts with the  story of compassion. The mammoth crowd that followed the adieu procession of the legend Mother Teresa, Dr.G.K.Dhas, a kind hearted social activist took up the challenge of being and working  for the poor. From this simple, yet heart breaking incident, brought  the determination that,  to take the mantle of Mother Teresa, that "Service to Mankind is Service to God". The  inspiration which helped to create "Mother Teresa Charitable Trust" is being carried out all these years. We took the  initiative with the vision that "No one shall be deprived of the basic needs".  <a href="appeal.php" target="_blank" style="color: #ff1901;font-size: 19px;margin-bottom: 10px;font-weight: 900;align:left !important;">more...</a> </p>
+                </div>
+                <div class="bottotop" style="margin-top:10px;">
+                  <h2 class="text-center">Mother Teresa Forum-New Appoinments:</h2>
+                  <marquee direction="up" scrolldelay="8" scrollamount="1" height="100" onmouseover="this.stop();" onmouseout="this.start();">
+                    <ul>
+                      <li><span class="clr2"> Shri. M. Sugumaran, M.A., President, Trichy Managar, @+919363134611  
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </li>
+                      <li><span class="clr1"> Dr.P. Kathir Muthukumar, BHMS., General Secretary, Trichy Managar @+919442598557
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </li>
+                      <li><span class="whole2"> Shri. P. Poonsekaran, D.Pharm., Vice President, Trichy Managar @+919943165576 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </li>
+                      <li><span class="clr2"> Shri. Mr. K. Diwakar,M.Com., Vice President, Trichy Managar, @+919629023330  
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>  </li>
+                      <li><span class="clr1"> Mr. R. Jeyakarthikeyan, B.Sc., LLB., Vice President, Trichy Managar @+919442598557
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </li>
+                      <li><span class="whole2"> Shri.Mr. M. Ramamurthy, B.Sc., Secretary, Trichy Managar @+918601577407 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </li>
+                    </ul>
+              </marquee>
                 </div>
               </div>
             </div>
@@ -144,7 +163,7 @@
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Service to Society</a></li>
                     <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Activities</a></li>
-                    <!-- <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Section 3</a></li> -->
+                     <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Short Profile</a></li>
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content tabs">
@@ -169,10 +188,18 @@
                         </div>
                         <a href="https://www.motherteresacharities.org/donations.php" target="_blank" style="color:red; font-size: 16px;line-height:0.1 ; !important">Let us Join...</a></strong>
                     </div>
-                    <!-- <div role="tabpanel" class="tab-pane fade" id="Section3">
-                        <h3>Section 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
-                    </div> -->
+                     <div role="tabpanel" class="tab-pane fade" id="Section3">
+                        <strong><center><h2 style="color: #29007e;">Short Profile</h2></center>
+                        <p class="lead morebut" style="text-align:justify;">&nbsp;&nbsp;&nbsp; Mother Teresa who devoted her life for the service of the poor, downtrodden, under privileged and destitute is an epitome of self-assured simplicity. She rendered whole hearted service to the needy in the society. She spread love and compassion throughout the world and brought relief and hope to the children, the destitute, the sick and the dying. She left a testament of unshakable faith, invincible hope and extraordinary charity as a mother of the poor. She became a living symbol of compassion to the world, and a living witness to the thirsting love. Mother Teresa's work has been recognized and acclaimed throughout the world. The scope of her work also expands to include orphanages, shelters to the elderly and hospices for the poor. <br>
+
+                         &nbsp;&nbsp;&nbsp; Moved by the emotional outburst worldwide on the last rite procession of Mother Teresa on 5th September 1997, Shri.G.K.Dhas the patron founded the organization Nobel Laureate Mother Teresa Charitable Trust (MTCT). Ever since its formation, the trust has been carrying out the activities of serving the poor and the downtrodden in the society, the torch of service left by the Angel of Mercy..
+
+
+                        <span class="whole" style="cursor:pointer;">more</span>
+                        </p>  
+                        
+                        <a href="https://www.motherteresacharities.org/donations.php" target="_blank" style="color:red; font-size: 16px;line-height:0.1 ; !important">Let us Join...</a></strong>
+                    </div> 
                 </div>
             </div>
         </div>
