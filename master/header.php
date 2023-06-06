@@ -182,7 +182,7 @@
       <div class="row">
         <div class="col-md-8">
           <div class="logo">
-            <a href="<?=$base_url?>"><img src="img/logo.png" alt="logo" class="img-fluid"></a>
+            <a href="<?=$base_url?>"><img src="<?=$base_url?>img/logo.png" alt="logo" class="img-fluid"></a>
           </div>
         </div>
         <div class="col-md-4">
@@ -219,7 +219,7 @@
                         <li class="dropdown">
                             <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="<?=$base_url?>">trust board</a></li>
+                            <li><a href="<?=$base_url?>AboutUs/trust-board.php">trust board</a></li>
                             <li><a href="<?=$base_url?>">advisory board</a></li>
                             <li><a href="<?=$base_url?>">governing board</a></li>
                             <li><a href="<?=$base_url?>">awards</a></li>
