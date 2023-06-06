@@ -221,7 +221,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a href="<?=$base_url?>AboutUs/trust-board.php">trust board</a></li>
                             <li><a href="<?=$base_url?>AboutUs/advisory-board.php">advisory board</a></li>
-                            <li><a href="<?=$base_url?>">governing board</a></li>
+                            <li><a href="<?=$base_url?>AboutUs/governing-board.php">governing board</a></li>
                             <li><a href="<?=$base_url?>">awards</a></li>
                             <li><a href="<?=$base_url?>">Organisation Chart</a></li>
                             <li class="dropdown">
