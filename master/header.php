@@ -1,4 +1,6 @@
-<?php require 'config.php';?>
+<?php 
+$root = getenv("DOCUMENT_ROOT");
+require $root.'/mtct-v3/master/config.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -182,7 +184,7 @@
       <div class="row">
         <div class="col-md-8">
           <div class="logo">
-            <a href="<?=$base_url?>"><img src="img/logo.png" alt="logo" class="img-fluid"></a>
+            <a href="<?=$base_url?>"><img src="<?=$base_url?>img/logo.png" alt="logo" class="img-fluid"></a>
           </div>
         </div>
         <div class="col-md-4">
