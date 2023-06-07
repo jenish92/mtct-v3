@@ -189,7 +189,7 @@ require $root.'/mtct-v3/master/config.php';?>
         </div>
         <div class="col-md-4">
           <div class="donate-right">
-            <a href="" class="btn donate">Online Donation</a>
+            <a href="" class="btn donate1">Online Donation</a>
             <a href="" class="btn bank">Thro Bank</a>
           </div>
         </div>
