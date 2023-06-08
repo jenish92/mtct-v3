@@ -242,7 +242,7 @@ require $root.'/mtct-v3/master/config.php';?>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mother Teresa Forum</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="<?=$base_url?>"> BECOME A MEMBER </a></li>
+                                <li><a href="<?=$base_url?>execution-wings/Mother_Teresa_Forum.php"> BECOME A MEMBER </a></li>
                                 <li><a href="<?=$base_url?>"> ONLINE MEMBERSHIP </a></li>
                                 <li><a href="<?=$base_url?>"> OFFLINE MEMBERSHIP </a></li>
                                 <li><a href="<?=$base_url?>"> NATIONAL COMMITEE </a></li>
