@@ -47,3 +47,23 @@ a.btn.donate1 {
     
     filter: drop-shadow(0 0 5px #0005);
 }
+
+.input-group-prepend{
+    width:15% !important;
+    text-align: center !important;
+}
+
+.input-group-prepend .input-group-text{
+    background-color: #29007e !important;
+    color:#fff !important;
+    width:100%;
+    text-align: center !important;
+}
+
+.ifrmd {
+							height: 960px;
+							width: 100%;
+							background: white;
+							border: none;
+							
+						}

@@ -46,7 +46,7 @@ class Mtct{
 			$res = $row;
         }
         else{
-            $res = $sql;
+            $res = null;
         }
 		return $res;
 	}
