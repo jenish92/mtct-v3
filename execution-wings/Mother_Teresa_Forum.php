@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-6">
                     <ul class="mtct-list mt-4">
-                        <a href="">
+                        <a href="<?=$base_url?>execution-wings/member.php">
                             <li><i class="fa fa-arrow-right" aria-hidden="true"></i>
                                 Online Membership
                             </li>
