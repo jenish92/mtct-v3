@@ -209,6 +209,23 @@ class Mtct{
         }
 		return $res;
 	}
+    
+    public function WorldlineConfirmation($donator){
+        $res = [];
+		$this->dbConnection();
+		$sql = "INSERT INTO mtct_online_fed(tx_id, donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status,resAmount, originalAmount, exponent, pg_error_code, pg_error_detail,pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES (NULL,'".$donator["name"]."','".$donator["email"]."','".$donator["mobile"]."','".$donator["address"]."','".$donator["city"]."','','".$donator["dob"]."','".$donator["for"][0]."','".currencyType."','".$donator["amount"]."','','','','','','','','','','','','','$this->now','0001-01-01 00:00:00')";
+        
+        error_log("\n\n\nINSERT INTO mtct_online_fed(tx_id, donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status,resAmount, originalAmount, exponent, pg_error_code, pg_error_detail,pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES (NULL,'".$donator["name"]."','".$donator["email"]."','".$donator["mobile"]."','".$donator["address"]."','".$donator["city"]."','','".$donator["dob"]."','".$donator["for"][0]."','".currencyType."','".$donator["amount"]."','','','','','','','','','','','','','$this->now','0001-01-01 00:00:00')",3,"logs/worldline/attempt.txt");
+        
+        $query = $this->connection->query($sql);
+        
+        if($query){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
 }
 ?>
