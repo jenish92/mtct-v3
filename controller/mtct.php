@@ -12,9 +12,10 @@ class Mtct{
  
     public function __construct(){
  
-        define("BASE_URL","http://localhost/mtct-v1/");
+        define("BASE_URL","http://localhost/mtct-v3/");
 		define("ACTIVE",1);
 		define("WORLDLINE_DEFAULT_CURRENCY",356);
+        define("ROOT",getenv("DOCUMENT_ROOT")."/mtct-v3/");
 		date_default_timezone_set("Asia/Kolkata");
 		$this->now = date("Y-m-d H:i:s");
     }
@@ -210,12 +211,39 @@ class Mtct{
 		return $res;
 	}
     
+    public function getFedTxID(){
+        $this->dbConnection();
+		$getQuery = $this->connection->query("SELECT MAX(tx_id) FROM mtct_online_fed LIMIT 1");
+		
+		$result = $getQuery->fetch_row();
+		
+		return $result[0];
+	}
+    
+    public function getWorldlineActivated($pgReferenceNo){
+        $this->dbConnection();
+		$getQuery = $this->connection->query("SELECT transaction_id FROM mtct_online_fed WHERE transaction_id = '$pgReferenceNo'");
+		
+		$activated = ($getQuery->num_rows == 0) ? 2 : 1 ;
+		
+		return $activated;
+	}
+    
+    public function getWorldlineDonors($rOrderId){
+        $this->dbConnection();
+		$getQuery = $this->connection->query("SELECT donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob FROM mtct_online_fed WHERE tx_id = '$rOrderId'");
+		
+		$get_donor = $getQuery->fetch_row();
+		
+		return $get_donor;
+	}
+    
     public function WorldlineConfirmation($donator){
-        $res = [];
-		$this->dbConnection();
-		$sql = "INSERT INTO mtct_online_fed(tx_id, donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status,resAmount, originalAmount, exponent, pg_error_code, pg_error_detail,pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES (NULL,'".$donator["name"]."','".$donator["email"]."','".$donator["mobile"]."','".$donator["address"]."','".$donator["city"]."','','".$donator["dob"]."','".$donator["for"][0]."','".currencyType."','".$donator["amount"]."','','','','','','','','','','','','','$this->now','0001-01-01 00:00:00')";
         
-        error_log("\n\n\nINSERT INTO mtct_online_fed(tx_id, donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status,resAmount, originalAmount, exponent, pg_error_code, pg_error_detail,pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES (NULL,'".$donator["name"]."','".$donator["email"]."','".$donator["mobile"]."','".$donator["address"]."','".$donator["city"]."','','".$donator["dob"]."','".$donator["for"][0]."','".currencyType."','".$donator["amount"]."','','','','','','','','','','','','','$this->now','0001-01-01 00:00:00')",3,"logs/worldline/attempt.txt");
+		$this->dbConnection();
+		$sql = "INSERT INTO mtct_online_fed(tx_id, donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status,resAmount, originalAmount, exponent, pg_error_code, pg_error_detail,pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES (NULL,'".$donator["name"]."','".$donator["email"]."','".$donator["mobile"]."','".$donator["address"]."','".$donator["city"]."','','".$donator["dob"]."','".$donator["for"][0]."','".$donator["currency_type"]."','".$donator["amount"]."','','','','','','','','','','','','','$this->now','0001-01-01 00:00:00')";
+        
+        error_log("\n\n\nINSERT INTO mtct_online_fed(tx_id, donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status,resAmount, originalAmount, exponent, pg_error_code, pg_error_detail,pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES (NULL,'".$donator["name"]."','".$donator["email"]."','".$donator["mobile"]."','".$donator["address"]."','".$donator["city"]."','','".$donator["dob"]."','".$donator["for"][0]."','".$donator["currency_type"]."','".$donator["amount"]."','','','','','','','','','','','','','$this->now','0001-01-01 00:00:00')",3,ROOT."logs/worldline/attempt.txt");
         
         $query = $this->connection->query($sql);
         
@@ -225,6 +253,114 @@ class Mtct{
         else{
             return false;
         }
+    }
+    
+    public function WorldlineConfirmationResponse($response,$worldline_status){
+        $this->dbConnection();
+        $rMerchantReferenceNo = $response["merch_ref_no"];
+        $pgReferenceNo = $response["pg_ref_no"];
+        $res_perform = $response["res_perform"];
+        $status = $response["status"];
+        $rAmount = $response["amount"];
+        $rGetAmount = $response["r_amount"];
+        $description = $response["description"];
+        $rOrderId = $response["r_order_id"];
+        $rDonateFor = $response["donate_for"];
+
+        $rAmount_r = $response["r_amount_r"];
+        $res_exponent = $response["res_exponent"];
+        $res_error_code = $response["res_error_code"];
+        
+        if($worldline_status == 1){
+        
+            $sql = "UPDATE mtct_online_fed SET merchant_reference_no='$rMerchantReferenceNo',transaction_id='$pgReferenceNo',transaction_type_code='$res_perform',res_status='$status',resAmount='$rAmount',originalAmount='$rGetAmount',pg_error_detail='$description',pg_error_msg='',card_type='',card_brand='',updated_date=NOW() WHERE tx_id = '$rOrderId' AND donate_for = '$rDonateFor'";
+        }
+        
+        else{
+           $sql =  "INSERT INTO mtct_online_fed(donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donor_dob, donate_for, currency_code, donate_amount, merchant_reference_no, transaction_id, transaction_type_code, res_status, resAmount, originalAmount, exponent, pg_error_code, pg_error_detail, pg_error_msg, card_type, card_brand, created_date, updated_date) VALUES ('', '', '', '', '', '', '', '$rDonateFor', '356', '$rAmount_r', '$rMerchantReferenceNo', '$pgReferenceNo', '$res_perform', '$status', '$rAmount', '$rGetAmount', '$res_exponent', '$res_error_code', '$description', '', '', '', NOW(), NOW())";
+            
+        }
+        error_log("\n\n\n$sql",3,ROOT."logs/worldline/response.txt");
+        
+        $query = $this->connection->query($sql);
+        if($query){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    
+    public function DonationEntry($get_donor,$rDonateFor,$rAmount,$pgReferenceNo){
+        $this->dbConnection();
+        
+        $query = $this->connection->query("INSERT INTO mtct_donations(donor_name, donor_email, donor_phone, donor_address, donor_city, donor_country, donate_towards, donated_amount, donate_mode, transaction_number, donor_dob, donated_date, created_date) VALUES ('$get_donor[0]','$get_donor[1]','$get_donor[2]','$get_donor[3]','$get_donor[4]','$get_donor[5]','$rDonateFor','$rAmount','1','$pgReferenceNo','$get_donor[6]',NOW(),NOW())");
+        
+        if($query){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    
+    public function mtctEmails($status,$status_message,$body_content,$to){
+        $status_color = ($status == "S") ? "green" : "red";
+        
+        $mail_content = "<table border='5' cellpadding='0' cellspacing='0' width='600' align='center' style='border-collapse: collapse; margin-bottom:50px'
+        bordercolor='#003366' bgcolor='#acbdc6' height='500'>
+        <tr>
+            <td bgcolor='#000066' height='60'>
+                <p align='center' class='res-head' style='color:white !important;font-size:18px !important'>
+                    Donation Receipt</p>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor='#FFFFFF'>
+                <center>
+                    <img src='https://www.motherteresacharities.org/external/images/logoM.png' alt='logo' /></center>
+                <p align='center' class='style9'>
+                    43, Nelson Manickam Road, Choolaimedu,Chennai-600094.India.
+                    <br />
+                    Ph: +91 44 23743883,+91 44 23742399, Mobile: +91 8939300227
+                    <br />
+                    Email: mtct1997@yahoo.co.in,mtct1997@gmail.com<br />Web: www.mtct.info, www.motherteresacharities.org, www.motherteresatrust.org</p>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor='yellow' height='50'>
+                <p align='center'>
+                    <span class='style8'>
+                        <font color='$status_color'><b>$status_message</b></font>
+                    </span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+                $body_content
+                
+                <p align='center' class='style9'>
+                    NB:Donations are exempted from Income Tax U/S 80G of Income Tax Act 1961</br> vide
+                    DIT (E) No. 2(16)/98-99 dt. 1.5.2009 . PAN No : AABTM0430B
+                </p>
+            </td>
+        </tr>
+    </table>
+";
+        
+    $reciever_email = $to.',mtct1997@gmail.com';
+    $from = 'donation@motherteresatrust.org';
+    $subject = 'Receipt from Mother Teresa Charitable Trust';
+    
+    $headers = 'From: '.$from . "\r\n" .
+    'Reply-To: '.$from . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+    
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+    
+    mail($reciever_email, $subject, $mail_content, $headers);
     }
 
 }
