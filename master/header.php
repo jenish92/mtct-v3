@@ -225,7 +225,7 @@ require $root.'/mtct-v3/master/config.php';?>
                             <li><a href="<?=$base_url?>about-us/advisory-board.php">advisory board</a></li>
                             <li><a href="<?=$base_url?>about-us/governing-board.php">governing board</a></li>
                             <li><a href="<?=$base_url?>about-us/awards.php">awards</a></li>
-                            <li><a href="<?=$base_url?>">Organisation Chart</a></li>
+                            <li><a href="<?=$base_url?>documents/Organizational-Structure.pdf">Organisation Chart</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -244,14 +244,14 @@ require $root.'/mtct-v3/master/config.php';?>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a href="<?=$base_url?>execution-wings/Mother_Teresa_Forum.php"> BECOME A MEMBER </a></li>
                                 <li><a href="<?=$base_url?>execution-wings/member.php"> ONLINE MEMBERSHIP </a></li>
-                                <li><a href="<?=$base_url?>"> OFFLINE MEMBERSHIP </a></li>
+                                <li><a href="<?=$base_url?>documents/MFF.pdf"> OFFLINE MEMBERSHIP </a></li>
                                 <li><a href="<?=$base_url?>"> NATIONAL COMMITEE </a></li>
                                 <li><a href="<?=$base_url?>"> STATE COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>"> DISTRICT COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>"> OTHER COUNTRY REP </a></li>
-                                <li><a href="<?=$base_url?>"> Office Bearer Form </a></li>
-                                <li><a href="<?=$base_url?>">  BY LAW - ENGISH </a></li>
-                                <li><a href="<?=$base_url?>">  BY LAW - TAMIL </a></li>
+                                <li><a href="<?=$base_url?>documents/officebarers.pdf"> Office Bearer Form </a></li>
+                                <li><a href="<?=$base_url?>documents/Bye-Laws.pdf">  BY LAW - ENGISH </a></li>
+                                <li><a href="<?=$base_url?>documents/Bye-Laws-t.pdf">  BY LAW - TAMIL </a></li>
                                 
                                 
                                 </ul>
@@ -264,7 +264,7 @@ require $root.'/mtct-v3/master/config.php';?>
                                 <li><a href="<?=$base_url?>"> DISTRICT COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>"> Branches </a></li>
                                 <li><a href="<?=$base_url?>"> Office Bearer Form </a></li>
-                                <li><a href="<?=$base_url?>"> ByLaws </a></li>
+                                <li><a href="<?=$base_url?>documents/ByLaws-auto.pdf"> ByLaws </a></li>
                                 
                                 
                                 
@@ -306,10 +306,10 @@ require $root.'/mtct-v3/master/config.php';?>
                                 </ul>
                             </li>
                             <li><a href="<?=$base_url?>"> Monthly Activities </a></li>
-                            <li><a href="<?=$base_url?>"> Brochure </a></li>
+                            <li><a href="<?=$base_url?>documents/MTCT-Annual-Report.pdf"> Brochure </a></li>
                             </ul>
                         </li>
-                        <li><a href="<?=$base_url?>"> "COVID-19 / OMICRON Relief" </a></li>
+<!--                        <li><a href="<?=$base_url?>"> "COVID-19 / OMICRON Relief" </a></li>-->
                         <li><a href="<?=$base_url?>"> Medical help </a></li>
                         <li><a href="<?=$base_url?>"> Educational Help </a></li>
                         <li><a href="<?=$base_url?>"> Medical help </a></li>
