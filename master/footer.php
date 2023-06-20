@@ -6,14 +6,14 @@
               <div class="widget">
                         <h3>Site Navigation</h3>
                         <ul>
-                            <li><a href="https://www.motherteresacharities.org">Home</a></li>
+                            <li><a href="<?=$base_url?>">Home</a></li>
               <li><a href="#">Financials</a></li>
-                            <li><a href="https://www.motherteresacharities.org/donations.php">Online Donation</a></li>
-                            <li><a href="https://www.motherteresacharities.org/offline-donate.php">Offline Donation</a></li>
-                            <li><a href="https://www.motherteresacharities.org/Mother_Teresa_Forum.php">Become A Member</a></li>
-              <li><a href="https://www.motherteresacharities.org/mother-teresa-Quotes.php">Mother Teresa's Golden Words</a></li>
-              <li><a href="https://www.motherteresacharities.org/mother-teresa-Life-and-living.php">Mother Teresa's Life &amp; living</a></li>
-                            <li><a href="https://www.motherteresacharities.org/mother-teresa-Stories.php">Mother Teresa an Angel</a></li>
+                            <li><a href="<?=$base_url?>donations.php">Online Donation</a></li>
+                            <li><a href="<?=$base_url?>offline-donate.php">Offline Donation</a></li>
+                            <li><a href="<?=$base_url?>Mother_Teresa_Forum.php">Become A Member</a></li>
+              <li><a href="<?=$base_url?>mother-teresa-Quotes.php">Mother Teresa's Golden Words</a></li>
+              <li><a href="<?=$base_url?>mother-teresa-Life-and-living.php">Mother Teresa's Life &amp; living</a></li>
+                            <li><a href="<?=$base_url?>mother-teresa-Stories.php">Mother Teresa an Angel</a></li>
               
               
               
@@ -24,9 +24,9 @@
               <div class="widget">
                         <h3>Public Request</h3>
                         <ul>
-                            <li><a href="https://www.motherteresacharities.org/health-request.php">Education Assistance</a></li>
-                            <li><a href="https://www.motherteresacharities.org/education-request.php">Medical Assistance</a></li> 
-              <li><a href="https://www.motherteresacharities.org/COVID-19.php">COVID-19 / OMICRON Relief</a></li> 
+                            <li><a href="<?=$base_url?>health-request.php">Education Assistance</a></li>
+                            <li><a href="<?=$base_url?>education-request.php">Medical Assistance</a></li> 
+              <li><a href="<?=$base_url?>COVID-19.php">COVID-19 / OMICRON Relief</a></li> 
               <br>
               
             </ul>
@@ -99,7 +99,7 @@
                 
       
                 <div class="col-sm-8">
-                     <a target="_blank" href="https://www.motherteresacharities.org/Terms-and-Privacy-Policy.php" title="mtct">Terms &amp; Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                     <a target="_blank" href="<?=$base_url?>Terms-and-Privacy-Policy.php" title="mtct">Terms &amp; Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
                     © 2022 <a target="_blank" href="#" title="Mother Teresa Charitable Trust(MTCT)">Mother Teresa Charitable Trust</a>. All Rights Reserved. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <!---<span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=4uOuJNOkczLP6szknhVJHM354FgOWjOgWd7EisQntabanAkNtXCRe9J6Wg1i"></script></span>---!--->
           
@@ -107,9 +107,9 @@
                 <div class="col-sm-4">
                     <ul class="pull-right">
                         <li><a href="#">Home</a></li>
-                        <li><a href="https://www.motherteresacharities.org/member.php">Membership</a></li>
-                        <li><a href="https://www.motherteresacharities.org/donations.php">Donation</a></li>
-                        <li><a href="https://www.motherteresacharities.org/contact.php">Contact Us</a></li>
+                        <li><a href="<?=$base_url?>member.php">Membership</a></li>
+                        <li><a href="<?=$base_url?>donations.php">Donation</a></li>
+                        <li><a href="<?=$base_url?>contact.php">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
