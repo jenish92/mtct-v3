@@ -106,3 +106,35 @@ a.btn.donate1 {
     -moz-box-shadow: 0px 1px 14px 1px rgba(0, 0, 0, 0.19);
     box-shadow: 0px 1px 14px 1px rgba(0, 0, 0, 0.19);
 }
+/* National Commitee */
+.natc-main{
+    background-color: #eedeff;
+    color:#2e25a1;
+    border-radius: 1rem;
+}
+.natc-sub{
+    background-color: #e1defc;
+    color:#2e25a1;
+    border-radius: 1rem;
+}
+.natc-content img {
+    height: 7rem;
+    width: 6.5rem;
+    border: 3px double #2e25a1;
+    border-radius: 5px;
+}
+
+.natc-content p {
+    margin: 0;
+}
+
+.natc-content p:nth-child(3) {
+    font-size: 14px;
+    color: red;
+}
+
+.natc-content p:last-child {
+    font-size: 13px;
+    color: rgb(111, 112, 112);
+}
+/* End National Commitee */
