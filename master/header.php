@@ -246,7 +246,7 @@ require $root.'/mtct-v3/master/config.php';?>
                                 <li><a href="<?=$base_url?>execution-wings/member.php"> ONLINE MEMBERSHIP </a></li>
                                 <li><a href="<?=$base_url?>documents/MFF.pdf"> OFFLINE MEMBERSHIP </a></li>
                                 <li><a href="<?=$base_url?>execution-wings/national-committee.php"> NATIONAL COMMITEE </a></li>
-                                <li><a href="<?=$base_url?>"> STATE COMMITEES </a></li>
+                                <li><a href="<?=$base_url?>execution-wings/state-committee.php"> STATE COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>"> DISTRICT COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>"> OTHER COUNTRY REP </a></li>
                                 <li><a href="<?=$base_url?>documents/officebarers.pdf"> Office Bearer Form </a></li>
