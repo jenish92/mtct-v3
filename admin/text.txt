@@ -1,0 +1,91 @@
+
+
+
+INSERT  INTO mtct_donations (`donor_name,donor_email,donor_phone,donor_address,donated_amount,donate_towards,donate_mode,transaction_number`)  VALUES (
+
+
+INSERT  INTO mtct_donations (donor_name,donor_email,donor_phone,donor_address,donated_amount,donate_towards,donate_mode,transaction_number)  VALUES (
+
+
+UPDATE mtct_donations SET 
+
+
+UPDATE mtct_donations SET 
+
+
+INSERT  INTO mtct_pages (page_url,meta_title,meta_description,meta_keywords)  VALUES (
+
+
+INSERT  INTO mtct_pages (page_url,meta_title,meta_description,meta_keywords)  VALUES (
+
+
+INSERT  INTO mtct_pages (page_url,meta_title,meta_description,meta_keywords)  VALUES (
+
+
+INSERT  INTO mtct_pages (page_url,meta_title,meta_description,meta_keywords)  VALUES (
+
+
+INSERT  INTO mtct_pages (page_url,meta_title,meta_description,meta_keywords)  VALUES (
+
+
+INSERT  INTO mtct_pages (page_url,meta_title,meta_description,meta_keywords)  VALUES (
+
+
+INSERT  INTO mtct_pages (page_url,meta_title,meta_description,meta_keywords)  VALUES (
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_pages SET 
+
+
+UPDATE mtct_projects SET 
+
+
+UPDATE mtct_projects SET 
+
+
+UPDATE mtct_projects SET 
+
+
+INSERT  INTO mtct_projects (title,description,more_link,img_link,created_by)  VALUES (

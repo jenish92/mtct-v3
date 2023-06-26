@@ -6,6 +6,8 @@ class Mtct{
     private $host = 'localhost';
     private $username = 'root';
     private $password = '';
+//    private $username = 'mtctin_admin';
+//    private $password = 'MTct519#';
     private $database = 'mtctin_mtct';
  
     protected $connection;
@@ -13,9 +15,11 @@ class Mtct{
     public function __construct(){
  
         define("BASE_URL","http://localhost/mtct-v3/");
+        //define("BASE_URL","https://www.motherteresacharities.org/v3.1/");
 		define("ACTIVE",1);
 		define("WORLDLINE_DEFAULT_CURRENCY",356);
         define("ROOT",getenv("DOCUMENT_ROOT")."/mtct-v3/");
+        //define("ROOT",getenv("DOCUMENT_ROOT")."/v3.1/");
 		date_default_timezone_set("Asia/Kolkata");
 		$this->now = date("Y-m-d H:i:s");
     }
