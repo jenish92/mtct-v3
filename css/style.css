@@ -96,7 +96,7 @@ li.dropdown.submenu1.submenu.goal .child_menu p {
 .top-barleft .fa {
     margin-right: 8px;
     font-size: 17px;
-    color: orange;
+    color: #dcff00;
 }
 .voice-round:hover img {
     z-index: 999;
@@ -135,7 +135,7 @@ section.testimonials h2 {
     margin: 0px;
 }
 .top-barleft li:hover a {
-    color: orange;
+    color: #dcff00;
 }
 section.testimonials {
     padding: 40px 0px;

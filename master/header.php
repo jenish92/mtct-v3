@@ -310,9 +310,8 @@ require $root.'/mtct-v3/master/config.php';?>
                             </ul>
                         </li>
 <!--                        <li><a href="<?=$base_url?>"> "COVID-19 / OMICRON Relief" </a></li>-->
-                        <li><a href="<?=$base_url?>"> Medical help </a></li>
-                        <li><a href="<?=$base_url?>"> Educational Help </a></li>
-                        <li><a href="<?=$base_url?>"> Medical help </a></li>
+                        <li><a href="<?=$base_url?>helps/medical-helps.php"> Medical help </a></li>
+                        <li><a href="<?=$base_url?>helps/education-helps.php"> Educational Help </a></li>
                          <li class="dropdown">
                             <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Donate</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
