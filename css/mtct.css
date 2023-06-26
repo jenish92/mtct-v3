@@ -1,8 +1,10 @@
 /* CSS Document */
 
+/* first color 29007e */
+
 .side-article h6 {
     text-decoration: underline;
-    color: #29007e;
+    color: #1CABE2;
     padding: 5%;
 }
 
@@ -25,7 +27,7 @@
 }
 
 .donate-right .btn.donate {
-    background-color: #29007e;
+    background-color: #1CABE2;
     color: #fff;
 }
 
@@ -55,7 +57,7 @@ a.btn.donate1 {
 }
 
 .input-group-prepend .input-group-text {
-    background-color: #29007e !important;
+    background-color: #1CABE2 !important;
     color: #fff !important;
     width: 100%;
     text-align: center !important;
@@ -138,3 +140,11 @@ a.btn.donate1 {
     color: rgb(111, 112, 112);
 }
 /* End National Commitee */
+
+/*Helps*/
+
+.mtct-helps-table img{
+    height: 40vh;
+    width:60%;
+    align-self: center;
+}
