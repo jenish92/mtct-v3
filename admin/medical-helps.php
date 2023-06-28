@@ -68,11 +68,11 @@ include BASE_PATH . '/includes/header.php';
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-6">
-            <h1 class="page-header">MTCT Helps Requested</h1>
+            <h1 class="page-header">MTCT Helps Requested - Medical</h1>
         </div>
         <div class="col-lg-6">
             <div class="page-action-links text-right">
-                <a href="add_meta_information.php?operation=create" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> New Request</a>
+                <a href="add_medical_helps.php?operation=create" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> New Request</a>
             </div>
         </div>
     </div>
@@ -120,12 +120,11 @@ if ($order_by == 'Desc') {
                 <th>Primary Details</th>
                 <th>Ailment</th>
 				<th>Requested Amount</th>
-                
                 <th>Treatment In</th>
                 <th>Family background</th>
                 <th>Photo</th>
-				<th>Created On/Modified On</th>
-				<th>Created By/Modified By</th>
+				<th>Created On</th>
+				<th>Created By</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -139,13 +138,12 @@ if ($order_by == 'Desc') {
                 <td><?php echo $row['requestor_amount']; ?></td>
                 <td><?php echo xss_clean($row['treatment_in']); ?></td>
 				<td><?php echo xss_clean($row['requestor_background']); ?></td>
-				<td><?php echo xss_clean($row['requestor_photo']); ?></td>
-				<td></td>
+                <td><?php echo xss_clean($row['requestor_photo']); ?></td>
                 
-                <td>Created On : <?php echo $row['created_date']; ?><br>Modified On : <?php echo xss_clean($row['modified_date']); ?></td>
-				<td>Created By : <?php echo xss_clean($row['user_name']); ?><br>Modified By : <?php echo xss_clean($row['user_name']); ?></td>
+                <td>Created On : <?php echo $row['created_date']; ?></td>
+				<td>Created By : <?php echo xss_clean($row['user_name']); ?></td>
                 <td>
-                    <a href="edit_helps.php?page_id=<?php echo $row['id']; ?>&operation=edit" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i></a>
+                    <a href="edit_medical_helps.php?id=<?php echo $row['id']; ?>&operation=edit" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i></a>
                     
                 </td>
             </tr>

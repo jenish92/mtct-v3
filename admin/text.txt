@@ -89,3 +89,36 @@ UPDATE mtct_projects SET
 
 
 INSERT  INTO mtct_projects (title,description,more_link,img_link,created_by)  VALUES (
+
+
+INSERT  INTO mtct_help_requested (requestor_name,requestor_age,requestor_gender,requestor_amount,requestor_profile,requestor_photo,requestor_background,request_for,created_by)  VALUES (
+
+
+INSERT  INTO mtct_help_requested (requestor_name,requestor_age,requestor_gender,requestor_amount,requestor_profile,requestor_photo,requestor_background,request_for,created_by)  VALUES (
+
+
+INSERT  INTO mtct_medical_help (requestor_place,requestor_ailment,treatment_in,created_by,requestor_id)  VALUES (
+
+
+UPDATE mtct_help_requested SET 
+
+
+UPDATE mtct_medical_help SET 
+
+
+UPDATE mtct_help_requested SET 
+
+
+UPDATE mtct_medical_help SET 
+
+
+UPDATE mtct_help_requested SET 
+
+
+UPDATE mtct_medical_help SET 
+
+
+UPDATE mtct_help_requested SET 
+
+
+UPDATE mtct_medical_help SET 
