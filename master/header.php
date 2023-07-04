@@ -46,7 +46,18 @@ require $root.'/mtct-v3/master/config.php';?>
 
  
   <script>
+       window.onload = function() {
+        window.setTimeout(fadeout, 200);
+    }
+
+    function fadeout() {
+        document.querySelector('.preloader').style.opacity = '0';
+        document.querySelector('.preloader').style.display = 'none';
+    }
     $(document).ready(function(){
+        
+        
+       
         window.onscroll = function() {myFunction()};
         var header = document.getElementById("header-logo");
 
@@ -191,7 +202,14 @@ document.addEventListener("DOMContentLoaded", function() {
   </script>
 </head>
 <body>
-
+<div class="preloader">
+<div class="preloader-inner">
+<div class="preloader-icon">
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
 <header>
 
   <div class="top-bar">
@@ -328,7 +346,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <li class="dropdown">
                                 <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Goal</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="<?=$base_url?>"> Save a Child   </a></li>
+                                <li><a href="<?=$base_url?>save-child.php"> Save a Child   </a></li>
                                 <li><a href="<?=$base_url?>"> Health and Hygiene </a></li>
                                 <li><a href="<?=$base_url?>"> OFFLINE MEMBERSHIP </a></li>
                                 <li><a href="<?=$base_url?>"> Women Empowerment </a></li>
