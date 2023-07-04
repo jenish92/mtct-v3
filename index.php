@@ -66,26 +66,20 @@
       <div class="container">
         <div class="about">
             <div class="row">
-              <div class="col-md-6 left-content">
-                <div class="about-img">
-                  <img src="img/MTCT.jpg" class="img-fluid">
-                  <div class="about-con cs-head">
-                      <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <h2>WELCOME TO <span class="cus-color1">MTCT</span></h2>
-                          </div>
-                      <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <p>Nobel Laurate Mother Teresa Charitable Trust (MTCT) is a Social Welfare Organization <br>
-              striving for the upliftment of the poor,  down trodden, and under privileged in the society <br>
-              irrespective of caste, creed or religion in the  footsteps of the great Mother Teresa! <br>
-              <span style="color:red !important"><strong>MTCT</strong></span> is accredited by <span style="color:red !important"><strong>UNO's</strong></span> <span style="color:red !important"><strong>E</strong></span>conomic <span style="color:red !important"><strong>S</strong></span>ocial <span style="color:red !important"><strong>C</strong></span>ouncil and 
-              <span style="color:red !important"><strong>W</strong></span>orld <span style="color:red !important"><strong>H</strong></span>ealth <span style="color:red !important"><strong>O</strong></span>rganization <br>as a Special Status NGO.
+              <div class="col-md-6 left-content mtct-about">
+                  <div class="mask">
+                  
+                      
+                    <h2>WELCOME TO MTCT</h2>
+                          
+                    <p>Nobel Laurate Mother Teresa Charitable Trust (MTCT) is a Social Welfare Organization
+              striving for the upliftment of the poor,  down trodden, and under privileged in the society 
+              irrespective of caste, creed or religion in the  footsteps of the great Mother Teresa! 
+              MTCT is accredited by UNO's Economic Social Council and 
+              World Health Organization as a Special Status NGO.
               </p>
-                      </div>
-                  </div>
-                </div>
-                <div class="mydivtop">
-                <div class="mydiv" style="padding-left: 1px; padding-right: 1px;border-radius: 15px;border: groove; ">
-                    <div style="padding:7px 0px 10px;font-size: 15px;font-weight: 600;">  
+                      
+                    <p>  
                     
                       MTCT UNDER TAKES CSR Activities <br>  
                       Govt of India CSR Reg.No.<br>
@@ -93,8 +87,8 @@
                       TN.Govt.CSR No. NAI-07049  <br>
                       For CSR execution Contact : mtct1997@gmail.com
                     
-                  </div>
-                </div>
+                  </p>
+<!--
                 <div class="mybtn">
                     <img src="img/donate.png" alt="donate-btn">
                     <div class="donate-right">
@@ -102,7 +96,8 @@
                       <a href="" class="btn bank">Thro Bank</a>
                     </div>
                 </div>
-              </div>
+-->
+                </div>
             </div>
               <div class="col-md-6 right-content">
                 <div class="about-right cs-head">

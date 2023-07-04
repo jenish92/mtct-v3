@@ -257,6 +257,7 @@ section.header-bottom .owl-nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*
 .about-img:hover .about-con {
     position: absolute;
     left: 0;
@@ -274,7 +275,9 @@ section.header-bottom .owl-nav {
     left: 10px;
     transform: perspective(1000px) rotateY(10deg);
     transition: all 1s;
+    
 }
+*/
 .about-con {
     position: absolute;
     left: 0;
@@ -283,7 +286,7 @@ section.header-bottom .owl-nav {
     top: 0;
     padding: 20px;
     bottom: 0;
-    opacity: 0;
+    opacity: 1;
 }
 .about-img img {
     border-radius: 20px;
@@ -1243,7 +1246,7 @@ span#close {
     border: 1px solid #ccc;
 }
 .about-con.cs-head p {
-    text-shadow: 2px 2px 0px #fff;
+/*    text-shadow: 2px 2px 0px #fff;*/
 
 }
 .donate-right .btn.donate {
