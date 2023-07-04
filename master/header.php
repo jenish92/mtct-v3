@@ -11,8 +11,10 @@ require $root.'/mtct-v3/master/config.php';?>
   <meta name="author" content="Mother Teresa Charity Trust">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $meta_title; ?></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-
+<link href="<?=$base_url?>lib/animate/animate.min.css" rel="stylesheet">
   <link href="<?=$base_url?>css/owl.carousel.min.css" rel="stylesheet">
   <link href="<?=$base_url?>css/owl.theme.default.css" rel="stylesheet">
   <link href="<?=$base_url?>css/style.css" rel="stylesheet">
@@ -30,6 +32,9 @@ require $root.'/mtct-v3/master/config.php';?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="<?=$base_url?>lib/wow/wow.min.js"></script>
+    <script src="<?=$base_url?>lib/easing/easing.min.js"></script>
+    <script src="<?=$base_url?>lib/waypoints/waypoints.min.js"></script>
   <script src="<?=$base_url?>js/owl.carousel.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,6 +47,21 @@ require $root.'/mtct-v3/master/config.php';?>
  
   <script>
     $(document).ready(function(){
+        window.onscroll = function() {myFunction()};
+        var header = document.getElementById("header-logo");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+        
         $('section#recent-works .tab .nav-tabs li').click(function(){
             if($('section#recent-works .tab .nav-tabs li').hasClass("active")){
               $(this).siblings().removeClass('active');
@@ -137,7 +157,37 @@ require $root.'/mtct-v3/master/config.php';?>
               }
           }
       })
+        
+        
+        
+
     });
+      
+document.addEventListener("DOMContentLoaded", function() {
+            var left_content = document.querySelectorAll(".left-content");
+            var right_content = document.querySelectorAll(".right-content");
+            var bottom_content = document.querySelectorAll(".bottom-content");
+            var top_content = document.querySelectorAll(".top-content");
+            
+            left_content.forEach(function(caption) {
+                caption.classList.add("animate__animated", "animate__fadeInLeft");
+            });
+    
+            right_content.forEach(function(caption) {
+                caption.classList.add("animate__animated", "animate__fadeInRight");
+            });
+    
+            top_content.forEach(function(caption) {
+                caption.classList.add("animate__animated", "animate__fadeInTop");
+            });
+    
+            bottom_content.forEach(function(caption) {
+                caption.classList.add("animate__animated", "animate__fadeInBottomRight");
+            });
+        });
+
+// Get the header
+
   </script>
 </head>
 <body>
@@ -179,7 +229,7 @@ require $root.'/mtct-v3/master/config.php';?>
     </div> -->
   </div>
   </header>
-  <section class="header-logo">
+  <section class="header-logo" id="header-logo">
     <div class="container">
       <div class="row">
         <div class="col-md-8">

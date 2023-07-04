@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Carousel with Animated Text</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        .carousel-caption {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/hyundai_csr.jpg" class="d-block w-100" alt="Image 1">
+            <div class="carousel-caption">
+                <h3 class="animate__animated animate__fadeInDown">Welcome to our Website</h3>
+                <p class="animate__animated animate__fadeInUp">Discover amazing products and services.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/Autostand.jpg" class="d-block w-100" alt="Image 2">
+            <div class="carousel-caption">
+                <h3 class="animate__animated animate__fadeInDown">New Collection</h3>
+                <p class="animate__animated animate__fadeInUp">Check out our latest arrivals.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/Eye-Camp.jpg" class="d-block w-100" alt="Image 3">
+            <div class="carousel-caption">
+                <h3 class="animate__animated animate__fadeInDown">Special Offers</h3>
+                <p class="animate__animated animate__fadeInUp">Don't miss out on great deals.</p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

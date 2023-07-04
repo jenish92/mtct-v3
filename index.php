@@ -1,5 +1,6 @@
 
   <?php include_once("master/header.php"); ?>
+
   <section class="header-bottom">
       <div class="owl-carousel">
          <div class="item">
@@ -65,17 +66,21 @@
       <div class="container">
         <div class="about">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 left-content">
                 <div class="about-img">
                   <img src="img/MTCT.jpg" class="img-fluid">
                   <div class="about-con cs-head">
+                      <div class="wow fadeInUp" data-wow-delay="0.1s">
                     <h2>WELCOME TO <span class="cus-color1">MTCT</span></h2>
+                          </div>
+                      <div class="wow fadeInUp" data-wow-delay="0.1s">
                     <p>Nobel Laurate Mother Teresa Charitable Trust (MTCT) is a Social Welfare Organization <br>
               striving for the upliftment of the poor,  down trodden, and under privileged in the society <br>
               irrespective of caste, creed or religion in the  footsteps of the great Mother Teresa! <br>
               <span style="color:red !important"><strong>MTCT</strong></span> is accredited by <span style="color:red !important"><strong>UNO's</strong></span> <span style="color:red !important"><strong>E</strong></span>conomic <span style="color:red !important"><strong>S</strong></span>ocial <span style="color:red !important"><strong>C</strong></span>ouncil and 
               <span style="color:red !important"><strong>W</strong></span>orld <span style="color:red !important"><strong>H</strong></span>ealth <span style="color:red !important"><strong>O</strong></span>rganization <br>as a Special Status NGO.
               </p>
+                      </div>
                   </div>
                 </div>
                 <div class="mydivtop">
@@ -99,9 +104,9 @@
                 </div>
               </div>
             </div>
-              <div class="col-md-6">
+              <div class="col-md-6 right-content">
                 <div class="about-right cs-head">
-                  <h2>ABOUT<span class="cus-color1"> MTCT</span></h2>
+                  <h2 class="wow fadeInUp">ABOUT<span class="cus-color1"> MTCT</span></h2>
                   <p style="text-align: justify;">Mother Teresa Charitable Trust (MTCT)'s history  starts with the  story of compassion. The mammoth crowd that followed the adieu procession of the legend Mother Teresa, Dr.G.K.Dhas, a kind hearted social activist took up the challenge of being and working  for the poor. From this simple, yet heart breaking incident, brought  the determination that,  to take the mantle of Mother Teresa, that "Service to Mankind is Service to God". The  inspiration which helped to create "Mother Teresa Charitable Trust" is being carried out all these years. We took the  initiative with the vision that "No one shall be deprived of the basic needs".  <a href="appeal.php" target="_blank" style="color: #ff1901;font-size: 19px;margin-bottom: 10px;font-weight: 900;align:left !important;">more...</a> </p>
                 </div>
                 <div class="bottotop" style="margin-top:10px;">
@@ -129,7 +134,7 @@
       </div>
   </section>
   <section class="voice-over p-40px">
-    <div class="container">
+    <div class="container bottom-content">
       <div class="voice-area">
           <div class="voice-box">
             <div class="voicing" style=" -webkit-box-shadow: 0 3px 3px -2px rgb(0 84 157), 0 3px 4px 0 rgb(0 0 0 / 50%), 0 1px 8px 0 rgb(0 0 0 / 50%);    border-radius: 11px;    padding: 13px;">
@@ -156,8 +161,8 @@
   </section>
   <section id="recent-works" class="p-40px">
     <div class="container">
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row wow fadeInRight">
+        <div class="col-md-12 left-content">
             <div class="tab" role="tabpanel">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
@@ -167,7 +172,7 @@
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content tabs">
-                    <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                    <div role="tabpanel" class="tab-pane fade in active recent-works-content" id="Section1">
                       <strong><center><h2 style="color: #29007e;">Service to Society</h2></center>
                         <p class="lead" style="text-align:justify; margin-bottom: 5px;">&nbsp;&nbsp;&nbsp; <a>Mother Teresa Charitable Trust and its sub units Mother Teresa Forum and Mother Teresa Auto Drivers Welfare Association </a> is an accredited NGO by UNO's Economic and Social Council (ECOSOC) and World Health Organization (WHO) rendering social services in the entire states of India up to village level.The volunteers of Mother Teresa Form enrolls members and form committees in the National, State, District, Zonal (taluks) and village level. The entire team renders social activities for the upliftment of the suffering masses irrespective of caste, creed, religion or region. Service minded persons and volunteers are solicited to join our team to render service in the footsteps of the great St. Mother Teresa.</p>
                         <p class="lead" style="text-align:center;margin-bottom: 3px;">Service to Mankind  is Service to God</p>
@@ -175,7 +180,7 @@
                         <p class="lead" style="text-align:right; margin-bottom: 6px;">-Mother Teresa</p>
                         <a href="member.php" target="_blank" style="color:red; font-size: 16px;margin-bottom: 10px; align:left !important">Join...</a></strong>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="Section2">
+                    <div role="tabpanel" class="tab-pane fade recent-works-content" id="Section2">
                         <strong><center><h2 style="color: #29007e;">Activities</h2></center>
                         <p class="lead morebut" style="text-align:justify;">&nbsp;&nbsp;&nbsp; With the mission to provide skill training to the urban poor MTCT has resumed tailoring course for eligible beneficiaries from Jan.1, 2021. The on-going skill development course on tailoring is designed to provide new skills to the unskilled urban poor and/or to upgrade their existing skills. The programme will help the urban poor to set up self-employment ventures or go for salaried jobs.<br>&nbsp;&nbsp;&nbsp;This programme intends to fill the gap between the demand and availability of local skills by providing skill training programmes as required by the market. The training has resumed at all our centers after being suspended for many months due to COVID-19 pandemic.<br>The present batch comprises of 15 students from within the local area who belong to the economically weaker sections....
                         
@@ -188,7 +193,7 @@
                         </div>
                         <a href="https://www.motherteresacharities.org/donations.php" target="_blank" style="color:red; font-size: 16px;line-height:0.1 ; !important">Let us Join...</a></strong>
                     </div>
-                     <div role="tabpanel" class="tab-pane fade" id="Section3">
+                     <div role="tabpanel" class="tab-pane fade recent-works-content" id="Section3">
                         <strong><center><h2 style="color: #29007e;">Short Profile</h2></center>
                         <p class="lead morebut" style="text-align:justify;">&nbsp;&nbsp;&nbsp; Mother Teresa who devoted her life for the service of the poor, downtrodden, under privileged and destitute is an epitome of self-assured simplicity. She rendered whole hearted service to the needy in the society. She spread love and compassion throughout the world and brought relief and hope to the children, the destitute, the sick and the dying. She left a testament of unshakable faith, invincible hope and extraordinary charity as a mother of the poor. She became a living symbol of compassion to the world, and a living witness to the thirsting love. Mother Teresa's work has been recognized and acclaimed throughout the world. The scope of her work also expands to include orphanages, shelters to the elderly and hospices for the poor. <br>
 
@@ -208,7 +213,7 @@
         
     </section>
      <section class="mobile-view goals">
-    <div class="container">
+    <div class="container right-content">
 
         <div class="center wow fadeInDown" style="visibility: visible;">
                 <h2>Our <span class="cus-color1">Goals</span></h2>
@@ -294,7 +299,7 @@
     <section id="our-goals" class="p-40px">
     <div class="container">
        <div class="row">
-         <div class="col-md-12">
+         <div class="col-md-12 bottom-content">
             <div class="center wow fadeInDown" style="visibility: visible;">
                 <h2>Our <span class="cus-color1">Goals</span></h2>
             </div>
@@ -435,12 +440,12 @@
   <section id="current-info" class="p-40px">
       <div class="container">
          <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 top-content">
             <h2>Current <span class="cus-color1">Projects</span></h2>
             <p class="lead">MTCT under the banner Mother Teresa Forum(MTF)runs free computer and tailoring institutes in various backward districts of Tamil Nadu and Andhra Pradesh.We provide vocational training courses to the under privileged and unemployed youth.</p>
 
             <div class="owl-carousel current-info">
-               <div class="item">
+               <div class="item wow fadeInUp" data-wow-delay="0.3s">
                   <div class="pro-image">
 
                    <img src="img/t.png" alt="proimg" class="img-fluid">
@@ -451,7 +456,7 @@
                        </div>
                   </div>
                </div>
-              <div class="item">
+              <div class="item wow fadeInUp" data-wow-delay="0.3s">
                 <div class="pro-image">
                   <img src="img/c.png" alt="proimg" class="img-fluid">
                       <div class="pro-con">
@@ -461,7 +466,7 @@
                        </div>
                 </div>
              </div>
-              <div class="item">
+              <div class="item wow fadeInUp" data-wow-delay="0.3s">
                   <div class="pro-image">
                    <img src="img/tu.png" alt="proimg" class="img-fluid">
                    <div class="pro-con">
@@ -471,7 +476,7 @@
                        </div>
                   </div>
                </div>
-              <div class="item">
+              <div class="item wow fadeInUp" data-wow-delay="0.3s">
                   <div class="pro-image">
                    <img src="img/am.png" alt="proimg" class="img-fluid">
                    <div class="pro-con">
@@ -481,7 +486,7 @@
                        </div>
                   </div>
                </div>
-               <div class="item">
+               <div class="item wow fadeInUp" data-wow-delay="0.3s">
                   <div class="pro-image">
                    <img src="img/ma.png" alt="proimg" class="img-fluid">
                    <div class="pro-con">
@@ -491,7 +496,7 @@
                        </div>
                   </div>
                </div>
-               <div class="item">
+               <div class="item wow fadeInUp" data-wow-delay="0.3s">
                   <div class="pro-image">
                    <img src="img/ed.png" alt="proimg" class="img-fluid">
                    <div class="pro-con">
@@ -508,7 +513,7 @@
   </section>
   <section id="quotes">
 
-    <div class="get-started center wow fadeInDown" style="visibility: visible;">
+    <div class="get-started center wow fadeInDown right-content" style="visibility: visible;">
                <h2>Daily <span class="cus-color1">Quotes</span></h2>
                 <p class="lead">" World has more than 4300 religions. Why we fight for my God, your God, their God and our God.<br> God is omnipotent, omnipresent, alpha and omega. Let us spread the ideals of love with one another.<br> Let us do charity and make the world one ".          - Dr.G.K.Dhas   </p>
         <div class="request">
@@ -518,7 +523,7 @@
   </section>
   <section class="testimonials">
           
-     <div class="container">
+     <div class="container bottom-content">
       <div class="row">
         <div class="col-md-12">
           <div class="center wow fadeInDown" style="visibility: visible;">
@@ -573,7 +578,7 @@
   </div>
   </section>
   <section class="partners">
-    <div class="containers">
+    <div class="containers left-content">
       <div class="get-started center wow fadeInDown" style="visibility: visible;">
           <div class="center wow fadeInDown" style="visibility: visible;">
                 <h2>Our <span class="cus-color1">Partners</span></h2>

@@ -1,6 +1,6 @@
 
 <div class="footer-area">
-      <div class="container">
+      <div class="container wow fadeIn" data-wow-delay="0.1s" >
           <div class="row">
             <div class="col-md-3">
               <div class="widget">
