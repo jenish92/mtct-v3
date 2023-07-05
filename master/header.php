@@ -315,8 +315,8 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <li><a href="<?=$base_url?>documents/MFF.pdf"> OFFLINE MEMBERSHIP </a></li>
                                 <li><a href="<?=$base_url?>execution-wings/national-committee.php"> NATIONAL COMMITEE </a></li>
                                 <li><a href="<?=$base_url?>execution-wings/state-committee.php"> STATE COMMITEES </a></li>
-                                <li><a href="<?=$base_url?>"> DISTRICT COMMITEES </a></li>
-                                <li><a href="<?=$base_url?>"> OTHER COUNTRY REP </a></li>
+                                <li><a href="<?=$base_url?>district-committee.php"> DISTRICT COMMITEES </a></li>
+                                <li><a href="<?=$base_url?>other-country.php"> OTHER COUNTRY REP </a></li>
                                 <li><a href="<?=$base_url?>documents/officebarers.pdf"> Office Bearer Form </a></li>
                                 <li><a href="<?=$base_url?>documents/Bye-Laws.pdf">  BY LAW - ENGISH </a></li>
                                 <li><a href="<?=$base_url?>documents/Bye-Laws-t.pdf">  BY LAW - TAMIL </a></li>
@@ -328,7 +328,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mother Teresa Labour Assn.</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                
-                                <li><a href="<?=$base_url?>"> STATE COMMITEES </a></li>
+                                <li><a href="<?=$base_url?>auto-state-committee.php"> STATE COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>"> DISTRICT COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>"> Branches </a></li>
                                 <li><a href="<?=$base_url?>"> Office Bearer Form </a></li>
