@@ -545,3 +545,68 @@ button[type=button]{
     background-color: #ffffff;
     color: #F5272B;
 }
+/* District Commitee */
+.text-justify {
+  text-align: justify;
+}
+
+.state-bg {
+  background-color: #0058A5;
+}
+
+.li-title {
+  cursor: pointer;
+}
+
+.li-content {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.li-content.active {
+  height: auto;
+}
+
+.flex-list .symp::before {
+  content: '+';
+}
+
+.flex-list .li-title.min .symp::before {
+  content: '-';
+}
+
+.second-li-title,
+.third-li-title {
+  cursor: pointer;
+}
+
+.second-li-title .symp::before,
+.third-li-title .symp::before {
+  content: '+';
+}
+
+.second-li-title.min .symp::before,
+.third-li-title.min .symp::before {
+  content: '-';
+}
+
+.third-li-content,
+.second-li-content {
+  height: 0;
+  overflow: hidden;
+}
+
+.third-li-content.active,
+.second-li-content.active {
+  height: auto;
+}
+
+.third-li-content p {
+  font-size: 0.9rem;
+}
+
+.third-li-content img {
+  height: 6rem;
+}
