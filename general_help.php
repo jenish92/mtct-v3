@@ -1,4 +1,13 @@
-<div class="row">
+<?php include_once("master/header.php"); ?>
+<div class="container">
+   <div class="row pt-5 pb-5">
+      <div class="col-lg-12 col-md-12 col-12">
+          <div class="mtct-container">
+         <h2 class="text-center">General<span class="cus-color1"> Help</span></h2>
+         <h6 class="text-center mb-5">
+            Not all of us can do great things. But we can do small things with great love.
+         </h6>
+         <div class="row">
       <div class="col-lg-6 col-md-6 col-12">
             <table class="table table-bordered table-condensed">
                <tbody>
@@ -661,3 +670,8 @@
       </div>
    </div>
    </div>
+          
+              </div>
+      </div>
+      
+<?php include_once("master/footer.php"); ?>

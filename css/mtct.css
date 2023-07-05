@@ -525,3 +525,23 @@ position: relative;
     font-size: 14px;
     line-height: 20px;
 }
+
+button[type=button]{
+/*    padding: 8px 23px !important;*/
+}
+
+
+.mtct-content-accordion button{
+    padding: 0.5% !important;
+}
+
+.mtct-content-accordion table tr th,.mtct-content-accordion table tr td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mtct-content-accordion .accordion-item button{
+    width:100%;
+    background-color: #ffffff;
+    color: #F5272B;
+}

@@ -2,7 +2,7 @@
 include_once("../master/header.php"); 
 $donation_for = $metaDetails->DonationList();
 ?>
-<div class="container">
+<div class="container-fluid">
     
          <section class="mobile-view goals">
     <div class="container">
@@ -85,7 +85,7 @@ $donation_for = $metaDetails->DonationList();
 </div>
 </section>
     <section id="our-goals" class="p-40px">
-    <div class="container">
+    <div class="container-fluid">
        <div class="row">
          <div class="col-md-12">
             
