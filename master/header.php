@@ -329,8 +329,8 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                
                                 <li><a href="<?=$base_url?>auto-state-committee.php"> STATE COMMITEES </a></li>
-                                <li><a href="<?=$base_url?>"> DISTRICT COMMITEES </a></li>
-                                <li><a href="<?=$base_url?>"> Branches </a></li>
+                                <li><a href="<?=$base_url?>autod.php"> DISTRICT COMMITEES </a></li>
+                                <li><a href="<?=$base_url?>autob.php"> Branches </a></li>
                                 <li><a href="<?=$base_url?>"> Office Bearer Form </a></li>
                                 <li><a href="<?=$base_url?>documents/ByLaws-auto.pdf"> ByLaws </a></li>
                                 
