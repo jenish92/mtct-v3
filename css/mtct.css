@@ -545,3 +545,8 @@ button[type=button]{
     background-color: #ffffff;
     color: #F5272B;
 }
+
+.mt-quotes img{
+    width:450px;
+    height:250px;
+}
