@@ -550,7 +550,7 @@ button[type=button]{
 .mt-quotes img{
     width:450px;
     height:250px;
-
+}
 /* District Commitee */
 .text-justify {
   text-align: justify;
@@ -616,4 +616,21 @@ button[type=button]{
 .third-li-content img {
   height: 6rem;
 
+}
+.blood-donor-wh {
+  color: rgb(199, 46, 46);
+  border: 3px dotted rgb(77, 71, 71);
+  padding: 10px;
+}
+.blood-donor-wh i{
+  font-size: 18px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%; 
+  padding: 5px;
+  font-weight: 600;
+}
+
+.bl-don-content {
+  font-size: 16px;
 }
