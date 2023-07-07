@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <li><a href="<?=$base_url?>auto-state-committee.php"> STATE COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>autod.php"> DISTRICT COMMITEES </a></li>
                                 <li><a href="<?=$base_url?>autob.php"> Branches </a></li>
-                                <li><a href="<?=$base_url?>"> Office Bearer Form </a></li>
+                                <li><a href="<?=$base_url?>documents/officebarers.pdf"> Office Bearer Form </a></li>
                                 <li><a href="<?=$base_url?>documents/ByLaws-auto.pdf"> ByLaws </a></li>
                                 
                                 
@@ -347,28 +347,27 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Goal</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a href="<?=$base_url?>save-child.php"> Save a Child   </a></li>
-                                <li><a href="<?=$base_url?>"> Health and Hygiene </a></li>
-                                <li><a href="<?=$base_url?>"> OFFLINE MEMBERSHIP </a></li>
-                                <li><a href="<?=$base_url?>"> Women Empowerment </a></li>
-                                <li><a href="<?=$base_url?>"> Chronically Ill</a></li>
-                                <li><a href="<?=$base_url?>"> Handicapped </a></li>
-                                <li><a href="<?=$base_url?>"> Education </a></li>
-                                <li><a href="<?=$base_url?>"> Youth Empowerment </a></li>
-                                <li><a href="<?=$base_url?>">  Human Rights </a></li>
-                                <li><a href="<?=$base_url?>">  Natural Calamities </a></li> 
-                                <li><a href="<?=$base_url?>">  Housing the Poor </a></li>
-                                <li><a href="<?=$base_url?>">  Poor Feeding </a></li>
-                                <li><a href="<?=$base_url?>">  Old Age Persons</a></li>
+                                <li><a href="<?=$base_url?>health.php"> Health and Hygiene </a></li>
+                                <li><a href="<?=$base_url?>women.php"> Women Empowerment </a></li>
+                                <li><a href="<?=$base_url?>chronically.php"> Chronically Ill</a></li>
+                                <li><a href="<?=$base_url?>handicapped.php"> Handicapped </a></li>
+                                <li><a href="<?=$base_url?>education.php"> Education </a></li>
+                                <li><a href="<?=$base_url?>youth.php"> Youth Empowerment </a></li>
+                                <li><a href="<?=$base_url?>human.php">  Human Rights </a></li>
+                                <li><a href="<?=$base_url?>natural.php">  Natural Calamities </a></li> 
+                                <li><a href="<?=$base_url?>housing.php">  Housing the Poor </a></li>
+                                <li><a href="<?=$base_url?>poor.php">  Poor Feeding </a></li>
+                                <li><a href="<?=$base_url?>old.php">  Old Age Persons</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Current Project</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                
-                                <li><a href="<?=$base_url?>"> Free Tailoring Center </a></li>
-                                <li><a href="<?=$base_url?>">  Free Computer Center</a></li>
-                                <li><a href="<?=$base_url?>">  Free Tution Center </a></li>
-                                <li><a href="<?=$base_url?>">  Free Ambualance Service </a></li>
+                                <li><a href="<?=$base_url?>tailoring.php"> Free Tailoring Center </a></li>
+                                <li><a href="<?=$base_url?>computer.php">  Free Computer Center</a></li>
+                                <li><a href="<?=$base_url?>tution.php">  Free Tution Center </a></li>
+                                <li><a href="<?=$base_url?>ambulance.php">  Free Ambualance Service </a></li>
                                         
                                 
                                 </ul>
@@ -383,13 +382,13 @@ document.addEventListener("DOMContentLoaded", function() {
                          <li class="dropdown">
                             <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Donate</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a href="<?=$base_url?>">Online Donation</a></li>
-                              <li><a href="<?=$base_url?>">Through Bank</a></li>
+                              <li><a href="<?=$base_url?>donation/">Online Donation</a></li>
+                              <li><a href="<?=$base_url?>offline-donate.php">Through Bank</a></li>
                       
                             </ul>
                         </li>
-                        <li><a href="<?=$base_url?>"> Contact Us   </a></li>
-                        <li><a href="<?=$base_url?>">General Help </a></li>
+                        <li><a href="<?=$base_url?>contact.php"> Contact Us   </a></li>
+                        <li><a href="<?=$base_url?>general_help.php">General Help </a></li>
                     </ul>
                 </div>
             </nav>
