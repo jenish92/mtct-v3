@@ -297,7 +297,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <li class="dropdown">
                                 <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="<?=$base_url?>">Photos</a></li>
+                                <li><a href="<?=$base_url?>photo-gallery.php">Photos</a></li>
                                 <li><a href="<?=$base_url?>">videos</a></li>
                                 
                                 </ul>
