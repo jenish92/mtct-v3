@@ -46,25 +46,25 @@
         text-align: center;
     }
 </style>
-<div class="container">
+<div class="container-fluid">
     <p class="h3 my-3 text-center">Photo - Gallery</p>
     <div class="d-flex text-danger justify-content-center">
-        <p class="mx-1">2020-2021</p>
-        <p class="mx-1">|</p>
+        <p class="mx-md-1">2020-2021</p>
+        <p class="mx-md-1">|</p>
         <a href="https://drive.google.com/drive/folders/1TKU2NnVRvy21t3_UUyVqX23oA3lXAVFj?usp=sharing">
-            <p class="mx-1">2019</p>
+            <p class="mx-md-1">2019</p>
         </a>
         <p class="mx-1">|</p>
         <a href="https://drive.google.com/drive/folders/1dJJMhZ2Lm3ft6t9cvQr_JXETkqY4ePmj?usp=sharing">
-            <p class="mx-1">2018</p>
+            <p class="mx-md-1">2018</p>
         </a>
-        <p class="mx-1">|</p>
+        <p class="mx-md-1">|</p>
         <a href="https://drive.google.com/open?id=0B-F-4VbKgi2QZXFQYVYyQUplSFk">
-            <p class="mx-1">2017</p>
+            <p class="mx-md-1">2017</p>
         </a>
-        <p class="mx-1">|</p>
+        <p class="mx-md-1">|</p>
         <a href="https://drive.google.com/drive/folders/0B-F-4VbKgi2QZXFQYVYyQUplSFk?usp=sharing">
-            <p class="mx-1">More >></p>
+            <p class="mx-md-1">More >></p>
         </a>
     </div>
     <div class="row my-3">
