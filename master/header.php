@@ -43,21 +43,36 @@ require $root.'/mtct-v3/master/config.php';?>
 <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 
+<style>
+  #header-logo{
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+  }
+  #logo-img{
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+</style>
+<script>
+  window.addEventListener('scroll', function() {
+  const navbar = document.getElementById('header-logo');
+  const image = document.getElementById('logo-img');
+  
+  if (window.pageYOffset === 0) {
+    // When scrolled to top, set image width to a larger value
+    image.style.width = '100%'; // Change the image width to your desired value
+  } else {
+    // When scrolled down, reset image width to the initial value
+    image.style.width = '50%'; // Initial image width
+  }
+});
 
+</script>
  
   <script>
-       window.onload = function() {
-        window.setTimeout(fadeout, 200);
-    }
-
-    function fadeout() {
-        document.querySelector('.preloader').style.opacity = '0';
-        document.querySelector('.preloader').style.display = 'none';
-    }
     $(document).ready(function(){
-        
-        
-       
         window.onscroll = function() {myFunction()};
         var header = document.getElementById("header-logo");
 
@@ -66,11 +81,11 @@ var sticky = header.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
+  // if (window.pageYOffset > sticky) {
+  //     header.classList.add("sticky");
+  // } else {
+  //   header.classList.remove("sticky");
+  // }
 }
         
         $('section#recent-works .tab .nav-tabs li').click(function(){
@@ -202,14 +217,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </script>
 </head>
 <body>
-<div class="preloader">
-<div class="preloader-inner">
-<div class="preloader-icon">
-<span></span>
-<span></span>
-</div>
-</div>
-</div>
+
 <header>
 
   <div class="top-bar">
@@ -252,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="row">
         <div class="col-md-8">
           <div class="logo">
-            <a href="<?=$base_url?>"><img src="<?=$base_url?>img/logo.png" alt="logo" class="img-fluid"></a>
+            <a href="<?=$base_url?>"><img src="<?=$base_url?>img/logo.png" id="logo-img" alt="logo" class="img-fluid"></a>
           </div>
         </div>
         <div class="col-md-4">
@@ -372,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 
                                 </ul>
                             </li>
-                            <li><a href="<?=$base_url?>"> Monthly Activities </a></li>
+                            <li><a href="<?=$base_url?>monthly-activities.php"> Monthly Activities </a></li>
                             <li><a href="<?=$base_url?>documents/MTCT-Annual-Report.pdf"> Brochure </a></li>
                             </ul>
                         </li>
@@ -384,7 +392,8 @@ document.addEventListener("DOMContentLoaded", function() {
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a href="<?=$base_url?>donation/">Online Donation</a></li>
                               <li><a href="<?=$base_url?>offline-donate.php">Through Bank</a></li>
-                      
+                              <li><a href="<?=$base_url?>blood-donation.php">Blood Donor Registration</a></li>
+                              <li><a href="<?=$base_url?>donors-search.php">Blood Donors Search</a></li>
                             </ul>
                         </li>
                         <li><a href="<?=$base_url?>contact.php"> Contact Us   </a></li>
