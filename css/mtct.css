@@ -216,7 +216,8 @@ a.btn.donate1 {
 .natc-sub{
     background-color: #e1defc;
     color:#2e25a1;
-    border-radius: 1rem;
+    border-left: 7px solid #2e25a1;
+    margin-bottom: 15px;
 }
 .natc-content img {
     height: 7rem;
