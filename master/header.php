@@ -1,6 +1,6 @@
 <?php 
 $root = getenv("DOCUMENT_ROOT");
-require $root.'/v3.1/master/config.php';?>
+require $root.'/mtct-v3/master/config.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -265,15 +265,15 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
         <div class="col-md-4">
           <div class="donate-right">
-            <a href="" class="btn donate1">Online Donation</a>
-            <a href="" class="btn bank">Thro Bank</a>
+            <a href="<?=$base_url?>donation/" class="btn donate1">Online Donation</a>
+            <a href="<?=$base_url?>offline-donate.php" class="btn bank">Thro Bank</a>
           </div>
         </div>
       </div>
       
     </div>
     <div id="menu_area" class="menu-area">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <nav class="navbar navbar-dark navbar-expand-lg mainmenu">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -392,8 +392,15 @@ document.addEventListener("DOMContentLoaded", function() {
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a href="<?=$base_url?>donation/">Online Donation</a></li>
                               <li><a href="<?=$base_url?>offline-donate.php">Through Bank</a></li>
-                              <li><a href="<?=$base_url?>blood-donation.php">Blood Donor Registration</a></li>
-                              <li><a href="<?=$base_url?>donors-search.php">Blood Donors Search</a></li>
+<<<<<<< Updated upstream
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="<?=$base_url?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blood Donate</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a href="<?=$base_url?>blood-donation.php">Donor Registration</a></li>
+                              <li><a href="<?=$base_url?>donors-search.php">Donors Search</a></li>
+
                             </ul>
                         </li>
                         <li><a href="<?=$base_url?>contact.php"> Contact Us   </a></li>
