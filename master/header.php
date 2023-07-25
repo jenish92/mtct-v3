@@ -1,6 +1,6 @@
 <?php 
 $root = getenv("DOCUMENT_ROOT");
-require $root.'/mtct-v3/master/config.php';?>
+require $root.'/v3.1/master/config.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
