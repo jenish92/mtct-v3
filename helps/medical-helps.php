@@ -22,7 +22,7 @@ $medicalHelps = $metaDetails->getHelpRequest(2);
                     <!-- new Design -->
                     <div class="row shadow border p-lg-2 help-card my-4">
                         <div class="col-sm-2 d-flex align-items-center justify-content-center">
-                            <img class="img-fluid mt-5 mt-sm-1 rounded" src="https://www.motherteresacharities.org/v3.1/img/helps/medical/pramila.jpg" alt="">
+                            <img class="img-fluid mt-5 mt-sm-1 rounded" src="<?php echo BASE_URL . "img/helps/" . $value->requestor_photo; ?>" alt="">
                         </div>
                         <div class="col-sm-10">
                             <table class="table table-sm table-bordered help-table mt-3">
