@@ -61,12 +61,39 @@
     </span></marquee>
   </div>
 </div>
-  </section>
+</section>
+<section>
+  <div class="container mt-5">
+    <div class="text-center">
+      <div class="float-sm-left wecome-content mb-3 mr-sm-3">
+          <div class="p-3">
+            <h2>WELCOME TO MTCT</h2>   
+            <p>Nobel Laurate Mother Teresa Charitable Trust (MTCT) is a Social Welfare Organization
+                  striving for the upliftment of the poor,  down trodden, and under privileged in the society 
+                  irrespective of caste, creed or religion in the  footsteps of the great Mother Teresa! 
+                  MTCT is accredited by UNO's Economic Social Council and 
+                  World Health Organization as a Special Status NGO.
+            </p>
+            <p class="mt-1">MTCT UNDER TAKES CSR Activities <br>  
+                Govt of India CSR Reg.No.<br>
+                CSR00002270 <br>
+                TN.Govt.CSR No. NAI-07049  <br>
+                For CSR execution Contact : mtct1997@gmail.com
+            </p>
+          </div> 
+      </div>
+    </div>
+    <div class="">
+      <h2 class="wow fadeInUp">ABOUT<span class="cus-color1"> MTCT</span></h2>
+      <p style="text-align: justify;">Mother Teresa Charitable Trust (MTCT)'s history starts with the story of compassion. The mammoth crowd that followed the adieu procession of the legend Mother Teresa, Dr.G.K.Dhas, a kind hearted social activist took up the challenge of being and working for the poor. From this simple, yet heart breaking incident, brought the determination that, to take the mantle of Mother Teresa, that "Service to Mankind is Service to God". The inspiration which helped to create "Mother Teresa Charitable Trust" is being carried out all these years. We took the initiative with the vision that "No one shall be deprived of the basic needs". The overwhelming response from the general public is the impetus for the growth of Mother Teresa Charitable Trust. Now Mother Teresa Charitable Trust functions as a social relief NGO striving for the upliftment of poor, sick, downtrodden and the under privileged. The vision of the Mother Teresa Charitable Trust is to spread the ideals of Mother Teresa and motivate the younger generation to render service to the less fortunate. Its sub unit "Mother Teresa Forum" enrolls members and forms committees at national state, district, taluk and village levels. Mother Teresa Charitable Trust serves with the motto of "Service to Humanity". With the partnership of Government & various State governments, as well as the generosity of thousands of our supporters, we have grown from a small endeavor to a mammoth force that stretches across the wide chemesphere . All these years MTCT serve the under privileged and the needy to transform a vision into a reality. Our fight will continue till the last breath of a suffering mass.</a> </p>
+    </div>
+  </div>
+</section>
   <section class="p-40px">
       <div class="container">
         <div class="about">
             <div class="row no-gutters">
-              <div class="col-md-6 left-content mtct-about" >
+              <!-- <div class="col-md-6 left-content mtct-about" >
                   <div class="mask"> 
                     <h2>WELCOME TO MTCT</h2>   
                     <p>Nobel Laurate Mother Teresa Charitable Trust (MTCT) is a Social Welfare Organization
@@ -82,8 +109,8 @@
                       For CSR execution Contact : mtct1997@gmail.com
                     </p>
                 </div>
-              </div>
-              <div class="col-md-6 d-flex right-content">
+              </div> -->
+              <div class="col-md-12 right-content">
                 <div class="bottotop" style="margin-top:10px;">
                     <h2 class="text-center">Mother Teresa Forum-New Appoinments:</h2>
                       <marquee direction="up" scrolldelay="4" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();">
@@ -105,12 +132,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-12 right-content">
+              <!-- <div class="col-md-12 right-content">
                   <div class="mt-5 p-4 about-right cs-head">
                     <h2 class="wow fadeInUp">ABOUT<span class="cus-color1"> MTCT</span></h2>
                     <p style="text-align: justify;">Mother Teresa Charitable Trust (MTCT)'s history starts with the story of compassion. The mammoth crowd that followed the adieu procession of the legend Mother Teresa, Dr.G.K.Dhas, a kind hearted social activist took up the challenge of being and working for the poor. From this simple, yet heart breaking incident, brought the determination that, to take the mantle of Mother Teresa, that "Service to Mankind is Service to God". The inspiration which helped to create "Mother Teresa Charitable Trust" is being carried out all these years. We took the initiative with the vision that "No one shall be deprived of the basic needs". The overwhelming response from the general public is the impetus for the growth of Mother Teresa Charitable Trust. Now Mother Teresa Charitable Trust functions as a social relief NGO striving for the upliftment of poor, sick, downtrodden and the under privileged. The vision of the Mother Teresa Charitable Trust is to spread the ideals of Mother Teresa and motivate the younger generation to render service to the less fortunate. Its sub unit "Mother Teresa Forum" enrolls members and forms committees at national state, district, taluk and village levels. Mother Teresa Charitable Trust serves with the motto of "Service to Humanity". With the partnership of Government & various State governments, as well as the generosity of thousands of our supporters, we have grown from a small endeavor to a mammoth force that stretches across the wide chemesphere . All these years MTCT serve the under privileged and the needy to transform a vision into a reality. Our fight will continue till the last breath of a suffering mass.</a> </p>
                   </div>
-              </div>
+              </div> -->
         </div>
       </div>
   </section>

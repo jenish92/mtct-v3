@@ -640,3 +640,18 @@ button[type=button]{
   font-weight: 500 !important;
   padding: 16px 14px !important;
 }
+.wecome-content{
+  max-width: 30rem;
+  background-color: #1cabe2;
+  color: #fff;
+  background-image: url("../img/MTCT.jpg"); 
+  background-size: cover;
+  background-position: center;
+}
+.wecome-content>div{
+  background-color: rgba(3, 78, 145, 0.7);
+}
+.wecome-content p{
+  text-align: justify;
+  font-size: 16px;
+}
