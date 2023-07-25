@@ -46,16 +46,6 @@ $medicalHelps = $metaDetails->getHelpRequest(1);
                                         <td class="p-2">Amount Requested</td>
                                         <td class="p-2"><i class="fa fa-inr"></i>&nbsp;<?php echo $value->requestor_amount; ?></td>
                                     </tr>
-                                    <tr class="d-sm-none">
-                                        <td class="p-2">Family Background</td>
-                                        <td class="p-2"><?php echo $value->requestor_background; ?><a href="<?php echo $value->requestor_profile; ?>">More Details</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="p-3 d-none d-sm-block">
-                            <table class="table table-sm table-bordered help-table">
-                                <tbody>
                                     <tr>
                                         <td class="p-2">Family Background</td>
                                         <td class="p-2"><?php echo $value->requestor_background; ?><a href="<?php echo $value->requestor_profile; ?>">More Details</a></td>

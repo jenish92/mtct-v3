@@ -2,11 +2,11 @@
 <style>
    .page-header p{
       font-size: 15px;
-      line-height: 10px;
+      line-height: 13px;
    }
    .page-header hr{
       color: #1cabe2;
-      width: 30%;
+      width: 20%;
       border: 1px solid #1cabe2;
    }
 </style>
