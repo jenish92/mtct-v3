@@ -19,48 +19,6 @@ $medicalHelps = $metaDetails->getHelpRequest(2);
                 <?php
                 foreach (json_decode($medicalHelps) as $key => $value) {
                 ?>
-
-                    <div class="">
-                        <div class="">
-
-                            <div class="table-responsive">
-                                <table class="table table-bordered mtct-helps-table">
-                                    <tr>
-                                        <th>Name</th>
-                                        <td><?php echo $value->requestor_name; ?></td>
-                                        <td class="text-center align-middle" colspan="2" rowspan="5"><img src="<?php echo BASE_URL . "img/helps/" . $value->requestor_photo; ?>" class="img-fluid"></td>
-                                    </tr>
-                                    <tr>
-                                        <th>Age</th>
-                                        <td><?php echo $value->requestor_age . " , " . $value->requestor_gender; ?></td>
-                                    </tr>
-                                    <tr>
-                                        <th>Place</th>
-                                        <td><?php echo $value->requestor_place; ?></td>
-                                    </tr>
-                                    <tr>
-                                        <th>Nature of Ailment</th>
-                                        <td><?php echo $value->requestor_ailment; ?></td>
-                                    </tr>
-                                    <tr>
-                                        <th>Amount Requested</th>
-                                        <td><i class="fa fa-inr"></i>&nbsp;<?php echo $value->requestor_amount; ?></td>
-                                    </tr>
-                                    <tr>
-                                        <th>Treatment in</th>
-                                        <td colspan="3"><?php echo $value->treatment_in; ?></td>
-                                    </tr>
-                                    <tr>
-                                        <th>Family Background</th>
-                                        <td colspan="3"><?php echo $value->requestor_background; ?><a href="<?php echo $value->requestor_profile; ?>">More Details</a></td>
-                                    </tr>
-
-                                </table>
-                            </div>
-                        </div>
-
-
-                    </div>
                     <!-- new Design -->
                     <div class="row shadow border p-lg-2 help-card my-4">
                         <div class="col-sm-2 d-flex align-items-center justify-content-center">
