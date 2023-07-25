@@ -175,31 +175,31 @@ a.btn.donate1 {
 }
 
 .text-primary {
-    color: #2e25a1 !important;
+    color: #1cabe2 !important;
 }
 
 .input-group-text {
     color: #fff;
-    background-color: #2e25a1;
+    background-color: #1cabe2;
 }
 
 .form-control:focus {
-    border-color: #2e25a1;
+    border-color: #1cabe2;
     box-shadow: none;
 }
 
 .custom-select:focus {
-    border-color: #2e25a1;
+    border-color: #1cabe2;
     box-shadow: none;
 }
 
 .btn-primary {
-    background-color: #2e25a1;
+    background-color: #1cabe2;
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: #2e25a1;
+    background-color: #1cabe2;
 }
 
 .memb-form {
@@ -210,19 +210,19 @@ a.btn.donate1 {
 /* National Commitee */
 .natc-main{
     background-color: #eedeff;
-    color:#2e25a1;
+    color:#1cabe2;
     border-radius: 1rem;
 }
 .natc-sub{
     background-color: #e1defc;
-    color:#2e25a1;
-    border-left: 7px solid #2e25a1;
+    color:#1cabe2;
+    border-left: 7px solid #1cabe2;
     margin-bottom: 15px;
 }
 .natc-content img {
     height: 7rem;
     width: 6.5rem;
-    border: 3px double #2e25a1;
+    border: 3px double #1cabe2;
     border-radius: 5px;
 }
 
@@ -558,7 +558,7 @@ button[type=button]{
 }
 
 .state-bg {
-  background-color: #0058A5;
+  background-color: #1cabe2;
 }
 
 .li-title {
@@ -636,7 +636,7 @@ button[type=button]{
   font-size: 16px;
 }
 .navbar li a{
-  font-size: 15px !important;
+  font-size: 14px !important;
   font-weight: 500 !important;
   padding: 16px 14px !important;
 }

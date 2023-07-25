@@ -47,7 +47,7 @@ li.dropdown.submenu1.submenu.goal:hover  .child_menu p {
 }
 .main-menu {
     padding: 20px 20px;
-    background-color: #0058A5;
+    background-color: #1cabe2;
 }*/
 /*ul.menu-ul > li > a {
     color: #fff;
@@ -62,7 +62,7 @@ ul.dropdown-menu li {
     color:#fff;
 }
 ul.dropdown-menu li:hover {
-    background-color: #0058A5;
+    background-color: #1cabe2;
     color: #fff;
 }
 li.dropdown.submenu1.submenu.goal .child_menu p a{
@@ -76,12 +76,12 @@ li.dropdown.submenu1.submenu.goal .child_menu p {
     padding: 5px 8px;
 }
 .child_menu p:hover {
-     background-color: #0058A5;
+     background-color: #1cabe2;
      color: #fff;
 }*/
 .top-bar {
     padding: 10px 0px;
-    background-color: #0058A5;
+    background-color: #1cabe2;
 }
 .top-bar ul {
     list-style: none;
@@ -120,7 +120,7 @@ li.dropdown.submenu1.submenu.goal .child_menu p {
     padding: 0px 4px !important;
 }
 section.voice-over{
-    background-color: #0058A5;
+    background-color: #1cabe2;
 }
 .top-bar-right ul {
     display: flex;
@@ -146,7 +146,7 @@ section.testimonials h2 {
 }
 section.testimonials {
     padding: 40px 0px;
-    background-color: #0058A5;
+    background-color: #1cabe2;
 }
 section.testimonials span.cus-color1 {
     color: #fff;
@@ -170,7 +170,7 @@ section.header-logo .col-md-4 {
     justify-content: center;
 }
 .donate-right .btn.donate {
-    background-color: #0058A5;
+    background-color: #1cabe2;
     color: #fff;
 }
 section.header-bottom {
@@ -183,7 +183,7 @@ section.header-bottom button.owl-prev {
      border-radius: 50%;
     color: #fff !important;
     height: 40px;
-    background-color: #0058A5 !important;
+    background-color: #1cabe2 !important;
 }
 section.header-bottom button.owl-next {
     position: absolute;
@@ -192,7 +192,7 @@ section.header-bottom button.owl-next {
     border-radius: 50%;
     color: #fff !important;
     height: 40px;
-    background-color: #0058A5 !important;
+    background-color: #1cabe2 !important;
 }
 section.header-bottom .owl-nav {
     position: absolute;
@@ -215,7 +215,7 @@ section.header-bottom .owl-nav {
     font-size: 18px;
 }
 .cus-color1 {
-    color: #0058A5;
+    color: #1cabe2;
 }
 .cs-head p::first-letter {
     color: red;
@@ -262,7 +262,7 @@ section.header-bottom .owl-nav {
     position: absolute;
     left: 0;
     right: 0;
-    border-left: 5px solid #0058A5;
+    border-left: 5px solid #1cabe2;
     background-color: #ffffff00;
     top: 0;
     padding: 20px;
@@ -319,7 +319,7 @@ section.header-bottom .owl-nav {
     border: 1px solid #ccc;
     border-radius: 20px;
     padding: 20px 15px;
-    border-right: 5px solid #0058A5;
+    border-right: 5px solid #1cabe2;
 }
 @keyframes myanimation {
   25% {background: #e3e1e1;}
@@ -356,14 +356,14 @@ section.mobile-view.goals {
 }
 .accordion a:hover, .accordion a:hover::after {
     cursor: pointer;
-    color: #0058A5;
+    color: #1cabe2;
 }
 .accordion a:hover::after {
-  border: 1px solid #0058A5;
+  border: 1px solid #1cabe2;
 }
 .accordion a.active {
-  color: #0058A5;
-  border-bottom: 1px solid #0058A5;
+  color: #1cabe2;
+  border-bottom: 1px solid #1cabe2;
 }
 /*.accordion a::after {
   font-family: 'Ionicons';
@@ -467,17 +467,17 @@ section.mobile-view.goals {
     flex-direction: column;
 }
 a.btn.bank {
-    background-color: #0058A5;
+    background-color: #1cabe2;
     padding: 11px;
     font-family: inherit;
     font-weight: bold;
     position: relative;
     color: white !important;
-    background-color: #0058A5 !important;
+    background-color: #1cabe2 !important;
     border-radius: 5px !important;
     background-color: transparent;
-    background-image: linear-gradient( 64deg, transparent, transparent 10%, white 10%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%);
-    border: 1px solid #0058A5;
+    background-image: linear-gradient( 64deg, transparent, transparent 10%, white 10%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%);
+    border: 1px solid #1cabe2;
     transition: all .5s;
     color: #000 !important;
     zoom: 1.01;
@@ -492,11 +492,11 @@ a.btn.bank {
 .voicing h2 {
     display: inline-block;
     font-size: 18px !important;
-    background-color: #0058A5 !important;
+    background-color: #1cabe2 !important;
     border-radius: 5px !important;
     background-color: transparent;
-    background-image: linear-gradient( 64deg, transparent, transparent 4%, white 4%, white 96%, transparent, 90%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%);
-    border: 1px solid #0058A5;
+    background-image: linear-gradient( 64deg, transparent, transparent 4%, white 4%, white 96%, transparent, 90%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%);
+    border: 1px solid #1cabe2;
     transition: all .5s;
     color: #000 !important;
     zoom: 1.01;
@@ -518,11 +518,11 @@ a.btn.donate {
     cursor: pointer;
     border-radius: 10px;
     font-weight: 600;
-    background-color: #0058A5 !important;
+    background-color: #1cabe2 !important;
     border-radius: 5px !important;
     background-color: transparent;
-    background-image: linear-gradient( 64deg, transparent, transparent 10%, white 10%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%);
-    border: 1px solid #0058A5;
+    background-image: linear-gradient( 64deg, transparent, transparent 10%, white 10%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%);
+    border: 1px solid #1cabe2;
     transition: all .5s;
     color: #000 !important;
     zoom: 1.01;
@@ -531,7 +531,7 @@ a.btn.donate {
 }
 
 a.btn.probtn {
-    background-color: #0058A5;
+    background-color: #1cabe2;
     color: #fff;
 }
 a.btn.donate:active {
@@ -588,7 +588,7 @@ section#recent-works .tab .nav-tabs li.active a{
 section#recent-works .tab .nav-tabs li.active a{ color: #fff; }
 section#recent-works .tab .nav-tabs li a:before {
     content: "";
-    background: #0058A5;
+    background: #1cabe2;
     height: 100%;
     width: 100%;
     transform: perspective(400px) rotateX(75deg);
@@ -600,7 +600,7 @@ section#recent-works .tab .nav-tabs li a:before {
     transition: all 0.5s ease 0s;
 }
 section#recent-works .tab .nav-tabs li.active a:before, section#recent-works .tab .nav-tabs li a:hover:before, section#recent-works .tab .nav-tabs li a.active {
-    background-color: #0058A5;
+    background-color: #1cabe2;
     border-radius: 20px 20px 0 0;
     transform: perspective(500px) rotateX(0);
     color: #fff;
@@ -613,7 +613,7 @@ section#conatcat-info h2 {
 }
 button.button1:hover {
     background-color: transparent;
-    background-image: linear-gradient( 64deg, transparent, transparent 13%, white 13%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%);
+    background-image: linear-gradient( 64deg, transparent, transparent 13%, white 13%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%);
     border: 1px solid #fff;
     transition: all .5s;
     zoom: 1.01;
@@ -622,8 +622,8 @@ button.button1:hover {
 }
 a.btn.probtn:hover {
     background-color: transparent;
-    background-image: linear-gradient( 64deg, transparent, transparent 13%, white 13%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%);
-    border: 1px solid #0058A5;
+    background-image: linear-gradient( 64deg, transparent, transparent 13%, white 13%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%);
+    border: 1px solid #1cabe2;
     transition: all .5s;
     color: #000;
     zoom: 1.01;
@@ -722,7 +722,7 @@ section#our-goals button.tablinks.active h3 {
 .in-tab-but h3 {
     font-size: 16px;
     margin: 0;
-    color: #0058A5;
+    color: #1cabe2;
 }
 /* Style the tab content */
 #our-goals .tabcontent {
@@ -731,7 +731,7 @@ section#our-goals button.tablinks.active h3 {
     padding: 30px 30px;
     width: 70%;
     border-left: none;
-    border-left: 5px solid #0058A5;
+    border-left: 5px solid #1cabe2;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     /* height: 300px; */
@@ -747,9 +747,9 @@ p.lead {
     flex-direction: column;
     border-radius: 10px;
     align-items: center;
-    border-left: 5px solid #0058A5 !important;
+    border-left: 5px solid #1cabe2 !important;
     justify-content: center;
-    border: 1px solid #0058A5;
+    border: 1px solid #1cabe2;
     padding: 30px 0px;
     margin: 10px 0px;
 }
@@ -777,10 +777,10 @@ p.lead {
 }
 .pro-image:hover {
     box-shadow: 0px 0px 3px #ccc;
-    background-color: #0058A5 !important;
+    background-color: #1cabe2 !important;
     border-radius: 5px !important;
-    background-image: linear-gradient( 64deg, transparent, transparent 10%, white 10%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%);
-    border: 1px solid #0058A5;
+    background-image: linear-gradient( 64deg, transparent, transparent 10%, white 10%, white 90%, transparent, 90%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%);
+    border: 1px solid #1cabe2;
     transition: all .5s;
     color: #000 !important;
     zoom: 1.01;
@@ -801,7 +801,7 @@ section#recent-works li:hover a {
 }
 section#current-info .owl-nav button {
     width: 50px;
-    background-color: #0058A5;
+    background-color: #1cabe2;
     height: 50px;
     font-size: 25px !important;
     color: #fff;
@@ -843,7 +843,7 @@ section#current-info h2 {
     font-size: 23px;
 }
 .request h4:before {
-    border-color: #0058A5 transparent transparent;
+    border-color: #1cabe2 transparent transparent;
     border-style: solid;
     border-width: 12px;
     bottom: -18px;
@@ -870,7 +870,7 @@ section#recent-works p {
     justify-content: center;
 }
 .request h4 a {
-    background: #0058A5;
+    background: #1cabe2;
     color: #fff;
     font-size: 14px;
     font-weight: 800;
@@ -878,7 +878,7 @@ section#recent-works p {
     padding: 5px 39px;
 }
 .request h4:after {
-    border-color: #0058A5 transparent transparent;
+    border-color: #1cabe2 transparent transparent;
     border-style: solid;
     border-width: 12px;
     bottom: -18px;
@@ -913,7 +913,7 @@ section#recent-works p {
             85%,
             transparent
         ),
-        linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%);
+        linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%);
     background-repeat: no-repeat;
     filter: drop-shadow(0 0 5px #fff);
 }
@@ -921,17 +921,17 @@ section#recent-works p {
     background: none repeat scroll 0 0 #2d008d;
 }*/
 section#quotes p {
-    color: #0058A5;
+    color: #1cabe2;
 }
 section#conatcat-info {
-    background-color: #0058A5;
+    background-color: #1cabe2;
 }
 .owl-carousel.testi-info .owl-nav button {
     width: 30px;
     background-color: #fff;
     border-radius: 3px;
     height: 30px;
-    color: #0058A5;
+    color: #1cabe2;
 }
 .in-testimonial::before,
 .in-testimonial::after {
@@ -981,7 +981,7 @@ section#conatcat-info {
     background: #2e2e2e;
 }
 .footer-area {
-    background: #0058A5;
+    background: #1cabe2;
     border-bottom: 5px solid #060068;
     font-size: 14px;
     padding: 30px 0px;
@@ -1152,8 +1152,8 @@ section#conatcat-info {
     .about-con {
          position: static; 
          opacity: 1;
-         border-left: 5px solid #0058A5;
-         border-right: 5px solid #0058A5; 
+         border-left: 5px solid #1cabe2;
+         border-right: 5px solid #1cabe2; 
     }
     .about-img {
         position: relative;
@@ -1169,10 +1169,10 @@ section#conatcat-info {
        flex-direction: column-reverse;
     }
     .mydiv {
-        border-left: 5px solid #0058A5;
-         border-right: 5px solid #0058A5; 
+        border-left: 5px solid #1cabe2;
+         border-right: 5px solid #1cabe2; 
         text-align: center;
-        background-color: #0058A5;
+        background-color: #1cabe2;
         color: #fff;
         transform: unset;
     }
@@ -1184,8 +1184,8 @@ section#conatcat-info {
         font-size: 14px;
     }
     .about-right.cs-head {
-        border-right: 5px solid #0058A5;
-        border-left: 5px solid #0058A5;
+        border-right: 5px solid #1cabe2;
+        border-left: 5px solid #1cabe2;
     }
 
     section.mobile-view.goals {
@@ -1204,7 +1204,7 @@ section#conatcat-info {
 }
 .main-menu-tab {
     padding: 20px 0px;
-    background-color: #0058A5;
+    background-color: #1cabe2;
 }
 div#ham-icon {
     position: fixed;
@@ -1239,7 +1239,7 @@ span#close {
 .bottotop h2 {
     padding: 10px;
     margin: 0px 0px 10px 0px;
-    background-color: #0058A5;
+    background-color: #1cabe2;
     font-size: 20px;
     color: #fff;
     border-radius: 10px;
@@ -1250,28 +1250,28 @@ span#close {
 
 }
 .donate-right .btn.donate {
-    background-image: linear-gradient( 208deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%);
+    background-image: linear-gradient( 208deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%);
     animation: btnglowing 2s linear infinite;
 }
 @keyframes vioglowing {
-    0% { background-image: linear-gradient( 90deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #0058A5 90%, transparent 90%); }
-    25% { background-image: linear-gradient( 180deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #0058A5 90%, transparent 90%); }
-    50% { background-image: linear-gradient( 240deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #0058A5 90%, transparent 90%); }
-    100% { background-image: linear-gradient( 360deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #0058A5 90%, transparent 90%); }
+    0% { background-image: linear-gradient( 90deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #1cabe2 90%, transparent 90%); }
+    25% { background-image: linear-gradient( 180deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #1cabe2 90%, transparent 90%); }
+    50% { background-image: linear-gradient( 240deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #1cabe2 90%, transparent 90%); }
+    100% { background-image: linear-gradient( 360deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #2b5cbd, #1cabe2 90%, transparent 90%); }
 }
 @keyframes btnglowing {
-    0% { background-image: linear-gradient( 120deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%); }
-    50% { background-image: linear-gradient( 240deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%); }
-    100% { background-image: linear-gradient( 360deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #0058A5, #0058A5 90%, transparent 90%); }
+    0% { background-image: linear-gradient( 120deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%); }
+    50% { background-image: linear-gradient( 240deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%); }
+    100% { background-image: linear-gradient( 360deg, transparent, transparent 10%, white 20%, white 80%, transparent, 100%, transparent ), linear-gradient(to bottom right, #1cabe2, #1cabe2 90%, transparent 90%); }
 }
 .menu-area {
 /*    background: #2e25a1;*/
-    background: #0058A5;
+    background: #1cabe2;
 }
 .dropdown-menu{padding:0;margin:0;border:0 solid transition!important;border:0 solid rgba(0,0,0,.15);border-radius:0;-webkit-box-shadow:none!important;box-shadow:none!important}
 .mainmenu a, .navbar-default .navbar-nav > li > a, .mainmenu ul li a, .navbar-expand-lg .navbar-nav .nav-link {
 /*    background: #2e25a1;*/
-     background: #0058A5;
+     background: #1cabe2;
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
@@ -1296,10 +1296,10 @@ span#close {
     flex-direction: row;
 }
 .mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .show .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .show .dropdown-menu > li > a:hover {
-    background: #0058A5;
+    background: #1cabe2;
 }
 .mainmenu .collapse ul ul ul > li:hover > a {
-    background: #0058A5;
+    background: #1cabe2;
 }
 
 .mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background:#1565C0;}
@@ -1309,7 +1309,7 @@ span#close {
 /******************************Drop-down menu work on hover**********************************/
 .mainmenu {
 /*    background: #2e25a1;*/
-     background: #0058A5;
+     background: #1cabe2;
     border: 0 solid;
     margin: 0;
     padding: 0;
@@ -1319,7 +1319,7 @@ span#close {
 button.navbar-toggler {
     /*position: absolute;
     right: 0px;*/
-    background-color: #0058A5 !important;
+    background-color: #1cabe2 !important;
     border: none !important;
 }
 /*button.navbar-toggler span{
