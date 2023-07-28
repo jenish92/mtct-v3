@@ -544,7 +544,12 @@ button[type=button]{
 .mtct-content-accordion .accordion-item button{
     width:100%;
     background-color: #ffffff;
-    color: #F5272B;
+    color: #1cabe2;
+    border:1px solid rgb(218, 218, 218);
+    margin-block-start: 10px;
+}
+.accordion-body .table tr th{
+  font-size: 13px;
 }
 
 
