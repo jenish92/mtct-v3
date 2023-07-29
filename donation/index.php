@@ -197,7 +197,7 @@ $donation_for = $metaDetails->DonationList();
   </div>
   <div class="tabContent" data-tab="tab3" style="display: none;">
     <p class="h4 text-primary text-center">UPI / GPay</p>
-    <img src="http://localhost/mtct-v3/img/payment/GPay.jpg" alt="" class="img-fluid">
+    <img src="<?=$base_url?>img/payment/GPay.jpg" alt="" class="img-fluid">
   </div>
   <div class="tabContent" data-tab="tab4" style="display: none;">
     <iframe class="razorpay-iframe" src="https://rzp.io/l/K3TZjyy" runat="server" visible="true"></iframe>
