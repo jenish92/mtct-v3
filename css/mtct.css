@@ -643,7 +643,7 @@ button[type=button]{
 .navbar li a{
   font-size: 14px !important;
   font-weight: 500 !important;
-  padding: 16px 14px !important;
+  padding: 14px 14px !important
 }
 .wecome-content{
   max-width: 30rem;
