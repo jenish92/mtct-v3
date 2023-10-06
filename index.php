@@ -589,15 +589,23 @@
     <div class="containers left-content">
       <div class="get-started center wow fadeInDown" style="visibility: visible;">
           <div class="center wow fadeInDown" style="visibility: visible;">
-                <h2>Our <span class="cus-color1">Partners</span></h2>
+                <h2><span class="cus-color1">Our CSR Partners and Supporting Companies</span></h2>
             </div>
             <div class="rows">  
-        <div class="partners-img">  
+        <div class="partners-img pt-4 mt-2">  
           <img src="img/dow.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners DOW International" > 
           <img src="img/PEPSICO.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners PEPSICO" >
           <img src="img/Indian-oil.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners INDIAN OIL" >
           <img src="img/Hyundai.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners HYUNDAI" >
           <img src="img/VOLTAS.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners VOLTAS">
+        </div>
+        <div class="partners-img pt-4 mt-2">
+          <img src="img/accel.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners VOLTAS">
+          <img src="img/IOB.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners VOLTAS">
+          <img src="img/star-health-logo.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners VOLTAS">
+          <img src="img/IndianBank.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners VOLTAS">
+          <img src="img/LIC-Housing.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners VOLTAS">
+          <img src="img/LIC-logo.png" class="himg" alt="Mother Teresa Charitable Trust CSR Partners VOLTAS">
         </div>
       </div>
              
