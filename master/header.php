@@ -51,8 +51,9 @@ require $root.'/v3.1/master/config.php';?>
     background-color: #fff;
   }
   #logo-img{
-    width: 100%;
+    width: 70%;
     transition: width 0.3s ease-in-out;
+    margin-block: 0.6rem;
   }
 </style>
 <script>
@@ -62,7 +63,7 @@ require $root.'/v3.1/master/config.php';?>
   
   if (window.pageYOffset === 0) {
     // When scrolled to top, set image width to a larger value
-    image.style.width = '100%'; // Change the image width to your desired value
+    image.style.width = '70%'; // Change the image width to your desired value
   } else {
     // When scrolled down, reset image width to the initial value
     image.style.width = '50%'; // Initial image width

@@ -1,6 +1,6 @@
 
   <?php include_once("master/header.php"); ?>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <section class="header-bottom">
       <div class="owl-carousel">
          <div class="item">
@@ -21,48 +21,144 @@
         
       </div>
   </section>
-  <section>
-    <div class="container">
+<section style="background-color: rgba(0, 0, 0, 0.09);">
+
     <div class="running_text">
-    <marquee scrollamount="7" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
-  
-      <span class="whole"><img src="img/claps.gif" alt="Art Competition Result" style="position: relative;top: 5px;width: 60px;height: 45px;">Art Competition Result - </span>
-      <span class="whole5">1st Prize - Adrian, </span>
-      <span class="whole3"> 2nd Prize - Kaviraj . R , </span>
-      <span class="whole2"> 3rd Prize - V.Pratheeksha, </span>
-      <span class="whole" style="">and </span>
-      <span class="clr2"> Consolation Prizes - K.M.Vinisha, Priyadharshini.M, M.Mahaveeran, S.Theban Ananth, V.Mythili, S.Kavya, S.Shiren, J.Athin Samuel, A.Aswin Surya, M.Nitisha </span> 
-      
-      - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <span class="whole5">
-       Mother Teresa Forum a new initiative .&nbsp; - </span>
-       <span class="whole"><a href="pdf/Mother Teresa forum a new initiative.pdf">view....</a>
-       </span>
+      <marquee scrollamount="7" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
+    
+        <span class="whole"><img src="img/claps.gif" alt="Art Competition Result" style="position: relative;top: 5px;width: 60px;height: 45px;">Art Competition Result - </span>
+        <span class="whole5">1st Prize - Adrian, </span>
+        <span class="whole3"> 2nd Prize - Kaviraj . R , </span>
+        <span class="whole2"> 3rd Prize - V.Pratheeksha, </span>
+        <span class="whole" style="">and </span>
+        <span class="clr2"> Consolation Prizes - K.M.Vinisha, Priyadharshini.M, M.Mahaveeran, S.Theban Ananth, V.Mythili, S.Kavya, S.Shiren, J.Athin Samuel, A.Aswin Surya, M.Nitisha </span> 
         
-      <span class="whole2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Chennai - Mission 200"</span>
-      <span class="clr2">
-      <a href="pdf/chennaimission.pdf" target="_blank" style="color:blue !important">- For details Click.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-      </span>   
-      
-       <span class="whole5">
-       "For a better cause, for a better world" - </span>
-       <span class="whole"><a href="pdf/Schemes.pdf" target="_blank">Support Us.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-       </span>
-       
-       <span class="whole4" style="">
-       <img src="img/bd.jpg" alt="Blood Donor" style="position: relative;top: 5px;width: 90px;height: 40px;">
-       <span class="clr2">Join</span> - <span class="clr1">"MTCT Blood Donors Guild"</span> - <span class="clr2">Donate blood to the needy in your area</span> <span class="whole"><a href="https://www.motherteresacharities.org/blood-donation.php" title="Click Here"> - Join Now.</a>
-       </span> - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-       
-       <span class="whole2">
-       Join As Member / Office Bearer in Mother Teresa Forum and serve the society.&nbsp; - </span>
-       <span class="whole"><a href="member.php">Join Now.</a>
-       </span>
-    </span></marquee>
+        - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="whole5">
+        Mother Teresa Forum a new initiative .&nbsp; - </span>
+        <span class="whole"><a href="pdf/Mother Teresa forum a new initiative.pdf">view....</a>
+        </span>
+          
+        <span class="whole2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Chennai - Mission 200"</span>
+        <span class="clr2">
+        <a href="pdf/chennaimission.pdf" target="_blank" style="color:blue !important">- For details Click.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </span>   
+        
+        <span class="whole5">
+        "For a better cause, for a better world" - </span>
+        <span class="whole"><a href="pdf/Schemes.pdf" target="_blank">Support Us.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </span>
+        
+        <span class="whole4" style="">
+        <img src="img/bd.jpg" alt="Blood Donor" style="position: relative;top: 5px;width: 90px;height: 40px;">
+        <span class="clr2">Join</span> - <span class="clr1">"MTCT Blood Donors Guild"</span> - <span class="clr2">Donate blood to the needy in your area</span> <span class="whole"><a href="https://www.motherteresacharities.org/blood-donation.php" title="Click Here"> - Join Now.</a>
+        </span> - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+        
+        <span class="whole2">
+        Join As Member / Office Bearer in Mother Teresa Forum and serve the society.&nbsp; - </span>
+        <span class="whole"><a href="member.php">Join Now.</a>
+        </span>
+      </span></marquee>
+    </div>
+  <div class="row no-gutters d-flex align-items-center">
+    <div class="col-lg-3 appoinments-marquee">
+      <div class="">
+        <p class="text-center p-2">Mother Teresa Forum-New Appoinments:</p>
+      </div>
+    </div>
+    <div class="col-lg-9">
+    <marquee scrollamount="8" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
+      <span class="clr2"> Shri. M. Sugumaran, M.A., President, Trichy Managar, @+919363134611 </span>
+      <span class="clr1"> Dr.P. Kathir Muthukumar, BHMS., General Secretary, Trichy Managar @+919442598557</span>
+      <span class="whole2"> Shri. P. Poonsekaran, D.Pharm., Vice President, Trichy Managar @+919943165576</span>
+      <span class="clr2"> Shri. Mr. K. Diwakar,M.Com., Vice President, Trichy Managar, @+919629023330</span>
+      <span class="clr1"> Mr. R. Jeyakarthikeyan, B.Sc., LLB., Vice President, Trichy Managar @+919442598557</span>
+      <span class="whole2"> Shri.Mr. M. Ramamurthy, B.Sc., Secretary, Trichy Managar @+918601577407</span>
+    </marquee>
+    </div>
   </div>
-</div>
 </section>
 <section>
+  <div class="container">
+    <div class="row mt-2">
+      <div class="col-lg-6">
+        <h4 class="font-weight-bold text-justify mt-5">
+          WELCOME TO MTCT
+        </h4>
+        <p style="text-align:justify">Nobel Laurate Mother Teresa Charitable Trust (MTCT) is a Social Welfare Organization
+          striving for the upliftment of the poor, down trodden, and under privileged in the society
+          irrespective of caste, creed or religion in the footsteps of the great Mother Teresa!
+          MTCT is accredited by UNO's Economic Social Council and World Health Organization
+          as a Special Status NGO.</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <div class="welcome-box">
+              <p>MTCT UNDER TAKES CSR Activities</p>
+              <p>Govt of India CSR Reg.No.</p>
+              <p>CSR00002270</p>
+              <p>TN.Govt.CSR No. NAI-07049</p>
+              <p>For CSR execution Contact :</p>
+              <p>mtct1997@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex flex-column align-items-center my-4">
+            <div class="text-center">
+              <button class="btn btn-lg btn-primary"><i class="fa-solid fa-circle-dollar-to-slot mr-2"></i>DONATE</button>
+            </div>
+            <div class="d-flex justify-content-around align-items-center my-4">
+              <button class="btn btn-success"><i class="fa-solid fa-globe mr-2"></i>ONLINE</button>
+              <button class="btn btn-danger ml-1"><i class="fa-solid fa-building-columns mr-2"></i>Thro BANK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container about-mtct">
+    <div class="row mt-5">
+      <div class="col-lg-7 about">
+        <div>
+          <h4 class="font-weight-bold text-justify">ABOUT MTCT</h4>
+            <p>Mother Teresa Charitable Trust (MTCT)'s history starts with the story of compassion.
+              The mammoth crowd that followed the adieu procession of the legend Mother Teresa,
+                Dr.G.K.Dhas, a kind hearted social activist took up mother-teresathe challenge of being
+                and working for the poor. From this simple, yet heart breaking incident, 
+                brought the determination that, to take the mantle of Mother Teresa, that 
+                "Service to Mankind is Service to God". The inspiration which helped to create 
+                "Mother Teresa Charitable Trust" is being carried out all these years. 
+                We took the initiative with the vision that "No one shall be deprived of the basic needs". 
+                The overwhelming response from the general public is the impetus for the growth of Mother 
+                Teresa Charitable Trust. Now Mother Teresa Charitable Trust functions as a social relief 
+                NGO striving for the upliftment of poor, sick, downtrodden and the under privileged. 
+                The vision of the Mother Teresa Charitable Trust is to spread the ideals of Mother 
+                Teresa and motivate the younger generation to render service to the less fortunate. 
+                Its sub unit "Mother Teresa Forum" enrolls members and forms committees at national state, 
+                district, taluk and village levels. Mother Teresa Charitable Trust serves with the motto of 
+                "Service to Humanity". With the partnership of Government & various State governments, 
+                as well as the generosity of thousands of our supporters, we have grown from a small 
+                endeavor to a mammoth force that stretches across the wide chemesphere . 
+                All these years MTCT serve the under privileged and the needy to transform a vision into a reality. Our fight will continue till the last breath of a suffering mass.</p>
+      </div>
+      </div>
+      <div class="col-lg-5 d-flex">
+        <div class="about-Voicing px-4" style="box-shadow: 0 .1rem 2rem rgba(0, 0, 0, .15) !important;">
+          <div class="Voicing-head mt-3 mb-3">
+            <p>"Voicing for the Voiceless"</p>
+            <p>"Our Activities at a glance"</p>
+          </div>
+          <p class="mt-5">Hearty Greetings from, 
+            <b>Nobel Laureate Mother Teresa Charitable Trust (MTCT), a special status NGO of UNO?s Economic Social Council (ECOSOC) and World Health Organisation (WHO).</b>
+             Started on 5th September 1997, on the day of demise of the great Mother Teresa the charity of love and service, our execution wing, namely Mother Teresa Forum is spread over in various states of India, with National, State, District, Zonal, Village / Ward level committees, implementing various projects for the welfare of the downtrodden and underprivileged people in the society, irrespective of caste, creed, or religion. . Our mission is to have a hunger less world, a Peaceful globe, and an eco-friendly earth, to empower and create a holistic community.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section>
   <div class="container mt-5">
     <div class="text-center">
       <div class="float-sm-left wecome-content mb-3 mr-sm-3">
@@ -88,12 +184,12 @@
       <p style="text-align: justify;">Mother Teresa Charitable Trust (MTCT)'s history starts with the story of compassion. The mammoth crowd that followed the adieu procession of the legend Mother Teresa, Dr.G.K.Dhas, a kind hearted social activist took up the challenge of being and working for the poor. From this simple, yet heart breaking incident, brought the determination that, to take the mantle of Mother Teresa, that "Service to Mankind is Service to God". The inspiration which helped to create "Mother Teresa Charitable Trust" is being carried out all these years. We took the initiative with the vision that "No one shall be deprived of the basic needs". The overwhelming response from the general public is the impetus for the growth of Mother Teresa Charitable Trust. Now Mother Teresa Charitable Trust functions as a social relief NGO striving for the upliftment of poor, sick, downtrodden and the under privileged. The vision of the Mother Teresa Charitable Trust is to spread the ideals of Mother Teresa and motivate the younger generation to render service to the less fortunate. Its sub unit "Mother Teresa Forum" enrolls members and forms committees at national state, district, taluk and village levels. Mother Teresa Charitable Trust serves with the motto of "Service to Humanity". With the partnership of Government & various State governments, as well as the generosity of thousands of our supporters, we have grown from a small endeavor to a mammoth force that stretches across the wide chemesphere . All these years MTCT serve the under privileged and the needy to transform a vision into a reality. Our fight will continue till the last breath of a suffering mass.</a> </p>
     </div>
   </div>
-</section>
-  <section class="p-40px">
+</section> -->
+  <!-- <section class="p-40px">
       <div class="container">
         <div class="about">
             <div class="row no-gutters">
-              <!-- <div class="col-md-6 left-content mtct-about" >
+              <div class="col-md-6 left-content mtct-about" >
                   <div class="mask"> 
                     <h2>WELCOME TO MTCT</h2>   
                     <p>Nobel Laurate Mother Teresa Charitable Trust (MTCT) is a Social Welfare Organization
@@ -109,7 +205,7 @@
                       For CSR execution Contact : mtct1997@gmail.com
                     </p>
                 </div>
-              </div> -->
+              </div>
               <div class="col-md-12 right-content">
                 <div class="bottotop" style="margin-top:10px;">
                     <h2 class="text-center">Mother Teresa Forum-New Appoinments:</h2>
@@ -132,16 +228,16 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="col-md-12 right-content">
+              <div class="col-md-12 right-content">
                   <div class="mt-5 p-4 about-right cs-head">
                     <h2 class="wow fadeInUp">ABOUT<span class="cus-color1"> MTCT</span></h2>
                     <p style="text-align: justify;">Mother Teresa Charitable Trust (MTCT)'s history starts with the story of compassion. The mammoth crowd that followed the adieu procession of the legend Mother Teresa, Dr.G.K.Dhas, a kind hearted social activist took up the challenge of being and working for the poor. From this simple, yet heart breaking incident, brought the determination that, to take the mantle of Mother Teresa, that "Service to Mankind is Service to God". The inspiration which helped to create "Mother Teresa Charitable Trust" is being carried out all these years. We took the initiative with the vision that "No one shall be deprived of the basic needs". The overwhelming response from the general public is the impetus for the growth of Mother Teresa Charitable Trust. Now Mother Teresa Charitable Trust functions as a social relief NGO striving for the upliftment of poor, sick, downtrodden and the under privileged. The vision of the Mother Teresa Charitable Trust is to spread the ideals of Mother Teresa and motivate the younger generation to render service to the less fortunate. Its sub unit "Mother Teresa Forum" enrolls members and forms committees at national state, district, taluk and village levels. Mother Teresa Charitable Trust serves with the motto of "Service to Humanity". With the partnership of Government & various State governments, as well as the generosity of thousands of our supporters, we have grown from a small endeavor to a mammoth force that stretches across the wide chemesphere . All these years MTCT serve the under privileged and the needy to transform a vision into a reality. Our fight will continue till the last breath of a suffering mass.</a> </p>
                   </div>
-              </div> -->
+              </div>
         </div>
       </div>
-  </section>
-  <section class="voice-over p-40px">
+  </section> -->
+  <!-- <section class="voice-over p-40px">
     <div class="container bottom-content">
       <div class="voice-area">
           <div class="voice-box">
@@ -161,13 +257,13 @@
           </div>
           
           <div class="voice-round">
-            <!-- <a href="https://validation.cafamerica.org/c85f070b-92a1-4ee8-bc2d-45237d2144af#gs.uj3xa1"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/71476702" alt="CAF BADGE" style="box-shadow: 0 4px 8px 0 rgb(106 106 106), 0 6px 20px 0 rgb(225 225 225);border-radius: 160px;width: 21%;margin: -15px 423px;">
-            </a> -->
+            <a href="https://validation.cafamerica.org/c85f070b-92a1-4ee8-bc2d-45237d2144af#gs.uj3xa1"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/71476702" alt="CAF BADGE" style="box-shadow: 0 4px 8px 0 rgb(106 106 106), 0 6px 20px 0 rgb(225 225 225);border-radius: 160px;width: 21%;margin: -15px 423px;">
+            </a>
           </div>
       </div>
     </div>
-  </section>
-  <section id="recent-works" class="p-40px">
+  </section> -->
+  <section id="recent-works" class="p-40px mt-5">
     <div class="container">
     <div class="row wow fadeInRight">
         <div class="col-md-12 left-content">
@@ -176,7 +272,7 @@
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Service to Society</a></li>
                     <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Activities</a></li>
-                     <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Short Profile</a></li>
+                     <!-- <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Short Profile</a></li> -->
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content tabs">
@@ -220,6 +316,112 @@
 </div>
         
     </section>
+    <section id="conatcat-info" class="p-40px">
+      <div class="container">
+        <center><h2 style="color:#bd008a; font-size: 26px !important;">Donation for Medical and Educational Help </h2></center><br>
+        <div class="col-sm-12 widget_area"> 
+              
+            <style> 
+            button[type=button], input[type=submit], input[type=reset] {
+                background-color: #fff;
+                border: none;
+                border: 1px solid #02007c;
+                color: #02007c;
+                font-size: 20px !important;
+                outline: none;
+                padding: 18px 23px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 8px;
+            }
+            
+            /*.button1:hover {
+              background-color: #a3024a;
+              color: white;
+            }*/
+            </style>
+            
+            
+            
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/gtiAz3HpY';"> <i class="fa fa-rupee"></i>100</button>
+            
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/8fxkxC7N';"> <i class="fa fa-rupee"></i>200</button>
+            
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/nLKsaeFWiG';"> <i class="fa fa-rupee"></i>500</button>
+            
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/P2tOI1RID';"> <i class="fa fa-rupee"></i>1000</button>
+            
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/sI8HC9Pslx';"> <i class="fa fa-rupee"></i>2000</button>
+            
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/R55VE26y';"> <i class="fa fa-rupee"></i>5000</button>
+            
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/sTAgTTI3';"> <i class="fa fa-rupee"></i>10000</button>
+            
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/m8kAQWlY';"> <i class="fa fa-rupee"></i>20000</button>
+            
+                      
+            <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/zTuynghL';"> <i class="fa fa-rupee"></i>50000</button>
+                    
+
+        </div>  
+        <h2 style="font-size:18px;text-align-last: center;">(Choose any of the following Columns) </h2>
+        <p class="mt-5 h4 text-center text-white">Donation for Medical and Educational Help (International)</p>
+        <div class="text-center mt-3">
+          <button class="btn btn-light btn-lg">Donate Now</button>
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="short-profile">
+      <div class="container">
+      <div class="short-profile-card">
+        <h5 class="text-center my-3 title">Mother Teresa Charitable Trust - A SHORT PROFILE</h5>
+        <div class="mt-4">
+          <p>Mother Teresa who devoted her life for the service of the poor, downtrodden, under privileged and destitute is an epitome of self-assured simplicity. She rendered whole hearted service to the needy in the society. She spread love and compassion throughout the world and brought relief and hope to the children, the destitute, the sick and the dying. 
+          She left a testament of unshakable faith, invincible hope and extraordinary charity as a mother of the poor. She became a living symbol of compassion to the world, and a living witness to the thirsting love. Mother Teresa's work has been recognized and acclaimed throughout the world. The scope of her work also expands to include orphanages, shelters to the elderly and hospices for the poor.
+          Moved by the emotional outburst worldwide on the last rite procession of Mother Teresa on 5th September 1997, Shri.G.K.Dhas the patron founded the organization Nobel Laureate Mother Teresa Charitable Trust (MTCT). Ever since its formation, the trust has been carrying out the activities of serving the poor and the downtrodden in the society, the torch of service left by the Angel of Mercy... <span class="text-primary font-weight-bold" onclick="shortProfile()">More</span></p>
+          <div id="short-profile-more">
+            <p>Mother Teresa Charitable Trust is a humanitarian development and social relief NGO striving for the upliftment of the poor and downtrodden irrespective of caste, creed or religion. It is a secular, apolitical and non-profit organization that came into existence with a mission to serve the poorest of the poor by the inspiration derived from the life and service of Mother Teresa. Mother Teresa Forum (MTF) the sub unit of Mother Teresa Charitable Trust has operations throughout the Indian sub-continent. MTF has seen commendable growth during the recent years, and we see many passionate youngsters coming forward and joining us in this long journey of serving the poor.</p>
+            <h6>MOTHER TERESA FORUM (MTF):</h6>
+            <p>Mother Teresa Forum is an execution wing of the trust which enrols members from the general public irrespective of caste, creed, religion or political affiliation free of cost.form committees in their respective areas, (National, State, District, Zonal, Village) and render service, to the needy and underprivileged in the society. We motivate younger generation especially the student folks, youth, corporate employees to render service to the society. It focuses
+                on conducting events in their respective areas to enrich knowledge on communication skill, leadership qualities, hygiene, moral studies and employment opportunities.</p>
+            <h6>ENROLMENT OF MEMBERS:</h6>
+            <p>Any person, male or female, youth, student or general public can join Mother Teresa Forum (MTF) free of cost and hold positions at the National / State / District / Zonal / Village levels.</p>
+            <h6>OUR VISION:</h6>
+            <p>To motivate the future generation to render service and sow the seed of love throughout the world under the footsteps of Mother Teresa, irrespective of caste, creed, religion or political affiliation.</p>
+            <h6>OUR MISSION:</h6>
+            <p>To achieve sustained social and economic changes in the community we serve, fulfilling hallow areas that are poorly addressed, excellence in community service through up gradation of skills, effective participation of its volunteers making use of state of the art technology.</p>
+            <h6>EDUCATION:</h6>
+            <p>In India forty million children do not attend primary school. Only one-third of all children complete their mandatory 8 years of education. Education is one of the most important factors in the alleviation of poverty in India and is one of the most precious gift one can give to a child.</p>
+            <p>Mother Teresa Charitable Trust strives hard to break the barriers towards acquisition of education for the deprived & underprivileged section. Children are the future pillars of our nation and irrespective of the socio-economic background every child has the right to education.</p>
+            <p>Mother Teresa Charitable Trust provides free school books / notes / bags and educational scholarships and assistance to the poor school going children. We conduct evening tuition centers in various parts of India. School going poor children come to these centers where they will be trained in their own academics and other extracurricular activities. We provide regular counseling and motivate children to pursue higher education.</p>
+            <h6>SKILL DEVELOPMENT TRAINING :</h6>
+            <p>India is expected to be home to a skilled workforce of 500 million by 2022. About 12 million persons are expected to join the workforce every year. The good news is that India has one of the youngest populations in the world, a trend that is expected to continue until 2040. This presents the country with a unique opportunity to complement what an ageing world needs the most and that is a large pool of productive workers. India has the potential to become a powerhouse with the population set to rise to 1.3 billion by 2020, out of which 60% are in the working age of (15-59 years). Only 10% of the total workforce in the country receives some kind of skill training (2% with formal training and 8% with informal training). Further, 80% of the entrants into the workforce do not have the opportunity for skill training. Realizing the skill gap in our country and to empower the marginalized section of the society, MTCT has its skill development programs.</p>
+            <p>Mother Teresa Charitable Trust train young boys and girls in technical skills and handicrafts by which many students have benefited and their lives empowered after learning the crafts of tailoring, techniques in computers and tactics of food processing. We run free computer centers in several parts of Tamil Nadu and Maharashtra and free tailoring classes in Andhra Pradesh and Tamil Nadu. This project seeks to promote employment to young unemployed women, which incorporates three aspects namely skill imparting, entrepreneurship development and marketing, through a well-defined curriculum and schedule. Follow up of youths for successful placement after completing courses also forms a very vital part of the project. MTCT also conducted Govt. of India sponsored EDP Programs from Ministry of Food Processing Industries by which more than 300 young entrepreneurs have benefited.</p>
+            <h6>HEALTH & HYGINE:</h6>
+            <p>Unlike cities, adequate and good quality medical facilities are not available in the rural areas. Tie-ups with government and private hospitals are sought and health camps are organized from time to time. Health awareness camps and health education classes are conducted on a regular basis for urban and rural people. World Health Organization (WHO) sponsored "Anti-Tobacco Programs" in Puducherry , Karaikal and Andaman Nicobar Islands for students, general public and Govt officials to create awareness on the ill-effects of tobacco consumption, was conducted by the trust. MTCT also conducts regular health check-up camps for the students and the general public. The focus is on early detection and prevention. Students are educated on hygiene parameters. This also helps in sensitizing the public about healthy lifestyles. Blood donation Camps, Eye Camps, Dental camps, and other Health programs are conducted at regular intervals in different places.</p>
+            <h6>FREE AMBULANCE SERVICE:</h6>
+            <p>Our free ambulance service is being operated in collaboration with the CSI Medical Mission Hospital, Neyyoor , Kanyakumari District .It is being used for Mobile cancer detection camps in Tamil Nadu.</p>
+            <h6>MTCT BLOOD DONORS GUILD :</h6>
+            <p>Mother Teresa Charitable Trust has launched a "MTCT Blood Donors Guild" where donors can register their details and willingness to donate blood in our portal, www.mtct.info, www.motherteresacharities.org. While patients who are in need of blood can log on to our sites to find out donors and can directly contact the donors and get benefited throughout the nation.</p>
+            <h6>COMMUNITY DEVELOPMENT:</h6>
+            <p>As part of the Rural Development Projects, a multidimensional approach is adopted and an integrated development strategy is followed. Integrated Community Development programs are being run in several areas in the suburbs focusing on education, health care, vocational training, women empowerment, housing and community mobilization bringing an impact on the lives of the poor and the needy in the rural areas MOTHER TERESA AUTO DRIVERS WELFARE ASSOCIATION: Mother Teresa Auto Drivers Welfare Association, another unit of MTCT holds auto/taxi drivers as members and works with them for their prosperity and advocate them to have better relations with the general public.</p>
+            <h6>OTHER KEY FUNTIONAL AREAS:</h6>
+            <p>Housing for the poor , Natural Calamities relief activities , Women Empowerment , Rehabilitation of the Handicapped , Social up-liftment through Quality education , Training for Self employment for the youth , Campaign against violation of Human Rights , Supporting the Chronically ill , Setting up and running handicraft centre , Income generation projects , Micro financing projects , Self help groups , Agricultural activities , Maintenance of schools , Conducting adult literacy programs , Welfare for aged and widows , Welfare of orphans , Welfare and empowerment of women and children , Provision of free clothing and food to the poor , needy and destitute , Providing legal awareness , Holding sports meet , Environmental awareness etc.</p>
+            <h6>CSR ACTIVITIES:</h6>
+            <p>Building a society which provides equal access to opportunities negates disparities and, is a collective responsibility. The CSR Act presents a unique opportunity to stand up to the challenge. It is a call for action .We work along with , DOW Chemical's International Pvt Ltd in several CSR projects. Besides we also work jointly with several reputed social welfare organisation like , Swiss India Trust , Seesha , Parvatham Trust (Rajalakshmi Group of institutions). Partners and supporters who helped us in our long journey of serving the poor are , JKK Rangammal Charitable Trust , Annai Velankanni Group of Institutions , Kumaraguru College of Technology , Bhramos Aerospace , TVS Motor Company , Star Health Insurance , LIC of India , LIC Housing , Chennai Kamarajar Port , Indian Overseas Bank , Indian Bank , Water Systems India Pvt. Ltd. , Annam steels , RA & Co , Venkateeswara Hardwares , Accel Frontline , Suguna Water Pumps and kind hearted philanthrophists etc.</p>
+            <p>Let us join together to build a more matured and immaculate society and build a Nation of good will, love and affection spread by the great Mother Teresa to the universe.</p>
+            <div class="d-flex align-items-end flex-column">
+              <p class="text-danger text-end">"Service to Mankind is Service to God"</p>
+              <p>- Mother Teresa -</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
      <section class="mobile-view goals">
     <div class="container right-content">
 
@@ -393,57 +595,7 @@
             </script>
     </div>
   </section>
-  <section id="conatcat-info" class="p-40px">
-        <div class="container">
-      <center><h2 style="color:#bd008a; font-size: 26px !important;">Donation for Medical and Educational Help </h2></center><br>
-      <div class="col-sm-12 widget_area"> 
-            
-          <style> 
-          button[type=button], input[type=submit], input[type=reset] {
-              background-color: #fff;
-              border: none;
-              border: 1px solid #02007c;
-              color: #02007c;
-              font-size: 20px !important;
-              outline: none;
-              padding: 18px 23px;
-              text-decoration: none;
-              margin: 4px 2px;
-              cursor: pointer;
-              border-radius: 8px;
-          }
-          
-          /*.button1:hover {
-            background-color: #a3024a;
-            color: white;
-          }*/
-          </style>
-          
-          
-          
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/gtiAz3HpY';"> <i class="fa fa-rupee"></i>100</button>
-          
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/8fxkxC7N';"> <i class="fa fa-rupee"></i>200</button>
-          
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/nLKsaeFWiG';"> <i class="fa fa-rupee"></i>500</button>
-          
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/P2tOI1RID';"> <i class="fa fa-rupee"></i>1000</button>
-          
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/sI8HC9Pslx';"> <i class="fa fa-rupee"></i>2000</button>
-          
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/R55VE26y';"> <i class="fa fa-rupee"></i>5000</button>
-          
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/sTAgTTI3';"> <i class="fa fa-rupee"></i>10000</button>
-          
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/m8kAQWlY';"> <i class="fa fa-rupee"></i>20000</button>
-          
-                    
-          <button type="button" class="button1" style="font-size:24px" title="Donate Now" onclick="location.href='https://rzp.io/i/zTuynghL';"> <i class="fa fa-rupee"></i>50000</button>
-                  
 
-      <!-- </div>  <h2 style="font-size:18px;text-align-last: center;">(Choose any of the following Columns) </h2> -->
-    </div>
-  </section>
 
   <section id="current-info" class="p-40px">
       <div class="container">
@@ -613,5 +765,17 @@
       </div>
   </section>
   <?php include_once("master/footer.php"); ?>
+  <script>
+      shortProfile = () =>{
+        element = document.getElementById('short-profile-more');
+        console.log(element.style.display)
+        if(element.style.display === 'none' || element.style.display === ''){
+          element.style.display = 'block';
+        }
+        else{
+          element.style.display = 'none';
+        }
+      }
+    </script>
  </body>
 </html>
