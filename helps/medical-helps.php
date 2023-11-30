@@ -45,7 +45,7 @@ $medicalHelps = $metaDetails->getHelpRequest(2);
                                     </tr>
                                     <tr>
                                         <td class="p-2">Amount Requested</td>
-                                        <td class="p-2">&nbsp;<?php echo $value->requestor_amount; ?></td>
+                                        <td class="p-2">&nbsp;<i class="fa fa-inr"></i>&nbsp;<?php echo number_format($value->requestor_amount); ?></td>
                                     </tr>
                                     <tr class="d-sm-none">
                                         <td class="p-2">Treatment in</td>

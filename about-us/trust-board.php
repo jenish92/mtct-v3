@@ -46,7 +46,7 @@
     <div class="row">
         <div class="col-lg-9 mt-5">
             <div class="content-area">
-                <p class="mt-5 mb-3 display-4 content-heading">Trust Board</p>
+                <h2 class="text-center">Trust <span class="cus-color1">Board</span></h2>
                 <p>A trustee is a person who is allowed to do certain tasks but not able to gain income on the board of
                     trustees of an institution that operates for a charity, for the benefit of the general public, A trustee is
                     bound to act in accordance with the terms of the trusts upon which he or she holds trust property. The

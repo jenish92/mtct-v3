@@ -737,7 +737,134 @@
   </div>
   </div>
   </section>
-  <section class="partners">
+  
+
+
+
+<section id="medical-educational-helps" class="mt-3 pt-3 mobile-view">
+
+
+<div class="container">
+       
+            <div class="center wow fadeInDown pt-3 pb-3" style="visibility: visible;">
+                <h2><input type="radio" name="mtct_helps" id="medical_help_button" class="" value="medical" onclick="javascript:yesnoCheck();" checked>   Medical <span class="cus-color1">Helps</span> <input type="radio" name="mtct_helps" id="educational_help_button" class="" value="educational" onclick="javascript:yesnoCheck();">   Educational <span class="cus-color1">Helps</span></h2>
+            </div>
+    <div id="medical_help_home">
+             <div class="row mt-3">
+             <?php $medicalHelps = $metaDetails->getHelpRequest(2,4); 
+             
+             foreach (json_decode($medicalHelps) as $key => $value) {
+                 
+            ?>
+             <div class="col-12 col-md-4 col-lg-3">
+        <div class="card shadow p-3 mb-5 bg-body rounded" style="height: 68vh;">
+            <div class="">
+  <img src="<?php echo BASE_URL . "img/helps/" . $value->requestor_photo; ?>" class="card-img-top" alt="..." style="height:200px">
+            </div>
+  <div class="card-body">
+    <h5 class="card-title"><?php echo $value->requestor_name. " (".$value->requestor_age . " / " . $value->requestor_gender.")"; ?></h5>           
+         </div>   
+             <ul class="list-group list-group-flush text-center">
+    <li class="list-group-item"><b>Nature of Ailment </b><br> <?php echo $value->requestor_ailment; ?><br></li>
+    <li class="list-group-item"><b>Amount Requested </b><br><i class="fa fa-inr"></i> <?php echo number_format($value->requestor_amount); ?></li>
+    
+  </ul>
+<!--
+      
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+-->
+            
+                 </div> 
+
+                 </div>
+             <?php } ?>
+                 <div class="container">
+  <div class="row">
+    <div class="col text-center">
+                 
+          <a href="donation/"><button class="btn btn-lg btn-primary"><i class="fa-solid fa-circle-dollar-to-slot mr-2"></i>DONATE</button></a>
+        
+                 
+                 
+          <a href="helps/medical-helps.php"><button class="btn btn-lg btn-primary ml-3"><i class="fa-solid fa-eye mr-2"></i>View More</button></a>
+        </div
+                     
+                     </div>
+                     
+                     </div>
+                 </div>
+ </div>
+        </div>
+    <div id="educational_help_home">
+                 <div class="row mt-3" id="educational_help_home">
+             <?php $educationalHelps = $metaDetails->getHelpRequest(1,4); 
+             
+             foreach (json_decode($educationalHelps) as $key => $value) {
+                 
+            ?>
+             <div class="col-12 col-md-4 col-lg-3">
+        <div class="card shadow p-3 mb-5 bg-body rounded" style="height: 75vh;">
+            <div class="">
+  <img src="<?php echo BASE_URL . "img/helps/" . $value->requestor_photo; ?>" class="card-img-top" alt="..." style="height:200px">
+            </div>
+  <div class="card-body">
+    <h5 class="card-title"><?php echo $value->requestor_name. " (".$value->requestor_age . " / " . $value->requestor_gender.")"; ?></h5>           
+         </div>   
+             <ul class="list-group list-group-flush text-center">
+    <li class="list-group-item"><b>Education </b><br> <?php echo $value->requestor_place; ?><br></li>
+    <li class="list-group-item"><b>Amount Requested </b><br><i class="fa fa-inr"></i> <?php echo number_format($value->requestor_amount); ?></li>
+    
+  </ul>
+      
+<!--
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+-->
+            
+                 </div> 
+
+                 </div>
+             <?php } ?>
+                 </div>
+        
+        <div class="container">
+  <div class="row">
+    <div class="col text-center">
+                 
+          <a href="donation/"><button class="btn btn-lg btn-primary"><i class="fa-solid fa-circle-dollar-to-slot mr-2"></i>DONATE</button></a>
+        
+                 
+                 
+          <a href="helps/education-helps.php"><button class="btn btn-lg btn-primary ml-3"><i class="fa-solid fa-eye mr-2"></i>View More</button></a>
+        </div
+                     
+                     </div>
+                     
+                     </div>
+                 </div>
+    </div>
+    
+    
+</div>
+</section>
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+<section class="partners mt-3">
     <div class="containers left-content">
       <div class="get-started center wow fadeInDown" style="visibility: visible;">
           <div class="center wow fadeInDown" style="visibility: visible;">
@@ -766,6 +893,9 @@
   </section>
   <?php include_once("master/footer.php"); ?>
   <script>
+      
+      document.getElementById('medical_help_home').style.display = 'block';
+        document.getElementById('educational_help_home').style.display = 'none';
       shortProfile = () =>{
         element = document.getElementById('short-profile-more');
         console.log(element.style.display)
@@ -776,6 +906,19 @@
           element.style.display = 'none';
         }
       }
+      
+   yesnoCheck = () => {
+    if (document.getElementById('medical_help_button').checked) {
+        document.getElementById('medical_help_home').style.display = 'block';
+        document.getElementById('educational_help_home').style.display = 'none';
+    }
+    else {
+        document.getElementById('medical_help_home').style.display = 'none';
+        document.getElementById('educational_help_home').style.display = 'block';
+    }
+}
+      
+      
     </script>
  </body>
 </html>

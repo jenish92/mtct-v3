@@ -367,15 +367,15 @@ class Mtct{
     mail($reciever_email, $subject, $mail_content, $headers);
     }
     
-    public function getHelpRequest($help_for){
+    public function getHelpRequest($help_for, $res_limit = 100){
         $this->dbConnection();
         switch($help_for){
             case 1:
-                $sql = "SELECT hr.requestor_name,hr.requestor_age,hr.requestor_gender,ed.requestor_education,ed.requestor_place,hr.requestor_amount,hr.requestor_background,hr.requestor_profile,hr.requestor_photo FROM mtct_help_requested as hr INNER JOIN mtct_education_help as ed ON hr.id = ed.requestor_id WHERE hr.active = 1 AND hr.request_for = $help_for LIMIT 100";
+                $sql = "SELECT hr.requestor_name,hr.requestor_age,hr.requestor_gender,ed.requestor_education,ed.requestor_place,hr.requestor_amount,hr.requestor_background,hr.requestor_profile,hr.requestor_photo FROM mtct_help_requested as hr INNER JOIN mtct_education_help as ed ON hr.id = ed.requestor_id WHERE hr.active = 1 AND hr.request_for = $help_for LIMIT $res_limit";
                 break;
                 
             case 2:
-                $sql = "SELECT hr.requestor_name,hr.requestor_age,hr.requestor_gender,md.requestor_place,md.requestor_ailment,md.treatment_in,hr.requestor_amount,hr.requestor_background,hr.requestor_profile,hr.requestor_photo FROM mtct_help_requested as hr INNER JOIN mtct_medical_help as md ON hr.id = md.requestor_id WHERE hr.active = 1 AND hr.request_for = $help_for LIMIT 100";
+                $sql = "SELECT hr.requestor_name,hr.requestor_age,hr.requestor_gender,md.requestor_place,md.requestor_ailment,md.treatment_in,hr.requestor_amount,hr.requestor_background,hr.requestor_profile,hr.requestor_photo FROM mtct_help_requested as hr INNER JOIN mtct_medical_help as md ON hr.id = md.requestor_id WHERE hr.active = 1 AND hr.request_for = $help_for LIMIT $res_limit";
                 break;
                 
             default:
