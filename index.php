@@ -747,7 +747,7 @@
 <div class="container">
        
             <div class="center wow fadeInDown pt-3 pb-3" style="visibility: visible;">
-                <h2><input type="radio" name="mtct_helps" id="medical_help_button" class="" value="medical" onclick="javascript:yesnoCheck();" checked>   Medical <span class="cus-color1">Helps</span> <input type="radio" name="mtct_helps" id="educational_help_button" class="" value="educational" onclick="javascript:yesnoCheck();">   Educational <span class="cus-color1">Helps</span></h2>
+                <h2>Medical <span class="cus-color1">Helps</span></h2>
             </div>
     <div id="medical_help_home">
              <div class="row mt-3">
@@ -798,7 +798,23 @@
                  </div>
  </div>
         </div>
-    <div id="educational_help_home">
+    
+    </div>
+    
+    </section>
+    
+    <section id="medical-educational-helps" class="mt-3 pt-3 mobile-view">
+
+
+<div class="container">
+       
+            <div class="center wow fadeInDown pt-3 pb-3" style="visibility: visible;">
+                <h2>Educational <span class="cus-color1">Helps</span></h2>
+            </div>
+        
+        
+        
+        <div id="educational_help_home">
                  <div class="row mt-3" id="educational_help_home">
              <?php $educationalHelps = $metaDetails->getHelpRequest(1,4); 
              
@@ -894,8 +910,7 @@
   <?php include_once("master/footer.php"); ?>
   <script>
       
-      document.getElementById('medical_help_home').style.display = 'block';
-        document.getElementById('educational_help_home').style.display = 'none';
+      
       shortProfile = () =>{
         element = document.getElementById('short-profile-more');
         console.log(element.style.display)
