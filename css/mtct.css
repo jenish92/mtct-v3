@@ -894,3 +894,135 @@ button[type=button] {
 .content-data .menber-card:hover .member-details{
   background-color: #ffffff;
 }
+
+ .comitee {
+        margin-left: 10px;
+        margin-top: 1rem;
+        box-shadow: 11px 4px 30px -7px rgba(144, 166, 173, 0.6);
+        -webkit-box-shadow: 11px 4px 30px -7px rgba(144, 166, 173, 0.6);
+        -moz-box-shadow: 11px 4px 30px -7px rgba(144, 166, 173, 0.6);
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+/*
+        height: 125vh;
+        overflow: auto;
+*/
+    }
+
+    .comitee p {
+        font-size: 22px;
+    }
+
+    .comitee .district p {
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 2rem;
+        font-weight: 600;
+    }
+
+    .comitee .district hr {
+        margin-top: 0;
+    }
+
+    .comitee .district .district-option {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comitee .district .district-option input[type="checkbox"] {
+        margin-left: 1rem;
+        margin-block: 7px;
+        cursor: pointer;
+    }
+
+    .comitee .district .district-option label {
+        cursor: pointer;
+    }
+
+    .comitee .district .district-option label:hover {
+        color: rgb(9, 95, 134);
+    }
+
+    .comitee-data {
+        /* margin-top: 3rem; */
+/*
+        height: 125vh;
+        overflow: auto;
+*/
+    }
+
+    .comitee-head {
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: 23px;
+    }
+
+    .comitee-data .comitee-data-card {
+        box-shadow: 2px 2px 19px -1px rgba(144, 166, 173, 0.6);
+        -webkit-box-shadow: 2px 2px 19px -1px rgba(144, 166, 173, 0.6);
+        -moz-box-shadow: 2px 2px 19px -1px rgba(144, 166, 173, 0.6);
+        padding: 1rem;
+        border-radius: 1rem;
+        margin: 0.5rem;
+    }
+
+    .comitee-data .comitee-data-card:hover {
+        box-shadow: none;
+        border: 1px solid rgb(101, 203, 221);
+        background-color: rgb(216, 250, 255);
+    }
+
+    .comitee-data .comitee-data-card .comitee-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .comitee-data .comitee-data-card .comitee-img img {
+        height: 7rem;
+        border-radius: 1rem;
+    }
+
+    .comitee-data .comitee-data-card .data .name {
+        color: rgb(22, 116, 160);
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .comitee-data .comitee-data-card .data .position {
+        color: rgb(73, 73, 73);
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .comitee-data .comitee-data-card .data .address p {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .comitee-data .comitee-data-card-main {
+        display: none;
+    }
+
+    .comitee-data .comitee-data-card-main.active {
+        display: block;
+    }
+
+    .comitee-sub-head {
+        color: #1674a0;
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 3rem;
+    }
+
+    .comitee .state .state-text {
+        background-color: #1674a0;
+        margin-inline: 1rem;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 2rem;
+    }
