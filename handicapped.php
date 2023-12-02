@@ -1,9 +1,9 @@
 <?php include_once("master/header.php"); ?>
-<div class="container">
+<div class="container-fluid px-lg-5">
    <div class="row pt-5 pb-5">
       <div class="col-lg-9 col-md-9 col-12">
-          <div class="mtct-container">
-         <h2 class="text-center">Chronically<span class="cus-color1"> Ill</span></h2>
+          <div class="">
+         <h2 class="text-center">Handi<span class="cus-color1">capped</span></h2>
          <h6 class="text-center mb-5">
             Not all of us can do great things. But we can do small things with great love.
          </h6>

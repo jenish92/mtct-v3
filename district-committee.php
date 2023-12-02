@@ -8,8 +8,10 @@
         -moz-box-shadow: 11px 4px 30px -7px rgba(144, 166, 173, 0.6);
         padding-bottom: 1rem;
         padding-top: 1rem;
+/*
         height: 125vh;
         overflow: auto;
+*/
     }
 
     .comitee p {
@@ -48,8 +50,10 @@
 
     .comitee-data {
         /* margin-top: 3rem; */
+/*
         height: 125vh;
         overflow: auto;
+*/
     }
 
     .comitee-head {
@@ -897,7 +901,7 @@
             </div>
         </div>
         <div class="col-lg-9 d-lg-block" id="content-pannel">
-            <p class="comitee-head">District Commitee</p>
+            <h2 class="text-center">District <span class="cus-color1">Commitee</span></h2>
             <button class="btn btn-sm btn-primary d-lg-none mb-1" onclick="setOption()">Options</button>
             <div class="px-lg-3 px-3 comitee-data">
                 <div id="state-Tamil-Nadu">

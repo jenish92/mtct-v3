@@ -10,11 +10,11 @@
       border: 1px solid #1cabe2;
    }
 </style>
-<div class="container">
+<div class="container-fluid px-lg-5">
    <div class="row pt-3 pb-5">
       <div class="col-lg-9 col-md-9 col-12">
          <div class="page-header my-4">
-            <h2 class="text-center">Genesis</h2>
+             <h2 class="text-center">Gene<span class="cus-color1">sis</span></h2>
             <p class="text-center">Not all of us can do great things. But we can do small things with great love.</p>
             <hr>
          </div>

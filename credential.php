@@ -1,8 +1,8 @@
 <?php include_once("master/header.php"); ?>
-<div class="container">
+<div class="container-fluid px-lg-5">
    <div class="row pt-5 pb-5">
       <div class="col-lg-9 col-md-9 col-12">
-         <h2 class="text-center">CRE<span class="cus-color1">DENTIALS</span></h2>
+         <h2 class="text-center">Cre<span class="cus-color1">dentials</span></h2>
          <ul class="mtct-list">
             <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a class="accordion-toggle" href="pdf/coin.pdf">
                Release of commemorative coin.

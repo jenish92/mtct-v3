@@ -1,5 +1,5 @@
 <?php include_once("../master/header.php"); ?>
-<div class="container">
+<div class="container-fluid px-lg-5">
     <div class="row pt-5 pb-5">
         <div class="col-12">
             <h2 class="text-center">Governing <span class="cus-color1">Board</span></h2>

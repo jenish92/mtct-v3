@@ -1,6 +1,6 @@
 
   <?php include_once("master/header.php"); ?>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <section class="header-bottom">
       <div class="owl-carousel">
          <div class="item">
@@ -108,7 +108,7 @@
               <button class="btn btn-lg btn-primary"><i class="fa-solid fa-circle-dollar-to-slot mr-2"></i>DONATE</button>
             </div>
             <div class="d-flex justify-content-around align-items-center my-4">
-              <button class="btn btn-success"><i class="fa-solid fa-globe mr-2"></i>ONLINE</button>
+              <button class="btn btn-success"><i class="fa fa-globe mr-2"></i>ONLINE</button>
               <button class="btn btn-danger ml-1"><i class="fa-solid fa-building-columns mr-2"></i>Thro BANK</button>
             </div>
           </div>
@@ -741,7 +741,7 @@
 
 
 
-<section id="medical-educational-helps" class="mt-3 pt-3 mobile-view">
+<section class="mt-3 pt-3 mobile-view">
 
 
 <div class="container">
@@ -802,8 +802,8 @@
     </div>
     
     </section>
-    
-    <section id="medical-educational-helps" class="mt-3 pt-3 mobile-view">
+    <hr>
+    <section class="mt-3 pt-3 mobile-view">
 
 
 <div class="container">

@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-3 col-12">
-            <?php include_once("../master/side-menu.php"); ?>
+            <?php //include_once("../master/side-menu.php"); ?>
         </div>
     </div>
 </div> -->
@@ -104,36 +104,7 @@
             </div>
         </div>
         <div class="col-lg-3">
-            <div class="border my-5 quick-link-panel">
-                <p class="h6 text-center">DONATION</p>
-                <ul>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Online Donation</li>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Through Bank</li>
-                </ul>
-                <p class="h6 text-center">MEMBERSHIP</p>
-                <ul>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Membership Online</li>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Bylaw</li>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Bylaw - Tamil</li>
-                </ul>
-                <p class="h6 text-center">CURRENT PROJECTS</p>
-                <ul>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Free Tailoring Center</li>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Free Computer Center</li>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Free Tuition Center</li>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Free Ambulance Services</li>
-                </ul>
-                <p class="h6 text-center">HELP REQUEST</p>
-                <ul>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Medical Assistance</li>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Educational Assistance</li>
-                </ul>
-                <p class="h6 text-center">BLOOD DONATION</p>
-                <ul>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Donors Registration</li>
-                    <li><i class="fa-solid fa-square-arrow-up-right mr-2"></i>Donors Search</li>
-                </ul>
-            </div>
+            <?php include_once("../master/side-menu.php"); ?>
         </div>
     </div>
 </div>

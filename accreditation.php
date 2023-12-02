@@ -1,9 +1,9 @@
 <?php include_once("master/header.php"); ?>
-<div class="container">
+<div class="container-fluid px-lg-5">
    <div class="row pt-5 pb-5">
       <div class="col-lg-9 col-md-9 col-12">
          <h2 class="text-center">Accreditation<span class="cus-color1"> - Mother Teresa Charitable Trust</span></h2>
-         <p class="text-justify">Accreditation is the process by which a facility becomes officially certified as providing service of a good quality, so that the public can trust in the quality of its services. It will be a very useful and rewarding experience. It made us reflect on our teachings and assessment, challenged us to be self-critical and gave us extremely valuable guidance to improve our experience. It will lead to associate with men of good quality if we esteem our own reputation. It will show the world the quality of the work and assessment, improvement, based on self assessment.It will also enable to judge the quality of the system by the fellow members of the organization</p>
+         <p class="text-justify mb-3">Accreditation is the process by which a facility becomes officially certified as providing service of a good quality, so that the public can trust in the quality of its services. It will be a very useful and rewarding experience. It made us reflect on our teachings and assessment, challenged us to be self-critical and gave us extremely valuable guidance to improve our experience. It will lead to associate with men of good quality if we esteem our own reputation. It will show the world the quality of the work and assessment, improvement, based on self assessment.It will also enable to judge the quality of the system by the fellow members of the organization</p>
          <ul class="mtct-list">
             <li> <a href="#"title="View">
                <i class="fa fa-arrow-right" aria-hidden="true"></i>Special Status NGO by UNO'S<strong>Economic and Social Council.  </strong></a>

@@ -393,7 +393,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a href="<?=$base_url?>donation/">Online Donation</a></li>
                               <li><a href="<?=$base_url?>offline-donate.php">Through Bank</a></li>
-<<<<<<< Updated upstream
+
                             </ul>
                         </li>
                         <li class="dropdown">

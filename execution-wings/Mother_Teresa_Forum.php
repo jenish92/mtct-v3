@@ -1,5 +1,5 @@
 <?php include_once("../master/header.php"); ?>
-<div class="container">
+<div class="container-fluid px-lg-5">
     <div class="row pt-5 pb-5">
         <div class="col-lg-9 col-md-9 col-12">
             <h2 class="text-center">Mother Teresa Forum <span class="cus-color1">- Membership</span></h2>
