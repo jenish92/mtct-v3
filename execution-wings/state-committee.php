@@ -111,8 +111,9 @@
         display: none;
         padding-top: 5rem;
     }
-    .comitee-data .comitee-data-card-main:first-child{
-        padding-top:0;
+
+    .comitee-data .comitee-data-card-main:first-child {
+        padding-top: 0;
     }
 
     .comitee-data .comitee-data-card-main.active {
@@ -241,7 +242,7 @@
         <div class="col-lg-9 d-lg-block" id="content-pannel">
             <p class="comitee-head pt-3">State Commitee</p>
             <button class="btn btn-sm btn-primary d-lg-none mb-1" onclick="setOption()">Options</button>
-            <div class="px-lg-3 px-3 comitee-data">
+            <div class="px-lg-3 px-3 comitee-data" id="comitee-data">
 
 
                 <div class="comitee-data-card-main active" id="tamilnadu-data">
@@ -3797,6 +3798,10 @@
                 number_of_checked++;
             } else {
                 number_of_checked--;
+                const comitee_element = document.getElementById("comitee-data");
+                comitee_element.scrollIntoView({
+                    behavior: 'smooth'
+                });
             }
         }
         if (number_of_checked > 0) {
