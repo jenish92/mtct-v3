@@ -10,6 +10,10 @@ $medicalHelps = $metaDetails->getHelpRequest(1);
     .med-help .content-right p {
         margin-bottom: 5px;
     }
+    
+    .med-help .med-help-card{
+       height:50vh;
+    }
 
     .med-help .med-help-img {
         background-color: #e9f3f7;
@@ -90,19 +94,27 @@ $medicalHelps = $metaDetails->getHelpRequest(1);
                 <div class="med-help-card px-4 py-5 shadow">
                     <div class="row align-items-center mb-2">
                         <div class="col-lg-4">
-                            <img src="<?php echo BASE_URL . "img/helps/" . $value->requestor_photo; ?>" alt="" class="img-fluid med-help-img">
+                            <?php
+            
+            
+                         
+                 $dp_pic = file_exists("../img/helps/" . $value->requestor_photo) ? "../img/helps/" . $value->requestor_photo : "../img/helps/education/default.png";
+                 
+                ?>
+                            <img src="<?php echo $dp_pic; ?>" alt="" class="img-fluid med-help-img">
                         </div>
                         <div class="col-lg-8 content-right">
                             <p><span>Name</span> : <?php echo $value->requestor_name; ?></p>
                             <p><span>Age</span> : <?php echo $value->requestor_age; ?></p>
                             <p><span>Gender</span> : <?php echo $value->requestor_gender; ?></p>
-                            <p><span>Place</span> : <?php echo $value->requestor_place; ?></p>
-                            <p><span>Education</span> : <?php echo $value->requestor_ailment; ?></p>
-                            <p><span>Amount requested</span> : <?php echo number_format($value->requestor_amount); ?></p>
+                            
                         </div>
                     </div>
                     <div>
-                        <p><span>Family back ground</span> : <?php echo $value->requestor_background; ?>
+                        <p><span>Place</span> : <?php echo $value->requestor_place; ?></p>
+                            <p><span>Education</span> : <?php echo $value->requestor_education; ?></p>
+                            <p><span>Amount requested</span> : <?php echo number_format($value->requestor_amount); ?></p>
+                        <p><span>Family back ground</span> : <?php echo substr($value->requestor_background,0,100); ?>
                             <a href="<?php echo $value->requestor_profile; ?>">more details...</a>
                         </p>
                     </div>

@@ -10,7 +10,8 @@ body {
   font-family: "Sen", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #5E678C;
+/*  color: #5E678C;*/
+    color: #000000;
   overflow-x: hidden;
 }
 

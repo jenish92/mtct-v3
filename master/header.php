@@ -55,6 +55,43 @@ require $root.'/mtct-v3/master/config.php';?>
     transition: width 0.3s ease-in-out;
     margin-block: 0.6rem;
   }
+    
+    .home-about{
+        text-align: justify;
+    }
+    .home-about img {
+      float: left;
+      margin: 10px;
+	height:300px;
+    }
+    
+    .csr-box{
+            color: #001d88;
+    font-weight: bold;
+    animation: myanimation 10s infinite;
+    text-align: center;
+        padding:1%;
+    }
+    
+    @keyframes myanimation{
+        0% {
+    background-color: #ef925d;
+}
+
+25% {
+    background-color: #cddc39;
+}
+50% {
+    background-color: #ffc107;
+}
+75% {
+    background-color: #ef9f29;
+}
+100% {
+    background-color: #f3bb14;
+}
+        
+    }
 </style>
 <script>
   window.addEventListener('scroll', function() {

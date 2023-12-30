@@ -10,6 +10,10 @@ $medicalHelps = $metaDetails->getHelpRequest(2);
     .med-help .content-right p {
         margin-bottom: 5px;
     }
+    
+    .med-help .med-help-card{
+       height:60vh;
+    }
 
     .med-help .med-help-img {
         background-color: #e9f3f7;
@@ -91,7 +95,12 @@ $medicalHelps = $metaDetails->getHelpRequest(2);
                 <div class="med-help-card px-4 py-5 shadow">
                     <div class="row align-items-center mb-2">
                         <div class="col-lg-4">
-                            <img src="<?php echo BASE_URL . "img/helps/" . $value->requestor_photo; ?>" alt="" class="img-fluid med-help-img">
+                            <?php
+                         
+                 $dp_pic = file_exists("../img/helps/" . $value->requestor_photo) ? "../img/helps/" . $value->requestor_photo : "../img/helps/medical/default.png";
+                 
+                ?>
+                            <img src="<?php echo $dp_pic; ?>" alt="" class="img-fluid med-help-img">
                         </div>
                         <div class="col-lg-8 content-right">
                             <p><span>Name</span> : <?php echo $value->requestor_name; ?></p>
@@ -104,12 +113,13 @@ $medicalHelps = $metaDetails->getHelpRequest(2);
                     </div>
                     <div>
                         <p><span>Treatment in</span> : <?php echo $value->treatment_in; ?></p>
-                        <p><span>Family back ground</span> : <?php echo $value->requestor_background; ?>
-                            <a href="<?php echo $value->requestor_profile; ?>">more details...</a>
+                        <p><span>Family back ground</span> : <?php echo substr($value->requestor_background,0,100); ?>
+                            <a href="<?php echo $value->requestor_profile; ?>" data-toggle="modal" data-target="<?php echo "#".$value->requestor_name; ?>">more details...</a>
                         </p>
                     </div>
                 </div>
             </div>
+        
         <?php
         }
 

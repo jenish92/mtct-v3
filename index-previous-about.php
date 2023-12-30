@@ -93,8 +93,8 @@
       </div>
       <div class="col-lg-6">
         <div class="row mt-5">
-          <div class="col-lg-6 csr-box">
-            <div class="">
+          <div class="col-lg-6">
+            <div class="welcome-box">
               <p>MTCT UNDER TAKES CSR Activities</p>
               <p>Govt of India CSR Reg.No.</p>
               <p>CSR00002270</p>
@@ -118,17 +118,17 @@
   </div>
 </section>
 <section>
-  <div class="container">
+  <div class="container about-mtct">
     <div class="row mt-5">
-      <div class="col-lg-7">
+      <div class="col-lg-7 about">
         <div>
           <h4 class="font-weight-bold text-justify">ABOUT MTCT</h4>
-            <p  class="home-about">Mother Teresa Charitable Trust (MTCT)'s history starts with the story of compassion.
+            <p>Mother Teresa Charitable Trust (MTCT)'s history starts with the story of compassion.
               The mammoth crowd that followed the adieu procession of the legend Mother Teresa,
                 Dr.G.K.Dhas, a kind hearted social activist took up mother-teresathe challenge of being
                 and working for the poor. From this simple, yet heart breaking incident, 
                 brought the determination that, to take the mantle of Mother Teresa, that 
-                "Service to Mankind is Service to God".<img src="img/MTCT.jpg" /> The inspiration which helped to create 
+                "Service to Mankind is Service to God". The inspiration which helped to create 
                 "Mother Teresa Charitable Trust" is being carried out all these years. 
                 We took the initiative with the vision that "No one shall be deprived of the basic needs". 
                 The overwhelming response from the general public is the impetus for the growth of Mother 
@@ -781,6 +781,7 @@
   </div>
 -->
             
+
                  </div> 
 
                  </div>
