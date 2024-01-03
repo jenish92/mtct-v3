@@ -194,6 +194,28 @@ class Mtct{
 		}
 		return $res;
 	}
+    
+    public function countryList(){
+		$country_query = $this->connection->query("SELECT * FROM master_currency WHERE active = '1'");
+		$con_List = array();
+		while($result = $country_query->fetch_array()){
+		    $con_List[$result[1]]["entity"] = $result[1];
+			$con_List[$result[1]]["currency"] = $result[2];
+			$con_List[$result[1]]["alphabetic_code"] = $result[3];
+			$con_List[$result[1]]["numeric_code"] = $result[4];
+			$con_List[$result[1]]["minor_unit"] = $result[5];
+		}
+		return array_filter($con_List);
+	}
+	
+	public function currencyCodeList(){
+	    $currency_query = $this->connection->query("SELECT DISTINCT(country_name),currency_code,currency_name FROM master_currency_conversion WHERE currency_code != '' AND active = 1 ORDER BY currency_name ASC");
+	    $currencyList = array();
+		while($result = $currency_query->fetch_array()){
+			$currencyList[$result[0]] = $result[1]."-".$result[2];
+		}
+		return array_filter($currencyList);
+	}
 
 	public function ProjectList($limit = 3){
 		$res = [];

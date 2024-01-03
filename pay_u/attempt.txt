@@ -1,0 +1,132 @@
+
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','18-34','Chennai','Tamilnadu','India','629804','2023-08-15','1','100','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','18-34','Chennai','Tamilnadu','India','629804','2023-08-15','1','100','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Manoj','M','manoj@gmail.com','9876543210','No 11','Chennai','Tamilnadu','India','60005','2023-08-03','6','2000','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Manoj','M','maonj@gmail.com','654789921','No 245','Nungambakkam','Tamilnadu','India','324578','2023-06-01','6','25000','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Manoj','M','manoj@gmail.com','652148897','NO 5762','Choolaimedu','Tamilnadu','India','321456','2017-07-04','6','50000','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Shyjin','J','shyjin@gmail.com','32165498770','No 652, 2nd Street','Madurai','Tamilnadu','India','654987','2009-08-12','11','10000','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Tharini','G','tharini@gmail.com','9876543210','No 67626','Madurai','Tamilnadu','India','64987','2014-05-16','6','3500','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Tharini','G','tharini@gmail.com','9876543210','No 67626','Madurai','Tamilnadu','India','64987','2014-05-16','6','3500','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Selvamani','S','selvamani@gmail.com','6549873214','No 23463','Dindugal','Tamilnadu','India','6521477','2011-06-16','6','4500','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jenish.steps@gmail.com','8760014478','No 11','Chennai','Tamilnadu','India','629804','2021-06-14','1','1500','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','No 12','Chennai','Tamilnadu','India','600004','2018-02-13','6','500','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Shyjin','J','shyjin@gmail.com','987654321','No 123ert','Marthandam','Sydney','Australia','629804','2023-08-11','1','1200','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Venkatesh','V','venkat@gmail.com','9876541230','NO 48576','Tirunelveli','London','England','61596','2023-08-10','6','1600','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','Indi','Chennai','Tamilnadu','United States of America','454789','2023-08-04','1','5000','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('MANOJ','M R','manojchek@gmail.com','08056368157','No.45/14, Perumal Koil Street, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','1','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('MANOJ','M R','manojchek@gmail.com','08056368157','No.45/14, Perumal Koil Street, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','1','','','','','','','','','','')
+
+
+INSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Raji','R','jenish.steps@gmail.com','8760014478','No 12','Chennai','Tamilnadu','India','629804','2023-08-01','1','413.31','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','Jenish','jenish.steps@gmail.com','8760014478','No 18-34','Chennai','Tamilnadu','India','629804','1992-07-09','6','SGD','10','609.78','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Justin','Sundar Raj','jenish.steps@gmail.com','8760014478','NO 098','Kanyakumari','Tamilnadu','India','600005','2023-07-05','11','MXN','5','24.66','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Manoj','R','manojchek@gmail.com','08056368157','No: 43/16, Nelson Manickam Road
+Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','USD','1','82.66','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Dhas','GK','mtct1997@yahoo.co.in','09444012899','43, Nelson Manickam Road, Choolaimedu, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','USD','10','826.66','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('MANOJ','M R','manojchek@gmail.com','08056368157','No.45/14, Perumal Koil Street, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','USD','1','','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('MANOJ','M R','manojchek@gmail.com','08056368157','No.45/14, Perumal Koil Street, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','USD','1','','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('MANOJ','M R','manojchek@gmail.com','08056368157','No.45/14, Perumal Koil Street, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','USD','1','82.67','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Raji','R','jenish.steps@gmail.com','8760014478','NO 12','Chennai','Tamilnadu','United Arab Emirates','629804','2023-08-01','11','AED','10','225.23','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Dhas','GK','mtct1997@yahoo.co.in','09444012899','43, Nelson Manickam Road, Choolaimedu, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','USD','10','827.13','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Carla','Boccuti','Carlyboo1@netzero.com','4046417542','1037 sw 22 st','Miami','Florida','United States','33129','1950-12-19','4','USD','','1407.28','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Okh','nice','mice@gmail.com','73636282747','Haryana is nice','Hyderabad is also nice','Good state','India','600069','1984-09-07','8','INR','1','1.00','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Thomas','Jacques','Pajerofree@gmail.com','','Lot 244, Jalan Tunku Abdul Rahman','Kuching','Sarawak','Malaysia','93100','','3','MYR','3000','53390.28','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('MANOJ','M R','manojchek@gmail.com','08056368157','No.45/14, Perumal Koil Street, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','LKR','5','1.29','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('William','McGuire','wmcguire120@gmail.com','6145198681','3895 East Fulton Street','Columbus','United States','United States','43227','','11','USD','','4564.32','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('William','McGuire','wmcguire120@gmail.com','6142379651','3895 East Fulton Street','Columbus','United States','United States','43227','','11','USD','','4564.32','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('MANOJ','M R','manojchek@gmail.com','08056368157','No.45/14, Perumal Koil Street, Choolaimedu','Chennai','Tamil Nadu','India','600094','','10','LKR','10','2.56','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Dhas','GK','mtct1997@yahoo.co.in','9444012899','13/7, Thiruvengadapuram Main Road, Choolaimedu, Choolaimedu','Chennai','Tamil Nadu','India','600094','','1','LKR','10','2.57','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Manoj','Reddy','manojreddy1259@gmail.com','7746969372','2882 Tall Oak Cir','Detroit','MIchigan','United States','48326','1995-04-12','6','USD','130','10815.31','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('RODRIGO','LIMA','rodrigolima@tuamaeaquelaursa.com','41992089968','Rua professora carolina ribeiro','sao vicente','sao paulo','Brazil','11340300','1988-02-02','1','BRL','1','17.11','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Matthew','Evitts','Mevitts@comcast.net','5415204775','3012 NW Garryanna Dr','Corvallis','OR','United States','97330','2023-11-22','10','USD','300','25000.00','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Mamush','Bekele','bekelemamush3@gmail.com','0919698901','Sauth Ethiopia/Wolaita/','Adis abeba','Soodo','India','1818','2023-11-03','1','INR','320000','320000.00','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('William','McGuire','wmcguire120@gmail.com','6142379651','3895 East Fulton Street
+n/a','Columbus','OH','United States','43227','','2','USD','50','4166.67','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('saravanan','govindan','kgsk69@gmail.com','9360793355','213 SURAMANGALAM MAIN ROAD','salem','TAMIL NADU','India','636009','1969-04-07','3','INR','1000','1000.00','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('saravanan','govind','kgsk69@gmail.com','9360793355','213 SURAMANGALAM MAIN ROAD','salem','TAMIL NADU','India','636009','1969-04-07','3','USD','100','8312.55','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('saravanan','govind','kgsk69@gmail.com','9360793355','213 suramangalam road','salem','taminadu','United States','636009','1969-04-07','5','USD','100','8312.55','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Rossana','Mancini','rossana.mancini@gmx.de','','Mettmanner Str. 61','Velbert','NRW','European Union','42549','','11','EUR','30','2767.53','','','','','','','','','','')

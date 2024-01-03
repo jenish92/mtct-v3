@@ -1,0 +1,93 @@
+[16-Aug-2023 07:18:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function APITestCode\test_input() in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 13
+[16-Aug-2023 09:04:01 UTC] PHP Warning:  require_once(/lib/connection-variables.php): failed to open stream: No such file or directory in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/config.php on line 13
+[16-Aug-2023 09:04:01 UTC] PHP Fatal error:  require_once(): Failed opening required '/lib/connection-variables.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/config.php on line 13
+[16-Aug-2023 14:36:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to private method APITestCode\PayU::getHashKey() from context '' in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 134
+[16-Aug-2023 14:39:46 Asia/Calcutta] PHP Warning:  Use of undefined constant requestURL - assumed 'requestURL' (this will throw an Error in a future version of PHP) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 160
+[16-Aug-2023 14:39:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function getMid() on null in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 164
+[17-Aug-2023 18:06:01 Asia/Calcutta] PHP Warning:  Use of undefined constant requestURL - assumed 'requestURL' (this will throw an Error in a future version of PHP) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 160
+[17-Aug-2023 18:06:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function getMid() on null in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 164
+[17-Aug-2023 18:11:59 Asia/Calcutta] PHP Warning:  Use of undefined constant requestURL - assumed 'requestURL' (this will throw an Error in a future version of PHP) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 160
+[17-Aug-2023 18:11:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function getMid() on null in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 164
+[17-Aug-2023 18:14:19 Asia/Calcutta] PHP Warning:  Use of undefined constant requestURL - assumed 'requestURL' (this will throw an Error in a future version of PHP) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 160
+[17-Aug-2023 18:14:19 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function getMid() on null in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 164
+[17-Aug-2023 23:49:40 Asia/Calcutta] PHP Warning:  Use of undefined constant requestURL - assumed 'requestURL' (this will throw an Error in a future version of PHP) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 160
+[17-Aug-2023 23:49:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function getMid() on null in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test.php on line 164
+[18-Aug-2023 00:55:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 71
+[18-Aug-2023 00:58:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 71
+[18-Aug-2023 01:07:41 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 70
+[18-Aug-2023 01:07:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 70
+[18-Aug-2023 01:08:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 64
+[18-Aug-2023 01:09:27 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 66
+[18-Aug-2023 01:10:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 66
+[18-Aug-2023 01:10:32 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[18-Aug-2023 01:10:32 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[18-Aug-2023 01:12:31 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[18-Aug-2023 01:12:31 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[18-Aug-2023 01:13:20 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[18-Aug-2023 01:13:20 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[18-Aug-2023 01:13:49 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[18-Aug-2023 01:13:49 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:70) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[19-Aug-2023 17:23:11 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[19-Aug-2023 17:23:11 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[21-Aug-2023 18:43:04 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[21-Aug-2023 18:43:04 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[21-Aug-2023 18:44:10 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[21-Aug-2023 18:44:10 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[22-Aug-2023 18:57:27 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[22-Aug-2023 18:57:27 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[29-Aug-2023 00:43:25 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[29-Aug-2023 00:43:25 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[29-Aug-2023 00:58:38 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[29-Aug-2023 00:58:38 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:511) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[29-Aug-2023 19:17:49 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:75) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 572
+[29-Aug-2023 19:17:49 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:75) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 573
+[07-Sep-2023 00:38:09 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:78) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 575
+[07-Sep-2023 00:38:09 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:78) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 576
+[07-Sep-2023 18:14:42 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:78) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 575
+[07-Sep-2023 18:14:42 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:78) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 576
+[03-Oct-2023 19:36:35 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:78) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 575
+[03-Oct-2023 19:36:35 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:78) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 576
+[06-Oct-2023 19:50:34 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:78) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 575
+[06-Oct-2023 19:50:34 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php:78) in /home/mtctin/public_html/MOTHERTERESACHARITIES.ORG/pay_u/test_response.php on line 576

@@ -76,12 +76,12 @@ $donation_for = $metaDetails->DonationList();
     </div>
   </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid" ng-app="mtct">
   <div class="tabContent" data-tab="tab1">
     <iframe class="razorpay-iframe" src="https://rzp.io/l/mother-teresa" runat="server" visible="true"></iframe>
   </div>
   <div class="tabContent" data-tab="tab2" style="display: none;">
-    <section class="container ng-scope mt-5" ng-app="mtct" ng-controller="mtctDonate">
+    <section class="container ng-scope mt-5"  ng-controller="mtctDonate">
       <form action="worldline-confirmation.php" method="post" id="donateForm" name="donateForm" target="_parent" novalidate>
         <div class="row">
           <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
@@ -200,7 +200,261 @@ $donation_for = $metaDetails->DonationList();
     <img src="<?=$base_url?>img/payment/GPay.jpg" alt="" class="img-fluid">
   </div>
   <div class="tabContent" data-tab="tab4" style="display: none;">
-    <iframe class="razorpay-iframe" src="https://rzp.io/l/K3TZjyy" runat="server" visible="true"></iframe>
+    
+      <section class="container ng-scope mt-5"  ng-controller="mtctDonatePayU">
+      <form action="payu-confirmation.php" method="post" id="donate_payu" name="donate_payu" target="_parent" novalidate>
+                  
+                     
+           <div class="row">      
+	
+    <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+       	<label for="Donator Name">First Name<span class="required">*</span></label>
+        	<div class="input-group mb-3">
+            	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-user"></i></span>
+              </div>
+            	<input type="text" name="payu_first_name" class="form-control" required="required" ng-model="payu_first_name" ng-minlength="3" ng-maxlength="50" ng-pattern="/^[A-Za-z ]{3,50}$/" placeholder="Donor First Name">
+            </div>
+            <span style="color:red;" class="name-error" ng-show="donate_payu.payu_first_name.$dirty && donate_payu.payu_first_name.$error.required">Please Enter Your Name</span>
+    		<span style="color:red" class="name-error" ng-show="donate_payu.payu_first_name.$error.pattern">Please Enter Your Valid Name</span>
+    </div>
+    
+    <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+       	<label for="Donator Name">Last Name<span class="required">*</span></label>
+        	<div class="input-group mb-3">
+            	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-user"></i></span>
+              </div>
+            	<input type="text" name="payu_last_name" class="form-control" required="required" ng-model="payu_last_name" ng-minlength="1" ng-maxlength="50" ng-pattern="/^[A-Za-z ]{1,50}$/" placeholder="Donor Last Name">
+            </div>
+            <span style="color:red;" class="name-error" ng-show="donate_payu.payu_last_name.$dirty && donate_payu.payu_last_name.$error.required">Please Enter Your Name</span>
+    		<span style="color:red" class="name-error" ng-show="donate_payu.payu_last_name.$error.pattern">Please Enter Your Valid Name</span>
+    </div>
+        
+                                                        
+	
+	
+    </div>
+           
+           
+    <div class="row">
+        
+        <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+   		<label for="Donator Email">Email<span class="required">*</span></label>
+    		<div class="input-group mb-3">
+        	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-at"></i></span>
+              </div>
+        	<input class="form-control" type="text" id="email" name="payu_user_email" ng-blur="mailCheck(user_email,'S','availability','donate_payu','user_email')" ng-model="payu_user_email" noncapitalize required />
+    		</div>
+    		<div style="color: red" id="emailError">{{ availability }}</div>
+	</div>
+	
+    	<div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+       	<label for="Donator Name">Phone/Mobile<span class="required">*</span></label>
+        	<div class="input-group mb-3">
+            	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-phone"></i></span>
+              </div>
+            	<input type="text" name="payu_user_mobile" class="form-control" required="required" ng-model="payu_user_mobile" ng-minlength="stMin" ng-maxlength="stMax">
+            </div>
+            <span style="color:red;" class="mobile-error" ng-show="(donate_payu.payu_user_mobile.$error.number || donate_payu.payu_user_mobile.$error.required) && donate_payu.payu_user_mobile.$dirty">Please Enter Your Mobile Number</span>
+    	<span style="color:red;" class="mobile-error" ng-show="donate_payu.payu_user_mobile.$error.minlength ||
+                           donate_payu.payu_user_mobile.$error.maxlength">Please Enter Your Valid Mobile Number</span>
+    </div>
+    
+    
+    
+    
+    
+    
+    </div>       
+           
+           
+           
+      <div class="row">
+          
+          
+    
+      	 <div class="form-group has-feedback col-md-12 col-12 col-sm-12 col-lg-12">
+    <label for="Donator Name">Address<span class="required">*</span></label>
+		<div class="input-group mb-3">
+        <div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-map-marker"></i></span>
+              </div>
+        <textarea name="payu_user_address" ng-model="payu_user_address" class="form-control" required>
+			</textarea>
+		</div>
+		<span style="color:red;" class="country-error" ng-show="donate_payu.payu_user_address.$dirty && donate_payu.payu_user_address.$error.required">Please Enter Your Address</span>
+	</div>    
+
+      </div>     
+           
+           
+      <div class="row">
+      	    
+      <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+      	    <label for="Donator Name">City<span class="required">*</span></label>
+        	<div class="input-group mb-3">
+            	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-flag"></i></span>
+              </div>
+            	<input type="text" name="payu_user_city" class="form-control" required="required" ng-model="payu_user_city" ng-minlength="2" ng-maxlength="50" ng-pattern="/^[A-Za-z ]{2,50}$/">
+            </div>
+            <span style="color:red;" class="name-error" ng-show="donate_payu.payu_user_city.$dirty && donate_payu.payu_user_city.$error.required">Please Enter Your City Name</span>
+    		<span style="color:red" class="name-error" ng-show="donate_payu.payu_user_city.$error.pattern">Invalid. Ex : Chennai</span>
+    </div>
+    
+    <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+      	    <label for="Donator Name">State<span class="required">*</span></label>
+        	<div class="input-group mb-3">
+            	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-flag"></i></span>
+              </div>
+            	<input type="text" name="payu_user_state" class="form-control" required="required" ng-model="payu_user_state" ng-minlength="2" ng-maxlength="50" ng-pattern="/^[A-Za-z ]{2,50}$/">
+            </div>
+            <span style="color:red;" class="name-error" ng-show="donate_payu.payu_user_state.$dirty && donate_payu.payu_user_state.$error.required">Please Enter Your State Name</span>
+    		<span style="color:red" class="name-error" ng-show="donate_payu.payu_user_state.$error.pattern">Invalid. Ex : California</span>
+    </div>
+    
+    </div>
+    
+    
+    
+    <div class="row">
+      	    
+      <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+      	    <label for="Donator Name">Country<span class="required">*</span></label>
+        	<div class="input-group mb-3">
+            	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-flag"></i></span>
+              </div>
+            	<select name="payu_user_country" ng-model="payu_user_country" ng-init="payu_user_country = 'India'" class="form-control" required ng-change="setCurrency()">
+        
+        <option value="">Please Select</option>
+        <?php 
+            foreach($metaDetails->currencyCodeList() as $key => $value){
+                echo "<option value='$key'>$key</option>";
+            }
+            ?>
+                
+        </select>
+            </div>
+            <span style="color:red;" class="name-error" ng-show="donate_payu.payu_user_country.$dirty && donate_payu.payu_user_country.$error.required">Please Enter Your Country Name</span>
+    		<span style="color:red" class="name-error" ng-show="donate_payu.payu_user_country.$error.pattern">Invalid. Ex : United States</span>
+    </div>
+    
+    <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+      	    <label for="Donator Name">Zip Code<span class="required">*</span></label>
+        	<div class="input-group mb-3">
+            	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-flag"></i></span>
+              </div>
+            	<input type="text" name="payu_user_zip" class="form-control" required="required" ng-model="payu_user_zip" ng-minlength="2" ng-maxlength="50" ng-pattern="/^[0-9]{4,8}$/">
+            </div>
+            <span style="color:red;" class="name-error" ng-show="donate_payu.payu_user_zip.$dirty && donate_payu.payu_user_zip.$error.required">Please Enter Your City Name</span>
+    		<span style="color:red" class="name-error" ng-show="donate_payu.payu_user_zip.$error.pattern">Invalid. Ex : Chennai</span>
+    </div>
+    
+    </div>
+    
+      <div class="row">
+      
+      	    <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+      	    <label for="Donator Name">Date of Birth</label>
+          
+          <!-- Datepicker as text field -->         
+          <div class="input-group date mb-3" data-date-format="dd.mm.yyyy">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-calendar"></i></span>
+              </div>
+            <input type="date" name="payu_user_dob" class="form-control" ng-model="payu_user_dob">
+            
+          </div>
+          
+            
+    </div>
+      
+<div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+        	<label for="Donator Name">Supporting Towards<span class="required">*</span></label>
+		<div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-handshake-o"></i></span>
+              </div>
+        <select name="payu_user_donate" ng-model="payu_user_donate" ng-init="stateChnaged('24')" class="form-control" required>
+        
+        <option value="">Please Select</option>
+        <?php
+            foreach ($donation_for as $key => $value) {
+                  $setVal = $key . "|" . $value;
+                  echo "<option value='$setVal'>$value</option>";
+                }
+            ?>
+                
+        </select>
+		</div>
+		<span style="color:red;" class="country-error" ng-show="donate_payu.payu_user_donate.$dirty && donate_payu.payu_user_donate.$error.required">Please Choose Anyone from the above category</span>
+	</div> 
+      </div>     
+           
+        <div class="row">
+        	
+       <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+        	<label for="Donator Name">Currency<span class="required">*</span></label>
+		<div class="input-group mb-3">
+        <div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-handshake-o"></i></span>
+              </div>
+        <select name="payu_user_currency" ng-model="payu_user_currency" ng-init="user_currency = 'INR'" class="form-control" required>
+        
+        <option value="">Please Select</option>
+        <?php
+            foreach($metaDetails->currencyCodeList() as $key => $value){
+                $setVal = explode("-",$value);
+                echo "<option value='$setVal[0]'>$value</option>";
+            }
+            ?>
+                
+        </select>
+		</div>
+		<span style="color:red;" class="country-error" ng-show="donate_payu.payu_user_currency.$dirty && donate_payu.payu_user_currency.$error.required">Please Choose Anyone from the above currency</span>
+	</div> 
+       
+       <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6">
+       	<label for="Donator Name">Amount<span class="required">*</span></label>
+        	<div class="input-group mb-3">
+            	<div class="input-group-prepend">
+                <span class="input-group-text text-center justify-content-center" id="basic-addon1"><i class="fa fa-money"></i></span>
+              </div>
+            	<input type="number" name="payu_user_amount" class="form-control" required="required" ng-model="payu_user_amount" ng-change="currencyConverter()">
+            </div>
+            <span style="color:red;" class="mobile-error" ng-show="(donate_payu.payu_user_amount.$error.number || donate_payu.payu_user_amount.$error.required) && donate_payu.payu_user_amount.$dirty">Please Enter the Valid Amount</span>
+    	
+    </div>
+       
+        </div>   
+           
+        <div class="row">
+			<div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6 ">
+			    
+			    <label ng-if="inr">{{user_currency +" "+ user_amount + " = " + "INR " + inr}}</label>
+        	<div class="input-group mb-3">
+            	
+            	<input type="hidden" hidden readonly name="payu_user_inr" class="form-control" ng-model="payu_user_inr" ng-value="inr">
+            </div>
+			    
+			</div>
+    <div class="form-group has-feedback col-md-6 col-12 col-sm-12 col-lg-6 ">
+    	<center><button type="submit" name="payu_donate_now" ng-disabled="donate_payu.$invalid"  class="btn btn-primary">Donate Now</button></center>
+    </div>
+    
+    </div>   
+           
+          
+          
+      </form>
+      
+      </section>
   </div>
 
 </div>
@@ -289,6 +543,113 @@ $donation_for = $metaDetails->DonationList();
         $scope[formName][fiedName].$setValidity(fiedName, false);
       }
     };
+      
+      
+      
+      
+
+  });
+    
+  
+  admin.controller("mtctDonatePayU",function($scope,$http){
+	  
+	 $scope.stMin = 5;
+	 $scope.stMax = 15;
+	 var patt=/^[\w-]+(\.[\w-]+)*@([a-z0-9-]+(\.[a-z0-9-]+)*?\.[a-z]{2,6}|(\d{1,3}\.){3}\d{1,3})(:\d{4})?$/;
+	 
+	 
+	 $scope.user_currency = "INR";
+	 $scope.todays_rate = {};
+	 $scope.inr = 0;
+	 
+	 $scope.init = () => {
+	     console.log($scope.user_currency);
+	     
+	     const api_key = "44fa7577f77d875e0c830eb3";
+	     
+	     let old_url = "https://open.er-api.com/v6/latest/";
+	     
+	     let latest_url = "https://v6.exchangerate-api.com/v6/"+api_key+"/latest/";
+	     
+	     if($scope.user_currency != ""){
+                    $http({
+                      method: 'GET',
+                      url: latest_url+$scope.user_currency,
+                    }).then(function successCallback(response) {
+                        console.log(response);
+                        if(response.status == 200 ){
+                            $scope.todays_rate = response.data.conversion_rates;
+                            
+                        }
+                        else{
+                            $scope.inr = "";
+                        }
+                      }, function errorCallback(response) {
+                        console.log(response);
+                        $scope.inr = "";
+                      });
+                }
+                else{
+                    console.log("Currency is mandatory");
+                }
+	     
+	 }
+	 
+	 $scope.setCurrency = () => {
+	      console.log($scope.user_country);
+	     $http({
+                      method: 'GET',
+                      url: "currencyList.php?country="+$scope.user_country,
+                    }).then(function successCallback(response) {
+                        console.log(response);
+                        if(response.status == 200 ){
+                            $scope.getCurrency1 = response.data.split("-");
+                            $scope.user_currency = $scope.getCurrency1[0];
+                           
+                        }
+                        else{
+                            $scope.user_currency = "INR";
+                        }
+                      }, function errorCallback(response) {
+                        console.log(response);
+                        $scope.user_currency = "INR";
+                      });
+	 }
+	 
+	 $scope.currencyConverter = () => {
+	     console.log($scope.user_currency);
+	     console.log($scope.todays_rate);
+	     if($scope.user_currency != ""){
+	        $scope.user_selected_currency_amount = $scope.todays_rate[$scope.user_currency];
+	        $scope.inr = ($scope.user_amount * (1/$scope.user_selected_currency_amount)).toFixed(2);
+	    }
+	    else{
+	        $scope.inr = 0;
+	    }
+	 }
+	 
+	 
+	 
+	 
+	 $scope.mailCheck = function (pg_mail,proc,response_msg,formName,fiedName) {
+	if(!pg_mail){
+		$scope[response_msg]="Please Fillup the Field";
+		$scope[formName][fiedName].$setValidity(fiedName, false);
+	}
+	
+	else if(pg_mail.match(patt)) {
+	
+		  $scope[formName][fiedName].$setValidity(fiedName, true);
+		  $scope[response_msg]="";
+		  
+	}
+	
+	else {
+		
+		$scope[response_msg]="Invalid Email";
+		$scope[formName][fiedName].$setValidity(fiedName, false);
+	}
+        };	
 
   });
 </script>

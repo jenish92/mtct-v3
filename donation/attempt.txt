@@ -1,0 +1,16 @@
+
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','No-11','Chennai','Tamilnadu','India','629804','2024-01-01','1','INR','100','NaN','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','No-11','Chennai','Tamilnadu','India','629804','2024-01-01','1','INR','100','NaN','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','No-11','Chennai','Tamilnadu','India','629804','2024-01-01','1','INR','100','NaN','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','No-11','Chennai','Tamilnadu','India','629804','2024-01-01','1','INR','100','NaN','','','','','','','','','','')
+
+
+IINSERT INTO mtct_online_payu(donor_first_name, donor_last_name, donor_email, donor_mobile, donor_address, donor_city, donor_state, donor_country, donor_zipcode, donor_dob, donate_for, donor_currency, donor_selected_amount, donate_amount, posted_hash, res_status, key_value, reference_no, transaction_id, mihpayid, mode, addedon, error, error_message) VALUES ('Jenish','J','jjenish92@gmail.com','8760014478','No-11','Chennai','Tamilnadu','India','629804','2024-01-01','1','INR','100','NaN','','','','','','','','','','')
